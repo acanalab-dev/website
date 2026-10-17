@@ -235,13 +235,15 @@ sup { font-size: .75em; font-weight: 700; line-height: 0; vertical-align: .55em;
 .perk .big sup { -webkit-text-fill-color: var(--accent); }
 
 /* ---------- FAQ ---------- */
-details { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 0 20px; margin-bottom: 10px; }
-summary { cursor: pointer; font-weight: 600; padding: 16px 0; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
+.faq { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 12px; align-items: start; }
+@media (max-width: 760px) { .faq { grid-template-columns: minmax(0, 1fr); } }
+details { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 0 16px; }
+summary { cursor: pointer; font-weight: 600; font-size: 15px; line-height: 1.35; padding: 12px 0; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
 summary::-webkit-details-marker { display: none; }
-summary::after { content: "+"; color: var(--muted); font-weight: 400; font-size: 22px; line-height: 1; }
+summary::after { content: "+"; color: var(--muted); font-weight: 400; font-size: 20px; line-height: 1; }
 details[open] summary::after { content: "–"; }
-details p { margin: 0 0 16px; color: var(--muted); }
-.ask { margin: 24px 0 0; color: var(--muted); }
+details p { margin: 0 0 14px; color: var(--muted); font-size: 14px; line-height: 1.5; }
+.ask { margin: 18px 0 0; color: var(--muted); font-size: 15px; }
 .ask a { font-weight: 600; text-decoration: none; }
 
 /* ---------- Closing ---------- */
@@ -419,6 +421,7 @@ footer .love { margin-top: 8px; } footer .love span { color: #e2667a; }
     <div class="wrap">
       <h2>Questions</h2>
       <p class="sub">If yours isn't here, just ask.</p>
+      <div class="faq">
       <details>
         <summary>Do I need to know anything technical?</summary>
         <p>No. The one thing you set up yourself is your Apple Developer account, in your name ($99 a year, paid to Apple). Because the app and its earnings are yours, Apple asks for your bank and tax details there so it can pay you directly, and you join its Small Business Program for the lower fee. It's filling in forms, not technical work. After that, you choose your look and approve the App Store listing, and we handle everything else. We're here whenever you need help, before launch and after.</p>
@@ -467,6 +470,7 @@ footer .love { margin-top: 8px; } footer .love span { color: #e2667a; }
         <summary>What about my followers' privacy?</summary>
         <p>The app shows no third-party ads and doesn't track people. We prepare a privacy policy and terms of use in your name and host them for you.</p>
       </details>
+      </div>
       <p class="ask">Still have a question? <a href="mailto:support@acanalab.com">Get in touch</a> at support@acanalab.com</p>
     </div>
   </section>
