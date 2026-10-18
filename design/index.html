@@ -404,8 +404,8 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
       <div class="field">
         <span class="lbl">Support email</span>
         <div class="choice" role="radiogroup" aria-label="Support email">
-          <label><input type="radio" name="supportMode" value="ours"><span><b>Use our support email</b><span>When someone taps “Contact support” in your app, they write to support@acanalab.com and we answer.</span></span></label>
           <label><input type="radio" name="supportMode" value="own"><span><b>Use my own email</b><span>Messages from “Contact support” in your app come straight to you.</span></span></label>
+          <label><input type="radio" name="supportMode" value="ours"><span><b>Use our support email</b><span>When someone taps “Contact support” in your app, they write to support@acanalab.com and we answer.</span></span></label>
         </div>
         <div id="supportBox">
           <label class="lbl" for="supportEmail">Your support email</label>
@@ -663,7 +663,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     sample: "I am allowed to take up space and shine.",
     sameAsBrand: true,
     cardLight: ["667eea", "764ba2"],
-    supportMode: "ours",    // "ours" = support@acanalab.com, "own" = supportEmail
+    supportMode: "own",     // "own" = supportEmail, "ours" = support@acanalab.com
     supportEmail: ""
   };
   var OUR_SUPPORT = "support@acanalab.com";
