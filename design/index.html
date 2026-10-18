@@ -97,10 +97,10 @@ button, input, textarea, select { font: inherit; color: inherit; }
 .field:last-child { margin-bottom: 0; }
 .lbl { display: block; font-weight: 600; font-size: 14px; margin-bottom: 5px; }
 .hint { color: var(--muted); font-size: 12.5px; margin: 4px 0 0; }
-input[type="text"], textarea {
+input[type="text"], input[type="email"], textarea {
   width: 100%; padding: 9px 11px; border: 1px solid var(--line); border-radius: 10px; background: var(--field); outline: none;
 }
-input[type="text"]:focus, textarea:focus { border-color: var(--p); box-shadow: 0 0 0 3px color-mix(in srgb, var(--p) 25%, transparent); }
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus { border-color: var(--p); box-shadow: 0 0 0 3px color-mix(in srgb, var(--p) 25%, transparent); }
 textarea { resize: vertical; min-height: 110px; }
 .count { float: right; font-weight: 400; color: var(--muted); font-size: 12px; }
 
@@ -116,7 +116,7 @@ textarea { resize: vertical; min-height: 110px; }
 .missing { border: 1px solid #d93a3a; background: color-mix(in srgb, #d93a3a 10%, var(--panel)); color: var(--text); border-radius: 10px; padding: 10px 12px; font-size: 13.5px; margin-top: 10px; }
 .missing ul { margin: 6px 0 0; padding-left: 18px; }
 .missing a { color: inherit; font-weight: 600; }
-.invalid input[type="text"], input[type="text"].invalid, textarea.invalid, .invalid .thumb { border-color: #d93a3a !important; }
+.invalid input[type="text"], input[type="text"].invalid, input[type="email"].invalid, textarea.invalid, .invalid .thumb { border-color: #d93a3a !important; }
 .warn { background: var(--warn-bg); color: var(--warn-text); border-radius: 10px; padding: 8px 11px; font-size: 13px; margin-top: 10px; }
 .ok { color: var(--ok-text); font-size: 12.5px; margin-top: 6px; }
 [hidden] { display: none !important; }
@@ -401,6 +401,17 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
           <div class="warn" id="iconWarn" hidden></div>
         </div>
       </div>
+      <div class="field">
+        <span class="lbl">Support email</span>
+        <div class="choice" role="radiogroup" aria-label="Support email">
+          <label><input type="radio" name="supportMode" value="ours"><span><b>Use our support email</b><span>When someone taps “Contact support” in your app, they write to support@acanalab.com and we answer.</span></span></label>
+          <label><input type="radio" name="supportMode" value="own"><span><b>Use my own email</b><span>Messages from “Contact support” in your app come straight to you.</span></span></label>
+        </div>
+        <div id="supportBox">
+          <label class="lbl" for="supportEmail">Your support email</label>
+          <input type="email" id="supportEmail" maxlength="80" autocomplete="email" spellcheck="false" placeholder="hello@yourbrand.com">
+        </div>
+      </div>
     </section>
 
     <section class="group">
@@ -651,8 +662,11 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     ownAffirmations: false,
     sample: "I am allowed to take up space and shine.",
     sameAsBrand: true,
-    cardLight: ["667eea", "764ba2"]
+    cardLight: ["667eea", "764ba2"],
+    supportMode: "ours",    // "ours" = support@acanalab.com, "own" = supportEmail
+    supportEmail: ""
   };
+  var OUR_SUPPORT = "support@acanalab.com";
 
   var PRESETS = [
     ["Lavender", "667eea", "764ba2"],
@@ -738,7 +752,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
   });
 
   // ---------- Inputs ----------
-  ["iconText", "eyebrow", "greeting", "message", "signature", "categoryName", "sample"].forEach(function (key) {
+  ["iconText", "eyebrow", "greeting", "message", "signature", "categoryName", "sample", "supportEmail"].forEach(function (key) {
     $(key).addEventListener("input", function () { state[key] = this.value; changed(true); });
   });
 
@@ -781,6 +795,9 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
   document.querySelectorAll('input[name="iconMode"]').forEach(function (r) {
     r.addEventListener("change", function () { state.iconMode = r.value; changed(); });
   });
+  document.querySelectorAll('input[name="supportMode"]').forEach(function (r) {
+    r.addEventListener("change", function () { state.supportMode = r.value; changed(); });
+  });
   document.querySelectorAll('input[name="affMode"]').forEach(function (r) {
     r.addEventListener("change", function () { state.ownAffirmations = r.value === "own"; changed(); });
   });
@@ -819,7 +836,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
   }
 
   function syncInputs() {
-    ["appName", "iconText", "eyebrow", "greeting", "message", "signature", "categoryName", "sample"].forEach(function (k) {
+    ["appName", "iconText", "eyebrow", "greeting", "message", "signature", "categoryName", "sample", "supportEmail"].forEach(function (k) {
       if ($(k).value !== state[k]) $(k).value = state[k];
     });
     function setColor(pick, text, h) {
@@ -833,6 +850,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     document.querySelectorAll('input[name="iconMode"]').forEach(function (r) { r.checked = r.value === state.iconMode; });
     document.querySelectorAll('input[name="affMode"]').forEach(function (r) { r.checked = r.value === (state.ownAffirmations ? "own" : "library"); });
     $("sameAsBrand").checked = state.sameAsBrand;
+    document.querySelectorAll('input[name="supportMode"]').forEach(function (r) { r.checked = r.value === state.supportMode; });
   }
 
   function render() {
@@ -874,6 +892,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     $("iconTextBox").hidden = state.iconMode !== "text";
     $("iconUploadBox").hidden = state.iconMode !== "upload";
     $("ownBox").hidden = !own;
+    $("supportBox").hidden = state.supportMode !== "own";
 
     var iw = [];
     if (state.iconMode === "upload" && state.appIcon) {
@@ -1002,7 +1021,8 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
       "        static let gradientDarkHex: [String] = " + hexList(cardDark()),
       "    }",
       "",
-      "    // App name (Display Name): " + (state.appName || "").trim()
+      "    // App name (Display Name): " + (state.appName || "").trim(),
+      "    // Legal.supportEmail: " + supportEmail()
     ].join("\n");
   }
 
@@ -1016,6 +1036,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
         ? (state.appIcon ? Object.assign({ source: "upload" }, state.appIcon) : null)
         : { source: "text", text: state.iconText, name: "AppIcon.png", dataUrl: textIconUrl() },
       colors: { primary: state.primary, secondary: state.secondary },
+      support: { ownEmail: state.supportMode === "own", email: supportEmail() },
       welcome: { eyebrow: state.eyebrow, greeting: state.greeting, message: state.message, signature: state.signature },
       creator: {
         ownAffirmations: state.ownAffirmations,
@@ -1037,6 +1058,9 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     next.primary = normHex(c.primary) || next.primary;
     next.secondary = normHex(c.secondary) || next.secondary;
     ["eyebrow", "greeting", "message", "signature"].forEach(function (x) { next[x] = typeof w[x] === "string" ? w[x] : ""; });
+    var sp = d.support || {};
+    next.supportMode = sp.ownEmail ? "own" : "ours";
+    next.supportEmail = sp.ownEmail ? (sp.email || "") : "";
     next.categoryName = k.categoryName || "";
     next.ownAffirmations = !!k.ownAffirmations;
     next.sample = k.sampleAffirmation || "";
@@ -1044,6 +1068,11 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     if (Array.isArray(k.cardLight) && k.cardLight.length === 2) next.cardLight = k.cardLight.map(function (h) { return normHex(h) || "667eea"; });
     state = next;
   }
+
+  function supportEmail() {
+    return state.supportMode === "own" ? (state.supportEmail || "").trim() : OUR_SUPPORT;
+  }
+  function validEmail(v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test((v || "").trim()); }
 
   function slug() {
     return ((state.appName || "app").trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")) || "app";
@@ -1063,6 +1092,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     if (!t(state.appName)) m.push({ label: "App name", focus: "appName" });
     if (state.iconMode === "upload" && !state.appIcon) m.push({ label: "App icon: upload your icon, or choose \u201cMake one from my words\u201d", focus: "iconUploadBox" });
     if (state.iconMode === "text" && !t(state.iconText)) m.push({ label: "Words on the icon", focus: "iconText" });
+    if (state.supportMode === "own" && !validEmail(state.supportEmail)) m.push({ label: "Support email: enter a valid email, or choose \u201cUse our support email\u201d", focus: "supportEmail" });
     if (!t(state.message)) m.push({ label: "Welcome message", focus: "message" });
     if (state.ownAffirmations && !t(state.categoryName)) m.push({ label: "Category name", focus: "categoryName" });
     return m;
@@ -1070,7 +1100,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
   var triedDownload = false;
   function showMissing() {
     var m = triedDownload ? missingFields() : [];
-    ["appName", "iconText", "message", "categoryName"].forEach(function (id) { $(id).classList.remove("invalid"); });
+    ["appName", "iconText", "message", "categoryName", "supportEmail"].forEach(function (id) { $(id).classList.remove("invalid"); });
     $("iconUploadBox").classList.remove("invalid");
     m.forEach(function (f) { $(f.focus).classList.add("invalid"); });
     var box = $("missingBox");
