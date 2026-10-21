@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "morning-affirmations",
+    "keyword": "morning affirmations",
+    "title": "Morning Affirmations: 50 Phrases to Start Your Day Well",
+    "h1": "Morning affirmations: 50 phrases to start your day well",
+    "description": "50 morning affirmations for energy, calm and confidence, plus a simple 2-minute routine to make them a daily habit that actually sticks.",
+    "lead": "Morning affirmations are short, positive sentences you say to yourself in the first minutes of the day. They set the tone before emails and news do. Here are 50 to choose from, and a 2-minute routine to make them stick.",
+    "card": "50 phrases for energy, calm and confidence, and a 2-minute routine.",
+    "image": "img/01-today.jpg",
+    "image_alt": "The Today screen of Daily Affirmations showing a morning affirmation",
+    "app_text": "Daily Affirmations gives you a fresh set every morning, a gentle reminder at the time you pick, and a widget so today's affirmation is the first thing you see when you unlock your phone.",
+    "published": "2026-10-21",
+    "related": ["how-to-write-affirmations", "self-love-affirmations"],
+    "faq": [
+      ["When is the best time to say morning affirmations?", "Within the first 30 minutes after waking, before you check messages or news. Pairing them with something you already do, like brushing your teeth or making coffee, makes the habit far easier to keep."],
+      ["How many morning affirmations should I say?", "Three to five is plenty. A few sentences you actually mean work better than a long list you rush through."],
+      ["Should I say affirmations out loud?", "Out loud is best if you can, because hearing your own voice makes the words more concrete. Whispering, writing them down or reading them slowly in your head also works."],
+      ["How long until morning affirmations make a difference?", "Most people notice a calmer, more intentional start to the day within one or two weeks of daily practice. Treat it like any habit: consistency matters more than intensity."]
+    ]
+  },
+  {
+    "slug": "how-to-write-affirmations",
+    "keyword": "how to write affirmations",
+    "title": "How to Write Affirmations That Feel True (With Examples)",
+    "h1": "How to write affirmations that actually feel true",
+    "description": "A simple 5-step method to write your own affirmations, with before-and-after examples, common mistakes to avoid and a fill-in template.",
+    "lead": "A good affirmation is short, positive, in the present tense, and believable to you today. That last part is where most affirmations fail. This guide walks you through a 5-step method, with examples you can copy and adapt.",
+    "card": "A 5-step method, before-and-after examples and a fill-in template.",
+    "image": "img/06-save.jpg",
+    "image_alt": "The Favorites screen of Daily Affirmations with saved affirmations",
+    "app_text": "Not ready to write your own yet? Daily Affirmations has hundreds of affirmations across categories like confidence, gratitude and calm. Save the ones that feel true as favorites, then use them as a starting point for your own.",
+    "published": "2026-10-21",
+    "related": ["morning-affirmations", "self-love-affirmations"],
+    "faq": [
+      ["Do affirmations have to be in the present tense?", "Usually yes. \"I am\" and \"I can\" statements feel more immediate than \"I will\". If a present-tense statement feels like a lie, use a bridge phrase such as \"I am learning to\" or \"I am open to\"."],
+      ["How long should an affirmation be?", "One short sentence, ideally under 12 words. If you can't remember it without reading it, it's too long."],
+      ["What if my affirmation feels fake?", "That's a sign it's too far from where you are now. Make it smaller and more specific, or add a bridge phrase. \"I am confident\" can become \"I am getting more comfortable speaking up\"."],
+      ["How many affirmations should I write?", "Start with three that cover what matters most to you right now. You can always add more later, and you can rotate them every few weeks."]
+    ]
+  },
+  {
+    "slug": "self-love-affirmations",
+    "keyword": "self love affirmations",
+    "title": "Self-Love Affirmations: 50 Kind Things to Tell Yourself",
+    "h1": "Self-love affirmations: 50 kind things to tell yourself",
+    "description": "50 self-love affirmations for hard days, self-worth, your body and setting boundaries, plus tips to make them feel true instead of forced.",
+    "lead": "Self-love affirmations are kind sentences you say to yourself on purpose, especially on days when your inner voice is harsh. Below are 50, grouped by situation, and a few tips to make them feel true instead of forced.",
+    "card": "50 affirmations for hard days, self-worth, your body and boundaries.",
+    "image": "img/02-swipe.jpg",
+    "image_alt": "Swiping through self-love affirmations in Daily Affirmations",
+    "app_text": "Self Love is one of the free categories in Daily Affirmations. Swipe through a new set each day, save the ones that land as favorites, and share them as cards with someone who needs them too.",
+    "published": "2026-10-21",
+    "related": ["how-to-write-affirmations", "morning-affirmations"],
+    "faq": [
+      ["What are self-love affirmations?", "Short, positive statements about your worth, your needs and how you treat yourself, such as \"I am allowed to take up space\". You repeat them to practise a kinder way of talking to yourself."],
+      ["Do self-love affirmations work?", "They tend to help most when they are believable and repeated daily. Research on self-affirmation suggests that reflecting on your values can reduce defensiveness and stress. They are a support, not a replacement for professional help when you need it."],
+      ["What if I don't believe self-love affirmations yet?", "Start with softer versions. \"I am working on accepting myself\" is easier to believe than \"I love everything about myself\", and it is still a step in the right direction."],
+      ["How often should I say self-love affirmations?", "Once a day is a good start, for example in the morning or before bed. Many people also keep one ready for hard moments, like after a mistake."]
+    ]
+  }
+]
