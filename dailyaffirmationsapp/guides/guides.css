@@ -57,6 +57,16 @@ th { font-weight: 600; }
 .app img { width: 100%; height: auto; border-radius: 14px; box-shadow: 0 14px 30px -18px rgba(40, 30, 90, .5); }
 .app h2 { margin: 0 0 6px; font-size: 22px; }
 .app p { margin: 0 0 14px; color: var(--muted); font-size: 16px; }
+.store { display: inline-flex; align-items: center; gap: 10px; padding: 9px 20px 9px 16px; border-radius: 13px; background: #000; color: #fff; text-decoration: none; border: 1px solid rgba(255, 255, 255, .25); }
+.store svg { width: 24px; height: 24px; fill: #fff; }
+.store span { text-align: left; line-height: 1.15; }
+.store small { display: block; font-size: 11px; opacity: .85; }
+.store b { display: block; font-size: 18px; font-weight: 600; letter-spacing: -.01em; }
+.store.soon { cursor: default; }
+.get-app { text-align: center; background: var(--panel); border: 1px solid var(--line); border-radius: 22px; padding: 26px 22px; margin: 40px 0 0; }
+.get-app img { width: 56px; height: 56px; border-radius: 13px; }
+.get-app h2 { margin: 8px 0 4px; font-size: 22px; }
+.get-app p { margin: 0 0 16px; color: var(--muted); font-size: 16px; }
 .btn { display: inline-block; padding: 10px 20px; border-radius: 12px; color: #fff; text-decoration: none; font-weight: 600; background: linear-gradient(135deg, var(--brand-a), var(--brand-b)); }
 @media (max-width: 520px) { .app { grid-template-columns: minmax(0, 1fr); text-align: center; } .app img { max-width: 160px; margin: 0 auto; } }
 

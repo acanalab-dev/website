@@ -251,15 +251,6 @@ footer .love { margin-top: 8px; } footer .love span { color: #e2667a; }
 
 <footer><div><b>© 2026 acanalab</b><a href="guides/">Guides</a><a href="privacy-policy">Privacy Policy</a><a href="terms-of-use">Terms of Use</a><a href="mailto:support@acanalab.com?subject=Daily%20Affirmations%20app%20support">Support</a></div><div class="love">Made with <span aria-label="love">♥</span> in Europe</div></footer>
 
-<script>
-// App Store link of Daily Affirmations. Leave empty until it's live (the button then does nothing on tap).
-var APP_STORE_URL = "";
-(function () {
-  document.querySelectorAll("a.store").forEach(function (link) {
-    if (APP_STORE_URL) { link.href = APP_STORE_URL; link.classList.remove("soon"); }
-    else link.addEventListener("click", function (e) { e.preventDefault(); });
-  });
-})();
-</script>
+<script src="store.js"></script>
 </body>
 </html>

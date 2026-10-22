@@ -28,6 +28,12 @@ STATIC_PAGES = ["/", "/dailyaffirmationsapp/", "/privacy-policy", "/terms-of-use
 
 e = html.escape
 
+# Same badge as the app page; dailyaffirmationsapp/store.js fills in the App Store link.
+STORE = """<a class="store soon" href="#" target="_blank" rel="noopener" aria-label="Download on the App Store">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.37 12.6c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.62-1.7-3.19-1.72-1.36-.14-2.65.8-3.34.8-.69 0-1.75-.78-2.88-.76-1.48.02-2.85.86-3.61 2.19-1.54 2.67-.39 6.62 1.11 8.79.73 1.06 1.6 2.25 2.75 2.2 1.1-.04 1.52-.71 2.85-.71s1.71.71 2.88.69c1.19-.02 1.94-1.08 2.67-2.14.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.33-3.55zM14.17 6.13c.61-.74 1.02-1.76.91-2.78-.88.04-1.94.59-2.57 1.32-.56.65-1.06 1.69-.93 2.69.98.08 1.98-.5 2.59-1.23z"/></svg>
+      <span><small>Download on the</small><b>App Store</b></span>
+    </a>"""
+
 
 def head(title, description, url, image, extra_ld):
     ld = "\n".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in extra_ld)
@@ -58,7 +64,8 @@ def head(title, description, url, image, extra_ld):
 """
 
 
-FOOT = """<footer><div><b>© 2026 acanalab</b><a href="/dailyaffirmationsapp/">Daily Affirmations</a><a href="/dailyaffirmationsapp/guides/">Guides</a><a href="/dailyaffirmationsapp/privacy-policy">Privacy Policy</a><a href="/dailyaffirmationsapp/terms-of-use">Terms of Use</a></div></footer>
+FOOT = """<script src="/dailyaffirmationsapp/store.js"></script>
+<footer><div><b>© 2026 acanalab</b><a href="/dailyaffirmationsapp/">Daily Affirmations</a><a href="/dailyaffirmationsapp/guides/">Guides</a><a href="/dailyaffirmationsapp/privacy-policy">Privacy Policy</a><a href="/dailyaffirmationsapp/terms-of-use">Terms of Use</a></div></footer>
 </body>
 </html>
 """
@@ -109,7 +116,7 @@ def build_guide(g, by_slug):
   <div>
     <h2>Make it a daily habit</h2>
     <p>{e(g["app_text"])}</p>
-    <a class="btn" href="/dailyaffirmationsapp/">Get Daily Affirmations for iPhone</a>
+    {STORE}
   </div>
 </aside>
 
@@ -145,6 +152,12 @@ def build_hub(guides):
 <ul class="cards">
 {cards}
 </ul>
+<aside class="get-app">
+  <img src="/app-icon.png" alt="" width="56" height="56">
+  <h2>Get Daily Affirmations</h2>
+  <p>Fresh affirmations every morning. Free to download. For iPhone.</p>
+  {STORE}
+</aside>
 </article>
 </main>
 """ + FOOT
