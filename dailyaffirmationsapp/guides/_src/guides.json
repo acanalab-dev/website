@@ -11,12 +11,28 @@
     "image_alt": "The Today screen of Daily Affirmations showing a morning affirmation",
     "app_text": "Daily Affirmations gives you a fresh set every morning, a gentle reminder at the time you pick, and a widget so today's affirmation is the first thing you see when you unlock your phone.",
     "published": "2026-10-21",
-    "related": ["how-to-write-affirmations", "self-love-affirmations"],
+    "related": [
+      "affirmations-for-anxiety",
+      "how-to-write-affirmations",
+      "self-love-affirmations"
+    ],
     "faq": [
-      ["When is the best time to say morning affirmations?", "Within the first 30 minutes after waking, before you check messages or news. Pairing them with something you already do, like brushing your teeth or making coffee, makes the habit far easier to keep."],
-      ["How many morning affirmations should I say?", "Three to five is plenty. A few sentences you actually mean work better than a long list you rush through."],
-      ["Should I say affirmations out loud?", "Out loud is best if you can, because hearing your own voice makes the words more concrete. Whispering, writing them down or reading them slowly in your head also works."],
-      ["How long until morning affirmations make a difference?", "Most people notice a calmer, more intentional start to the day within one or two weeks of daily practice. Treat it like any habit: consistency matters more than intensity."]
+      [
+        "When is the best time to say morning affirmations?",
+        "Within the first 30 minutes after waking, before you check messages or news. Pairing them with something you already do, like brushing your teeth or making coffee, makes the habit far easier to keep."
+      ],
+      [
+        "How many morning affirmations should I say?",
+        "Three to five is plenty. A few sentences you actually mean work better than a long list you rush through."
+      ],
+      [
+        "Should I say affirmations out loud?",
+        "Out loud is best if you can, because hearing your own voice makes the words more concrete. Whispering, writing them down or reading them slowly in your head also works."
+      ],
+      [
+        "How long until morning affirmations make a difference?",
+        "Most people notice a calmer, more intentional start to the day within one or two weeks of daily practice. Treat it like any habit: consistency matters more than intensity."
+      ]
     ]
   },
   {
@@ -31,12 +47,27 @@
     "image_alt": "The Favorites screen of Daily Affirmations with saved affirmations",
     "app_text": "Not ready to write your own yet? Daily Affirmations has hundreds of affirmations across categories like confidence, gratitude and calm. Save the ones that feel true as favorites, then use them as a starting point for your own.",
     "published": "2026-10-21",
-    "related": ["morning-affirmations", "self-love-affirmations"],
+    "related": [
+      "morning-affirmations",
+      "self-love-affirmations"
+    ],
     "faq": [
-      ["Do affirmations have to be in the present tense?", "Usually yes. \"I am\" and \"I can\" statements feel more immediate than \"I will\". If a present-tense statement feels like a lie, use a bridge phrase such as \"I am learning to\" or \"I am open to\"."],
-      ["How long should an affirmation be?", "One short sentence, ideally under 12 words. If you can't remember it without reading it, it's too long."],
-      ["What if my affirmation feels fake?", "That's a sign it's too far from where you are now. Make it smaller and more specific, or add a bridge phrase. \"I am confident\" can become \"I am getting more comfortable speaking up\"."],
-      ["How many affirmations should I write?", "Start with three that cover what matters most to you right now. You can always add more later, and you can rotate them every few weeks."]
+      [
+        "Do affirmations have to be in the present tense?",
+        "Usually yes. \"I am\" and \"I can\" statements feel more immediate than \"I will\". If a present-tense statement feels like a lie, use a bridge phrase such as \"I am learning to\" or \"I am open to\"."
+      ],
+      [
+        "How long should an affirmation be?",
+        "One short sentence, ideally under 12 words. If you can't remember it without reading it, it's too long."
+      ],
+      [
+        "What if my affirmation feels fake?",
+        "That's a sign it's too far from where you are now. Make it smaller and more specific, or add a bridge phrase. \"I am confident\" can become \"I am getting more comfortable speaking up\"."
+      ],
+      [
+        "How many affirmations should I write?",
+        "Start with three that cover what matters most to you right now. You can always add more later, and you can rotate them every few weeks."
+      ]
     ]
   },
   {
@@ -51,12 +82,64 @@
     "image_alt": "Swiping through self-love affirmations in Daily Affirmations",
     "app_text": "Self Love is one of the free categories in Daily Affirmations. Swipe through a new set each day, save the ones that land as favorites, and share them as cards with someone who needs them too.",
     "published": "2026-10-21",
-    "related": ["how-to-write-affirmations", "morning-affirmations"],
+    "related": [
+      "affirmations-for-anxiety",
+      "how-to-write-affirmations",
+      "morning-affirmations"
+    ],
     "faq": [
-      ["What are self-love affirmations?", "Short, positive statements about your worth, your needs and how you treat yourself, such as \"I am allowed to take up space\". You repeat them to practise a kinder way of talking to yourself."],
-      ["Do self-love affirmations work?", "They tend to help most when they are believable and repeated daily. Research on self-affirmation suggests that reflecting on your values can reduce defensiveness and stress. They are a support, not a replacement for professional help when you need it."],
-      ["What if I don't believe self-love affirmations yet?", "Start with softer versions. \"I am working on accepting myself\" is easier to believe than \"I love everything about myself\", and it is still a step in the right direction."],
-      ["How often should I say self-love affirmations?", "Once a day is a good start, for example in the morning or before bed. Many people also keep one ready for hard moments, like after a mistake."]
+      [
+        "What are self-love affirmations?",
+        "Short, positive statements about your worth, your needs and how you treat yourself, such as \"I am allowed to take up space\". You repeat them to practise a kinder way of talking to yourself."
+      ],
+      [
+        "Do self-love affirmations work?",
+        "They tend to help most when they are believable and repeated daily. Research on self-affirmation suggests that reflecting on your values can reduce defensiveness and stress. They are a support, not a replacement for professional help when you need it."
+      ],
+      [
+        "What if I don't believe self-love affirmations yet?",
+        "Start with softer versions. \"I am working on accepting myself\" is easier to believe than \"I love everything about myself\", and it is still a step in the right direction."
+      ],
+      [
+        "How often should I say self-love affirmations?",
+        "Once a day is a good start, for example in the morning or before bed. Many people also keep one ready for hard moments, like after a mistake."
+      ]
+    ]
+  },
+  {
+    "slug": "affirmations-for-anxiety",
+    "keyword": "affirmations for anxiety",
+    "title": "Affirmations for Anxiety: 40 Calming Phrases",
+    "h1": "Affirmations for anxiety: 40 calming phrases",
+    "description": "40 affirmations for anxiety: for anxious moments, overthinking, social situations and sleepless nights, plus 5 steps to use them when worry hits.",
+    "lead": "Affirmations for anxiety are short, calming sentences you can repeat when worry takes over, to slow down and remind yourself you are safe right now. Here are 40, grouped by situation, and a simple way to use them in the moment.",
+    "card": "40 calming phrases for anxious moments, worry, social situations and nights.",
+    "image": "img/07-explore.jpg",
+    "image_alt": "Exploring affirmation categories in Daily Affirmations",
+    "app_text": "Daily Affirmations brings you a fresh set every morning, so calming words become familiar before you need them. Peace is a free category, Anxiety Relief is part of Premium, and a Home Screen widget keeps one steady sentence in sight all day.",
+    "published": "2026-10-22",
+    "related": [
+      "self-love-affirmations",
+      "morning-affirmations",
+      "how-to-write-affirmations"
+    ],
+    "faq": [
+      [
+        "Do affirmations help with anxiety?",
+        "They can help many people feel steadier in anxious moments, especially when the words are believable and practised daily. They work as a support alongside other habits like slow breathing, not as a treatment. If anxiety affects your daily life, speak to a doctor or therapist."
+      ],
+      [
+        "What is a good affirmation for anxiety?",
+        "Short, honest sentences work best, such as \"This feeling is uncomfortable, and it will pass\" or \"I am safe right now\". They acknowledge the feeling instead of arguing with it."
+      ],
+      [
+        "When should I say affirmations for anxiety?",
+        "Practise them once a day when you're calm, for example in the morning, so they're familiar. Then use one or two in the moment, paired with slow breaths, when you notice worry building."
+      ],
+      [
+        "What if affirmations make my anxiety worse?",
+        "That usually means the sentence feels too far from how you feel. Soften it with a phrase like \"I am learning to\" or \"Right now, I\", or try a grounding exercise first and come back to the words later."
+      ]
     ]
   }
 ]
