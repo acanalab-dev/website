@@ -8,8 +8,8 @@
   "description": "How to split expenses as a couple: compare 50/50, proportional, by-category and shared-pot methods, with a worked example and a simple monthly routine.",
   "lead": "Splitting money as a couple gets easier once you agree on what's shared, pick a method that feels fair to both of you, and settle up on a schedule. Here are the four common methods, a worked example with real numbers, and a routine that takes ten minutes a month.",
   "card": "Compare 50/50, proportional, by category and a shared pot, with a worked example.",
-  "image": "app-icon.png",
-  "image_alt": "HoneyNest app icon",
+  "image": "img/01-share.jpg",
+  "image_alt": "HoneyNest showing shared Home expenses and who paid each one",
   "app_text": "HoneyNest lets you both log shared expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows how much each of you spent and the difference, so settling up takes one look. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
@@ -35,8 +35,8 @@
    ]
   ],
   "image_size": [
-   256,
-   256
+   600,
+   1298
   ]
  },
  {
@@ -48,8 +48,8 @@
   "description": "How to split bills by income: the simple formula, a quick calculator, and worked examples for couples with different incomes, plus what to include.",
   "lead": "If one of you earns more, splitting bills in proportion to income means you each pay the same share of what you earn. Here's the formula, a quick calculator, and worked examples with real numbers.",
   "card": "The formula, a quick calculator and worked examples for different incomes.",
-  "image": "app-icon.png",
-  "image_alt": "HoneyNest app icon",
+  "image": "img/03-split.jpg",
+  "image_alt": "HoneyNest showing the spending split between two partners",
   "app_text": "HoneyNest tracks every shared expense and who paid it, and shows each partner's total and percentage for any period. Compare those percentages with your agreed split, like 60/40, to see what to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
@@ -75,8 +75,8 @@
    ]
   ],
   "image_size": [
-   256,
-   256
+   600,
+   1298
   ]
  },
  {
@@ -88,8 +88,8 @@
   "description": "A moving in together finances checklist: lease and deposit, the money conversation, which bills to split, joint vs separate accounts, and your first month.",
   "lead": "Moving in together goes smoother when you've talked about money first. This checklist covers the lease and deposit, the money conversation, which bills to split, and how to handle your first month.",
   "card": "Lease, deposit, bills to split, accounts and your first month, in one checklist.",
-  "image": "app-icon.png",
-  "image_alt": "HoneyNest app icon",
+  "image": "img/04-add.jpg",
+  "image_alt": "Adding a Home expense in HoneyNest with the recurring monthly option",
   "app_text": "HoneyNest helps you start your shared home organized: set rent and bills up as recurring expenses, log the extras as you go, and see who paid what each month. Invite your partner with a QR code so you both see the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
@@ -115,8 +115,8 @@
    ]
   ],
   "image_size": [
-   256,
-   256
+   600,
+   1298
   ]
  }
 ]
