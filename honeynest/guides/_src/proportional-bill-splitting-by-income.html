@@ -1,0 +1,84 @@
+<p>Proportional bill splitting means each partner pays the same percentage of their income toward shared costs, instead of the same amount. When incomes differ, it means each of you gives up a similar share of what you earn, rather than the lower earner carrying a heavier load. Here's how the math works, with examples and a quick calculator.</p>
+
+<h2 id="the-formula">The formula</h2>
+<p>You only need two numbers: each person's income, measured the same way.</p>
+<ol>
+<li>Add your incomes together to get your combined income.</li>
+<li>Divide each person's income by the combined income. That's each person's share.</li>
+<li>Multiply your shared costs by each share.</li>
+</ol>
+<p><b>Your share = your income ÷ (your income + your partner's income)</b></p>
+<div class="tip">Use the same measure for both of you. Take-home pay (after tax and deductions) is the most common choice because it's what you actually have to spend. Monthly is easiest, since most bills are monthly.</div>
+
+<h2 id="calculator">Quick calculator</h2>
+<div class="calc" id="split-calc">
+  <div class="row">
+    <label>Your monthly income<input type="number" inputmode="decimal" min="0" id="inc-a" value="3000"></label>
+    <label>Partner's monthly income<input type="number" inputmode="decimal" min="0" id="inc-b" value="2000"></label>
+    <label>Shared costs per month<input type="number" inputmode="decimal" min="0" id="costs" value="1500"></label>
+  </div>
+  <output id="calc-out" for="inc-a inc-b costs">You pay 60% (1,500 × 0.60 = 900). Your partner pays 40% (600).</output>
+</div>
+<script>
+(function () {
+  var a = document.getElementById("inc-a"), b = document.getElementById("inc-b"), c = document.getElementById("costs"), out = document.getElementById("calc-out");
+  function fmt(n) { return n.toLocaleString(undefined, { maximumFractionDigits: 0 }); }
+  function update() {
+    var x = parseFloat(a.value) || 0, y = parseFloat(b.value) || 0, cost = parseFloat(c.value) || 0, total = x + y;
+    if (total <= 0) { out.textContent = "Enter both incomes to see the split."; return; }
+    var pa = x / total, pb = y / total;
+    out.textContent = "You pay " + Math.round(pa * 100) + "% (" + fmt(cost * pa) + "). Your partner pays " + Math.round(pb * 100) + "% (" + fmt(cost * pb) + ").";
+  }
+  [a, b, c].forEach(function (el) { el.addEventListener("input", update); });
+  update();
+})();
+</script>
+<p>The calculator runs in your browser and doesn't save or send anything.</p>
+
+<h2 id="worked-examples">Worked examples</h2>
+
+<h3>Example 1: a clear income gap</h3>
+<p>Mia takes home €3,600 a month and Jonas takes home €2,400. Combined, that's €6,000.</p>
+<ul>
+<li>Mia's share: 3,600 ÷ 6,000 = 60%</li>
+<li>Jonas's share: 2,400 ÷ 6,000 = 40%</li>
+</ul>
+<p>Their shared costs are €2,000 a month (rent, groceries, utilities, internet). Mia pays €1,200 and Jonas pays €800. That's 33% of each person's take-home pay. With a 50/50 split they would each pay €1,000, which is 28% of Mia's income but 42% of Jonas's.</p>
+
+<h3>Example 2: a small gap</h3>
+<p>Sam takes home $4,100 and Alex takes home $3,900. Combined: $8,000. Sam's share is 51.25% and Alex's is 48.75%. On $2,400 of shared costs, that's $1,230 and $1,170.</p>
+<p>A $60 difference is small, so many couples in this situation just go 50/50 for simplicity. Proportional splitting matters most when the gap is large.</p>
+
+<h3>Example 3: one partner between jobs</h3>
+<p>If one partner's income drops to €600 a month while the other's is €3,400, a strict proportional split puts 15% of shared costs on the lower earner. Some couples agree to pause the split during a temporary change and have one person cover shared costs for a while. Whatever you choose, agree on it out loud and set a date to look at it again.</p>
+
+<h2 id="what-to-include">What to include, and what to leave out</h2>
+<p>Proportional splitting usually applies to costs you both benefit from:</p>
+<ul>
+<li>Rent or mortgage, utilities, internet and home insurance</li>
+<li>Groceries and household supplies</li>
+<li>Shared subscriptions and things you do together, if you agree to</li>
+</ul>
+<p>Personal costs, like your own phone, clothes, hobbies and gifts you choose to give, usually stay with each person. The <a href="../how-to-split-expenses-as-a-couple/">guide to splitting expenses as a couple</a> has a simple way to sort costs into Home, Lifestyle and Personal.</p>
+
+<h2 id="pros-and-cons">Pros and cons</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>Pros</th><th>Cons</th></tr></thead>
+<tbody>
+<tr><td>Both partners give a similar share of their income</td><td>You need to share income numbers openly</td></tr>
+<tr><td>The lower earner keeps more room for personal spending and goals</td><td>Percentages need updating when incomes change</td></tr>
+<tr><td>Adjusts naturally as incomes change, if you update it</td><td>Bonuses, freelance or irregular income make it harder</td></tr>
+</tbody>
+</table></div>
+
+<h2 id="make-it-work">Making it work month to month</h2>
+<ol>
+<li><b>Agree on the numbers once.</b> Write down both incomes and the percentages you'll use. Round to whole numbers, like 60/40 or 55/45.</li>
+<li><b>Decide how you'll pay.</b> Either each person transfers their share into a joint account, or you both pay bills as they come and compare at the end of the month.</li>
+<li><b>Track who paid what.</b> If you pay as you go, keep a record of every shared cost and who paid it.</li>
+<li><b>Compare and settle.</b> At the end of the month, compare what each of you paid with your target percentages and settle the difference with one transfer.</li>
+<li><b>Review twice a year.</b> And any time an income changes noticeably.</li>
+</ol>
+<p><b>Irregular income?</b> Use an average of the last three to six months, or agree on a base split and settle extra at the end of a quarter when you know the real numbers.</p>
+
+<p class="note">This guide shares general tips and simple arithmetic. It isn't financial, tax or legal advice. For advice about your situation, talk to a qualified professional.</p>

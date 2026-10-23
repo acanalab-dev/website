@@ -1,0 +1,55 @@
+[
+  {
+    "date": "2026-10-23",
+    "keyword": "how to split expenses as a couple",
+    "slug": "how-to-split-expenses-as-a-couple",
+    "source": "backlog (setup, hand-written)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ verified 2026-10-23, no data yet (new pages)"
+    },
+    "links_from": [
+      "/honeynest/ (guides section)",
+      "/honeynest/guides/ (hub)",
+      "/honeynest/ (how it works, step 4)",
+      "related + contextual: proportional, moving-in guides"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "keyword": "proportional bill splitting by income",
+    "slug": "proportional-bill-splitting-by-income",
+    "source": "backlog (setup, hand-written)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ verified 2026-10-23, no data yet (new pages)"
+    },
+    "links_from": [
+      "/honeynest/ (guides section)",
+      "/honeynest/guides/ (hub)",
+      "contextual + related: how-to-split, moving-in guides"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "keyword": "moving in together finances checklist",
+    "slug": "moving-in-together-finances-checklist",
+    "source": "backlog (setup, hand-written)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ verified 2026-10-23, no data yet (new pages)"
+    },
+    "links_from": [
+      "/honeynest/ (guides section)",
+      "/honeynest/guides/ (hub)",
+      "contextual + related: how-to-split guide",
+      "related: proportional guide"
+    ]
+  }
+]
