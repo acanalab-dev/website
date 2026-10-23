@@ -1,3 +1,38 @@
 [
-  {"date": "2026-10-22", "keyword": "affirmations for anxiety", "slug": "affirmations-for-anxiety", "source": "backlog", "gsc": {"impressions": 0, "clicks": 0, "position": null, "note": "Search Console verified 2026-10-22, no data yet"}, "links_from": ["/dailyaffirmationsapp/ (features text + guides section)", "/dailyaffirmationsapp/guides/morning-affirmations/", "/dailyaffirmationsapp/guides/self-love-affirmations/ (related)", "/dailyaffirmationsapp/guides/ (hub)"]}
+  {
+    "date": "2026-10-22",
+    "keyword": "affirmations for anxiety",
+    "slug": "affirmations-for-anxiety",
+    "source": "backlog",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console verified 2026-10-22, no data yet"
+    },
+    "links_from": [
+      "/dailyaffirmationsapp/ (features text + guides section)",
+      "/dailyaffirmationsapp/guides/morning-affirmations/",
+      "/dailyaffirmationsapp/guides/self-love-affirmations/ (related)",
+      "/dailyaffirmationsapp/guides/ (hub)"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "keyword": "affirmations for confidence",
+    "slug": "affirmations-for-confidence",
+    "source": "backlog",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console still has no data"
+    },
+    "links_from": [
+      "/dailyaffirmationsapp/ (features text + guides section)",
+      "/dailyaffirmationsapp/guides/morning-affirmations/ (confidence section)",
+      "related: morning, self-love, anxiety guides",
+      "/dailyaffirmationsapp/guides/ (hub)"
+    ]
+  }
 ]
