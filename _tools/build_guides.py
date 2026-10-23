@@ -177,7 +177,7 @@ class App:
   <div>
     <h2>{e(self.cfg["box_heading"])}</h2>
     <p>{e(g["app_text"])}</p>
-    {self.store(g["slug"])}
+    {self.store(g.get("ct", g["slug"]))}
   </div>
 </aside>
 

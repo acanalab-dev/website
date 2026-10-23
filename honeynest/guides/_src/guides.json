@@ -1,6 +1,7 @@
 [
  {
   "slug": "how-to-split-expenses-as-a-couple",
+  "ct": "split-expenses-couple",
   "keyword": "how to split expenses as a couple",
   "title": "How to Split Expenses as a Couple: 4 Fair Methods",
   "h1": "How to split expenses as a couple: 4 fair methods",
@@ -40,6 +41,7 @@
  },
  {
   "slug": "proportional-bill-splitting-by-income",
+  "ct": "split-by-income",
   "keyword": "proportional bill splitting by income",
   "title": "Proportional Bill Splitting by Income: Formula and Examples",
   "h1": "Proportional bill splitting by income: formula and examples",
@@ -79,6 +81,7 @@
  },
  {
   "slug": "moving-in-together-finances-checklist",
+  "ct": "moving-in-checklist",
   "keyword": "moving in together finances checklist",
   "title": "Moving In Together: Finances Checklist for Couples",
   "h1": "Moving in together: a finances checklist for couples",
