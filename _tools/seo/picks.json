@@ -34,5 +34,23 @@
       "related: morning, self-love, anxiety guides",
       "/dailyaffirmationsapp/guides/ (hub)"
     ]
+  },
+  {
+    "date": "2026-10-24",
+    "keyword": "gratitude affirmations",
+    "slug": "gratitude-affirmations",
+    "source": "backlog",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console still returns no rows for the last 28 days"
+    },
+    "links_from": [
+      "/dailyaffirmationsapp/ (features text + guides section)",
+      "/dailyaffirmationsapp/guides/morning-affirmations/ (gratitude section)",
+      "related: morning, self-love, how-to-write guides",
+      "/dailyaffirmationsapp/guides/ (hub)"
+    ]
   }
 ]

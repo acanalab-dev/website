@@ -12,9 +12,9 @@
     "app_text": "Daily Affirmations gives you a fresh set every morning, a gentle reminder at the time you pick, and a widget so today's affirmation is the first thing you see when you unlock your phone.",
     "published": "2026-10-21",
     "related": [
+      "gratitude-affirmations",
       "affirmations-for-confidence",
-      "affirmations-for-anxiety",
-      "how-to-write-affirmations"
+      "affirmations-for-anxiety"
     ],
     "faq": [
       [
@@ -48,6 +48,7 @@
     "app_text": "Not ready to write your own yet? Daily Affirmations has hundreds of affirmations across categories like confidence, gratitude and calm. Save the ones that feel true as favorites, then use them as a starting point for your own.",
     "published": "2026-10-21",
     "related": [
+      "gratitude-affirmations",
       "morning-affirmations",
       "self-love-affirmations"
     ],
@@ -83,9 +84,9 @@
     "app_text": "Self Love is one of the free categories in Daily Affirmations. Swipe through a new set each day, save the ones that land as favorites, and share them as cards with someone who needs them too.",
     "published": "2026-10-21",
     "related": [
+      "gratitude-affirmations",
       "affirmations-for-confidence",
-      "affirmations-for-anxiety",
-      "how-to-write-affirmations"
+      "affirmations-for-anxiety"
     ],
     "faq": [
       [
@@ -175,6 +176,46 @@
       [
         "Can affirmations help with self-doubt at work?",
         "Yes, as one tool among several. Use them to reframe the inner critic before high-pressure moments, and back them up with preparation and small brave actions, like speaking up once per meeting."
+      ]
+    ]
+  },
+  {
+    "slug": "gratitude-affirmations",
+    "keyword": "gratitude affirmations",
+    "title": "Gratitude Affirmations: 50 Phrases to Notice the Good",
+    "h1": "Gratitude affirmations: 50 phrases to notice the good",
+    "description": "50 gratitude affirmations for everyday life, the people you love, yourself and hard days, plus a simple 5-minute daily gratitude practice.",
+    "lead": "Gratitude affirmations are short sentences that turn your attention to what's already good in your life. Here are 50, grouped by theme, and a 5-minute practice that makes gratitude a daily habit.",
+    "card": "50 phrases for everyday life, people, yourself and hard days, and a 5-minute practice.",
+    "image": "img/08-share.jpg",
+    "image_alt": "Sharing an affirmation as a card from the Daily Affirmations app",
+    "app_text": "Gratitude and Abundance are both free categories in Daily Affirmations. Get a fresh set every morning, save the ones that feel true as favorites, and share one as a card with someone you're thankful for.",
+    "published": "2026-10-24",
+    "related": [
+      "morning-affirmations",
+      "self-love-affirmations",
+      "how-to-write-affirmations"
+    ],
+    "faq": [
+      [
+        "What are gratitude affirmations?",
+        "Short, positive sentences in the present tense that name something you're thankful for, such as \"I am grateful for the people who love me as I am\". They help you notice what's already going well."
+      ],
+      [
+        "When should I say gratitude affirmations?",
+        "Whenever you'll remember them: many people like the morning to set the tone for the day, others prefer the evening to look back on it. Attaching them to an existing habit, like your first coffee, makes them easier to keep."
+      ],
+      [
+        "How many gratitude affirmations should I use?",
+        "Two or three at a time is plenty. A few you actually feel work better than a long list you rush through. Swap them out when they start to feel automatic."
+      ],
+      [
+        "Is it okay to practice gratitude on a bad day?",
+        "Yes, as long as it doesn't become a way to dismiss how you feel. Acknowledge the hard part first, then look for one small thing that helped. Being grateful and struggling can both be true at once."
+      ],
+      [
+        "What's the difference between a gratitude journal and gratitude affirmations?",
+        "A journal records specific things you're thankful for. An affirmation turns one of them into a sentence you repeat. They work well together: write three things, then say one as an affirmation."
       ]
     ]
   }
