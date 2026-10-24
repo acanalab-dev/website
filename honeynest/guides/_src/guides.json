@@ -13,6 +13,7 @@
   "app_text": "HoneyNest lets you both log shared expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows how much each of you spent and the difference, so settling up takes one look. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-split-bills-with-your-partner",
    "proportional-bill-splitting-by-income",
    "moving-in-together-finances-checklist"
   ],
@@ -53,6 +54,7 @@
   "app_text": "HoneyNest tracks every shared expense and who paid it, and shows each partner's total and percentage for any period. Compare those percentages with your agreed split, like 60/40, to see what to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-split-bills-with-your-partner",
    "how-to-split-expenses-as-a-couple",
    "moving-in-together-finances-checklist"
   ],
@@ -93,6 +95,7 @@
   "app_text": "HoneyNest helps you start your shared home organized: set rent and bills up as recurring expenses, log the extras as you go, and see who paid what each month. Invite your partner with a QR code so you both see the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-split-bills-with-your-partner",
    "how-to-split-expenses-as-a-couple",
    "proportional-bill-splitting-by-income"
   ],
@@ -112,6 +115,47 @@
    [
     "How do we split rent if one of us earns more?",
     "Some couples split rent 50/50, others in proportion to income. For example, with take-home pay of 3,000 and 2,000, a proportional split is 60/40."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "how-to-split-bills-with-your-partner",
+  "ct": "split-bills-partner",
+  "keyword": "split bills with partner",
+  "title": "How to Split Bills With Your Partner: A Simple Setup",
+  "h1": "How to split bills with your partner: a simple setup",
+  "description": "How to split bills with your partner: list every bill, pick one rule, decide who pays what, handle variable and yearly bills, and settle up once a month.",
+  "lead": "Agreeing on a split is one thing. Getting rent, utilities and subscriptions paid without confusion is another. Here's a bill-by-bill setup with three ways to move the money, a worked example with real numbers, and a ten-minute monthly check.",
+  "card": "Who pays which bill, variable and yearly bills, and one monthly settle-up.",
+  "image": "img/02-see.jpg",
+  "image_alt": "HoneyNest showing Home expenses and the spending split between two partners",
+  "app_text": "HoneyNest lets you set rent and other monthly bills up once as recurring expenses, note who paid each one, and log variable bills and groceries as they come. It shows each partner's total, percentage and the difference, so you know what to settle. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
+  "published": "2026-10-24",
+  "related": [
+   "how-to-split-expenses-as-a-couple",
+   "proportional-bill-splitting-by-income",
+   "moving-in-together-finances-checklist"
+  ],
+  "faq": [
+   [
+    "What is the easiest way to split bills with a partner?",
+    "For many couples it's keeping bills where they are, noting who paid each one, and settling the difference with one transfer a month. A joint account for bills is another simple option once it's set up."
+   ],
+   [
+    "Do we have to split every bill?",
+    "No. Many couples split shared bills like rent, utilities and groceries and keep personal ones, like their own phone plan or gym, separate. Agree on the exceptions once."
+   ],
+   [
+    "How do we split bills that change every month?",
+    "Either split the actual amount each month, or plan around an average and correct the difference every few months. Both work; the average makes the monthly amount more predictable."
+   ],
+   [
+    "What if a bill is only in one person's name?",
+    "Who's on the account and who pays a share are separate questions. Make sure you can both see the bill and agree who pays it on time. For changing the name on a contract or lease, ask the provider or landlord."
    ]
   ],
   "image_size": [

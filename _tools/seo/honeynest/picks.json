@@ -51,5 +51,23 @@
       "contextual + related: how-to-split guide",
       "related: proportional guide"
     ]
+  },
+  {
+    "date": "2026-10-24",
+    "keyword": "split bills with partner",
+    "slug": "how-to-split-bills-with-your-partner",
+    "source": "backlog (next unused)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ on 2026-10-24 returned no rows yet (new pages)"
+    },
+    "links_from": [
+      "/honeynest/ (recurring expenses feature, contextual)",
+      "/honeynest/ (guides section, first)",
+      "/honeynest/guides/ (hub)",
+      "related: how-to-split, proportional, moving-in guides"
+    ]
   }
 ]
