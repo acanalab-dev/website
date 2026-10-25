@@ -69,5 +69,24 @@
       "/honeynest/guides/ (hub)",
       "related: how-to-split, proportional, moving-in guides"
     ]
+  },
+  {
+    "date": "2026-10-25",
+    "keyword": "joint vs separate bank accounts for couples",
+    "slug": "joint-vs-separate-bank-accounts-for-couples",
+    "source": "backlog (skipped 2 items already covered by the app page and the proportional guide)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ on 2026-10-25 returned no rows yet"
+    },
+    "links_from": [
+      "/honeynest/ (Home, Lifestyle and Personal feature, contextual)",
+      "/honeynest/ (guides section, first)",
+      "/honeynest/guides/ (hub)",
+      "contextual: moving-in guide (accounts section)",
+      "related: split-bills, proportional, moving-in guides"
+    ]
   }
 ]

@@ -54,6 +54,7 @@
   "app_text": "HoneyNest tracks every shared expense and who paid it, and shows each partner's total and percentage for any period. Compare those percentages with your agreed split, like 60/40, to see what to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "joint-vs-separate-bank-accounts-for-couples",
    "how-to-split-bills-with-your-partner",
    "how-to-split-expenses-as-a-couple",
    "moving-in-together-finances-checklist"
@@ -95,6 +96,7 @@
   "app_text": "HoneyNest helps you start your shared home organized: set rent and bills up as recurring expenses, log the extras as you go, and see who paid what each month. Invite your partner with a QR code so you both see the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "joint-vs-separate-bank-accounts-for-couples",
    "how-to-split-bills-with-your-partner",
    "how-to-split-expenses-as-a-couple",
    "proportional-bill-splitting-by-income"
@@ -136,6 +138,7 @@
   "app_text": "HoneyNest lets you set rent and other monthly bills up once as recurring expenses, note who paid each one, and log variable bills and groceries as they come. It shows each partner's total, percentage and the difference, so you know what to settle. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-24",
   "related": [
+   "joint-vs-separate-bank-accounts-for-couples",
    "how-to-split-expenses-as-a-couple",
    "proportional-bill-splitting-by-income",
    "moving-in-together-finances-checklist"
@@ -156,6 +159,47 @@
    [
     "What if a bill is only in one person's name?",
     "Who's on the account and who pays a share are separate questions. Make sure you can both see the bill and agree who pays it on time. For changing the name on a contract or lease, ask the provider or landlord."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "joint-vs-separate-bank-accounts-for-couples",
+  "ct": "joint-vs-separate-accounts",
+  "keyword": "joint vs separate bank accounts for couples",
+  "title": "Joint vs Separate Bank Accounts for Couples: How to Choose",
+  "h1": "Joint vs separate bank accounts for couples: how to choose",
+  "description": "Joint vs separate bank accounts for couples: compare fully separate, yours-mine-ours and fully joint, with a worked example and questions to decide together.",
+  "lead": "Fully separate, fully joint, or a bit of both? Here's how the three common setups compare, what they look like with real numbers, and five questions to help the two of you choose.",
+  "card": "Separate, yours-mine-ours or fully joint, with a worked example and questions.",
+  "image": "img/05-track.jpg",
+  "image_alt": "HoneyNest showing a couple's monthly Home spending over four months",
+  "app_text": "Whichever setup you choose, HoneyNest keeps one shared record: log expenses from both iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows each partner's total, percentage and the difference, so separate accounts stay easy to settle and a joint account is easy to check. Your partner joins with a QR code. It's free; Premium adds your complete expense history.",
+  "published": "2026-10-25",
+  "related": [
+   "how-to-split-bills-with-your-partner",
+   "proportional-bill-splitting-by-income",
+   "moving-in-together-finances-checklist"
+  ],
+  "faq": [
+   [
+    "Should couples have joint or separate bank accounts?",
+    "There's no single right answer. Many couples who live together use a mix: a joint account for shared costs and a personal account each. Fully separate and fully joint both work too, if you both agree and keep a clear record."
+   ],
+   [
+    "What is the yours, mine and ours method?",
+    "Each partner keeps a personal account and pays a set amount into a joint account every month. Shared costs like rent, bills and groceries are paid from the joint account, and personal spending stays separate."
+   ],
+   [
+    "How much should each partner put into a joint account?",
+    "Either equal amounts or amounts in proportion to your incomes. Add up your monthly shared costs, split them the way you agreed, and add a small cushion for bills that vary."
+   ],
+   [
+    "Can we split costs fairly without a joint account?",
+    "Yes. Pay bills from your own accounts, note who paid each one, and settle the difference once a month with one transfer."
    ]
   ],
   "image_size": [
