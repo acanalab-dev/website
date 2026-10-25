@@ -52,5 +52,23 @@
       "related: morning, self-love, how-to-write guides",
       "/dailyaffirmationsapp/guides/ (hub)"
     ]
+  },
+  {
+    "date": "2026-10-25",
+    "keyword": "affirmations for sleep",
+    "slug": "affirmations-for-sleep",
+    "source": "backlog",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console still returns no rows for the last 28 days"
+    },
+    "links_from": [
+      "/dailyaffirmationsapp/ (reminders feature text + guides section)",
+      "/dailyaffirmationsapp/guides/affirmations-for-anxiety/ (night section)",
+      "related: anxiety, gratitude guides",
+      "/dailyaffirmationsapp/guides/ (hub)"
+    ]
   }
 ]

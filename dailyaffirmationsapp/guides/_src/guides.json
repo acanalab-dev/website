@@ -120,9 +120,9 @@
     "app_text": "Daily Affirmations brings you a fresh set every morning, so calming words become familiar before you need them. Peace is a free category, Anxiety Relief is part of Premium, and a Home Screen widget keeps one steady sentence in sight all day.",
     "published": "2026-10-22",
     "related": [
+      "affirmations-for-sleep",
       "affirmations-for-confidence",
-      "self-love-affirmations",
-      "morning-affirmations"
+      "self-love-affirmations"
     ],
     "faq": [
       [
@@ -192,9 +192,9 @@
     "app_text": "Gratitude and Abundance are both free categories in Daily Affirmations. Get a fresh set every morning, save the ones that feel true as favorites, and share one as a card with someone you're thankful for.",
     "published": "2026-10-24",
     "related": [
+      "affirmations-for-sleep",
       "morning-affirmations",
-      "self-love-affirmations",
-      "how-to-write-affirmations"
+      "self-love-affirmations"
     ],
     "faq": [
       [
@@ -216,6 +216,46 @@
       [
         "What's the difference between a gratitude journal and gratitude affirmations?",
         "A journal records specific things you're thankful for. An affirmation turns one of them into a sentence you repeat. They work well together: write three things, then say one as an affirmation."
+      ]
+    ]
+  },
+  {
+    "slug": "affirmations-for-sleep",
+    "keyword": "affirmations for sleep",
+    "title": "Affirmations for Sleep: 45 Calming Phrases for Bedtime",
+    "h1": "Affirmations for sleep: 45 calming phrases for bedtime",
+    "description": "45 affirmations for sleep to let go of the day, relax your body and quiet a busy mind, plus a simple 10-minute bedtime routine.",
+    "lead": "Affirmations for sleep are slow, gentle sentences you repeat as you wind down, so your mind has something calm to hold instead of replaying the day. Here are 45, including a few for kids, and a 10-minute bedtime routine.",
+    "card": "45 calming phrases to let go of the day, relax and drift off, and a 10-minute routine.",
+    "image": "img/03-see.jpg",
+    "image_alt": "Daily Affirmations widgets on the iPhone Home Screen",
+    "app_text": "Rest and Peace are both free categories in Daily Affirmations. Set your daily reminder for the evening if bedtime suits you best, save the calming ones as favorites, and keep one on your Lock Screen with a widget.",
+    "published": "2026-10-25",
+    "related": [
+      "affirmations-for-anxiety",
+      "gratitude-affirmations",
+      "morning-affirmations"
+    ],
+    "faq": [
+      [
+        "Do affirmations help you sleep?",
+        "They can help you wind down. Repeating a calm sentence gives a busy mind something slow to focus on instead of replaying the day. They aren't a treatment for sleep problems, so if you have trouble sleeping most nights, talk to a doctor."
+      ],
+      [
+        "When should I say sleep affirmations?",
+        "In the last few minutes before sleep, once you're lying down and your phone is away. Saying them as part of the same short routine each night makes them a signal that it's time to rest."
+      ],
+      [
+        "Should I say bedtime affirmations out loud?",
+        "You don't need to. At night a slow whisper or a silent repeat works well, especially if you share a room. Matching each one to a long breath out helps you relax."
+      ],
+      [
+        "Can I listen to sleep affirmations instead of saying them?",
+        "Yes, if that's what relaxes you. Some people prefer to read or say a few themselves because it keeps the words personal and avoids having a screen or speaker on in bed."
+      ],
+      [
+        "What are good bedtime affirmations for kids?",
+        "Short and comforting ones, such as \"I am safe, and I am loved\" or \"I did my best today\". Say them together as part of the bedtime routine."
       ]
     ]
   }
