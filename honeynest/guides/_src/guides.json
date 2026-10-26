@@ -13,6 +13,7 @@
   "app_text": "HoneyNest lets you both log shared expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows how much each of you spent and the difference, so settling up takes one look. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-track-shared-expenses",
    "how-to-split-bills-with-your-partner",
    "proportional-bill-splitting-by-income",
    "moving-in-together-finances-checklist"
@@ -138,6 +139,7 @@
   "app_text": "HoneyNest lets you set rent and other monthly bills up once as recurring expenses, note who paid each one, and log variable bills and groceries as they come. It shows each partner's total, percentage and the difference, so you know what to settle. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-24",
   "related": [
+   "how-to-track-shared-expenses",
    "joint-vs-separate-bank-accounts-for-couples",
    "how-to-split-expenses-as-a-couple",
    "proportional-bill-splitting-by-income",
@@ -180,6 +182,7 @@
   "app_text": "Whichever setup you choose, HoneyNest keeps one shared record: log expenses from both iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows each partner's total, percentage and the difference, so separate accounts stay easy to settle and a joint account is easy to check. Your partner joins with a QR code. It's free; Premium adds your complete expense history.",
   "published": "2026-10-25",
   "related": [
+   "how-to-track-shared-expenses",
    "how-to-split-bills-with-your-partner",
    "proportional-bill-splitting-by-income",
    "moving-in-together-finances-checklist"
@@ -200,6 +203,47 @@
    [
     "Can we split costs fairly without a joint account?",
     "Yes. Pay bills from your own accounts, note who paid each one, and settle the difference once a month with one transfer."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "how-to-track-shared-expenses",
+  "ct": "track-shared-expenses",
+  "keyword": "how to track shared expenses",
+  "title": "How to Track Shared Expenses as a Couple: A Simple System",
+  "h1": "How to track shared expenses: a simple system for couples",
+  "description": "How to track shared expenses with your partner: what to record, note vs spreadsheet vs app, repeating bills, a worked example and a monthly settle-up.",
+  "lead": "A fair split starts with a record you both trust. Here's what to write down, three ways to keep the record, a worked month with real numbers, and a routine that takes a few minutes a week.",
+  "card": "What to record, note vs spreadsheet vs app, and a worked month.",
+  "image": "img/01-share.jpg",
+  "image_alt": "HoneyNest showing shared Home expenses and who paid each one",
+  "app_text": "HoneyNest is built for this: you both log shared expenses from your own iPhones, note who paid, and sort them into Home, Lifestyle and Personal. Rent and bills can repeat each month, and HoneyNest shows each partner's total, percentage and the difference for any period. You can export to CSV for your own spreadsheet. It's free; Premium adds your complete expense history.",
+  "published": "2026-10-26",
+  "related": [
+   "how-to-split-expenses-as-a-couple",
+   "how-to-split-bills-with-your-partner",
+   "joint-vs-separate-bank-accounts-for-couples"
+  ],
+  "faq": [
+   [
+    "What is the easiest way to track shared expenses?",
+    "Log each shared expense when you pay it, with the amount and who paid, in one place you can both see. A shared spreadsheet works, and an app built for couples does the totals for you."
+   ],
+   [
+    "Do we need to track personal spending too?",
+    "No. Most couples only track shared costs like rent, bills, groceries and things they do together. Personal spending can stay private unless you both want to see it."
+   ],
+   [
+    "How often should we review shared expenses?",
+    "A quick catch-up once a week to add anything missed, and a short review once a month to settle the difference, works for most couples."
+   ],
+   [
+    "How do we handle a receipt with shared and personal items?",
+    "Log only the shared part. For example, if a €110 shop included €20 of personal items, record €90 as shared."
    ]
   ],
   "image_size": [

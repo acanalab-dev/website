@@ -88,5 +88,24 @@
       "contextual: moving-in guide (accounts section)",
       "related: split-bills, proportional, moving-in guides"
     ]
+  },
+  {
+    "date": "2026-10-26",
+    "keyword": "how to track shared expenses",
+    "slug": "how-to-track-shared-expenses",
+    "source": "backlog (skipped 3 items already covered by existing guides or the app page)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ on 2026-10-26 returned no rows; site-wide only / has data"
+    },
+    "links_from": [
+      "/honeynest/ (how it works step 1, contextual)",
+      "/honeynest/ (guides section, first)",
+      "/honeynest/guides/ (hub)",
+      "contextual: how-to-split guide (track it section)",
+      "related: how-to-split, split-bills, joint-vs-separate guides"
+    ]
   }
 ]
