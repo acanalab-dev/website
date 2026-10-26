@@ -12,9 +12,9 @@
     "app_text": "Daily Affirmations gives you a fresh set every morning, a gentle reminder at the time you pick, and a widget so today's affirmation is the first thing you see when you unlock your phone.",
     "published": "2026-10-21",
     "related": [
+      "affirmations-for-work",
       "gratitude-affirmations",
-      "affirmations-for-confidence",
-      "affirmations-for-anxiety"
+      "affirmations-for-confidence"
     ],
     "faq": [
       [
@@ -156,9 +156,9 @@
     "app_text": "Confidence is one of the free categories in Daily Affirmations. Get a fresh set every morning, save the ones that feel true as favorites, and watch your streak grow as the habit builds.",
     "published": "2026-10-23",
     "related": [
+      "affirmations-for-work",
       "self-love-affirmations",
-      "affirmations-for-anxiety",
-      "morning-affirmations"
+      "affirmations-for-anxiety"
     ],
     "faq": [
       [
@@ -256,6 +256,46 @@
       [
         "What are good bedtime affirmations for kids?",
         "Short and comforting ones, such as \"I am safe, and I am loved\" or \"I did my best today\". Say them together as part of the bedtime routine."
+      ]
+    ]
+  },
+  {
+    "slug": "affirmations-for-work",
+    "keyword": "affirmations for work",
+    "title": "Affirmations for Work: 50 Phrases for Focus and Calm",
+    "h1": "Affirmations for work: 50 phrases for focus and calm",
+    "description": "50 affirmations for work to start the day, stay focused, handle stress and difficult conversations, and switch off, plus a 5-minute workday routine.",
+    "lead": "Affirmations for work are short sentences that help you start the day with intention, stay focused under pressure and actually switch off afterwards. Here are 50, grouped by moment, and a simple routine that fits around your workday.",
+    "card": "50 phrases for focus, stressful days, meetings and switching off, and a simple routine.",
+    "image": "img/04-get.jpg",
+    "image_alt": "A gentle daily reminder from the Daily Affirmations app",
+    "app_text": "Daily Affirmations sends one gentle reminder a day at the time you pick, so you can set it for just before work. Motivation and Confidence are free categories, while Career and Focus are part of Premium. Save the ones that help as favorites and keep one in a widget between meetings.",
+    "published": "2026-10-26",
+    "related": [
+      "affirmations-for-confidence",
+      "morning-affirmations",
+      "affirmations-for-sleep"
+    ],
+    "faq": [
+      [
+        "What are good affirmations for work?",
+        "Practical ones that describe how you want to act today, such as \"I give my full attention to one task at a time\" or \"I can ask for help\". They're easier to believe than big statements about success, so they're more useful in the moment."
+      ],
+      [
+        "When should I say work affirmations?",
+        "Before you start (ideally before you open email), at a stress point like a deadline or tough meeting, and when you finish to help you switch off. One or two at each moment is plenty."
+      ],
+      [
+        "Can affirmations help with work stress?",
+        "They can help you pause and respond more calmly to everyday pressure. They don't fix an unfair workload or a difficult workplace, so if stress is constant, talk to your manager, HR or someone you trust."
+      ],
+      [
+        "How do I use affirmations at work without anyone noticing?",
+        "Say them silently, write one at the top of your daily notes, keep a sticky note on your monitor, or use a phone widget. Nobody needs to know."
+      ],
+      [
+        "What's a good affirmation for a Monday?",
+        "Try \"This is a fresh day and a fresh start\" or \"I start today with one clear priority\". Pick your most important task for the week, then say it before you begin."
       ]
     ]
   }
