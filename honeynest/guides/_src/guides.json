@@ -55,6 +55,7 @@
   "app_text": "HoneyNest tracks every shared expense and who paid it, and shows each partner's total and percentage for any period. Compare those percentages with your agreed split, like 60/40, to see what to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-split-rent-with-your-partner",
    "joint-vs-separate-bank-accounts-for-couples",
    "how-to-split-bills-with-your-partner",
    "how-to-split-expenses-as-a-couple",
@@ -97,6 +98,7 @@
   "app_text": "HoneyNest helps you start your shared home organized: set rent and bills up as recurring expenses, log the extras as you go, and see who paid what each month. Invite your partner with a QR code so you both see the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-split-rent-with-your-partner",
    "joint-vs-separate-bank-accounts-for-couples",
    "how-to-split-bills-with-your-partner",
    "how-to-split-expenses-as-a-couple",
@@ -139,6 +141,7 @@
   "app_text": "HoneyNest lets you set rent and other monthly bills up once as recurring expenses, note who paid each one, and log variable bills and groceries as they come. It shows each partner's total, percentage and the difference, so you know what to settle. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-24",
   "related": [
+   "how-to-split-rent-with-your-partner",
    "how-to-track-shared-expenses",
    "joint-vs-separate-bank-accounts-for-couples",
    "how-to-split-expenses-as-a-couple",
@@ -244,6 +247,47 @@
    [
     "How do we handle a receipt with shared and personal items?",
     "Log only the shared part. For example, if a €110 shop included €20 of personal items, record €90 as shared."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "how-to-split-rent-with-your-partner",
+  "ct": "split-rent-partner",
+  "keyword": "how to split rent with your partner",
+  "title": "How to Split Rent With Your Partner: 4 Ways, With Examples",
+  "h1": "How to split rent with your partner: 4 ways, with examples",
+  "description": "How to split rent with your partner: 50/50, by income, adjusted for space, or one covers rent, with worked examples, the deposit, the lease and rent increases.",
+  "lead": "Rent is usually the biggest cost you share, so it's worth getting the split right. Here are four common ways to split it, worked examples with real numbers, and how to handle the deposit, the lease and rent increases.",
+  "card": "50/50, by income or adjusted for space, plus the deposit and rent increases.",
+  "image": "img/04-add.jpg",
+  "image_alt": "Adding a Home expense in HoneyNest with the recurring monthly option",
+  "app_text": "In HoneyNest, add rent once as a recurring monthly expense and note who pays it. Log the other shared costs as they come, and HoneyNest shows each partner's total, percentage and the difference, so you can compare it with the split you agreed and settle up. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
+  "published": "2026-10-27",
+  "related": [
+   "how-to-split-bills-with-your-partner",
+   "proportional-bill-splitting-by-income",
+   "moving-in-together-finances-checklist"
+  ],
+  "faq": [
+   [
+    "Should couples split rent 50/50?",
+    "It's a common choice when incomes are similar. When one partner earns noticeably more, many couples split rent in proportion to income instead. Either works if you both agree."
+   ],
+   [
+    "How do you split rent by income?",
+    "Divide each person's take-home pay by your combined take-home pay to get their share, then multiply the rent by that share. With incomes of €3,200 and €2,000 and rent of €1,280, that's about €788 and €492."
+   ],
+   [
+    "What if I move into my partner's flat?",
+    "Agree openly how to split the existing rent. Many couples split it 50/50 or by income, and some choose a new place together so it feels like both of yours."
+   ],
+   [
+    "Who should pay the rental deposit?",
+    "Couples often split it the same way as the rent. Write down who paid what, and agree what happens to it if one of you moves out."
    ]
   ],
   "image_size": [

@@ -107,5 +107,23 @@
       "contextual: how-to-split guide (track it section)",
       "related: how-to-split, split-bills, joint-vs-separate guides"
     ]
+  },
+  {
+    "date": "2026-10-27",
+    "keyword": "how to split rent with your partner",
+    "slug": "how-to-split-rent-with-your-partner",
+    "source": "backlog (skipped splitwise alternative: competitor comparison, asked Jurica)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ on 2026-10-27 returned no rows yet"
+    },
+    "links_from": [
+      "/honeynest/ (guides section, first)",
+      "/honeynest/guides/ (hub)",
+      "contextual: split-bills guide (each takes some bills)",
+      "related: split-bills, proportional, moving-in guides"
+    ]
   }
 ]
