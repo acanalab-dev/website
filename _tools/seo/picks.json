@@ -88,5 +88,23 @@
       "related: confidence, morning guides",
       "/dailyaffirmationsapp/guides/ (hub)"
     ]
+  },
+  {
+    "date": "2026-10-27",
+    "keyword": "positive affirmations for kids",
+    "slug": "positive-affirmations-for-kids",
+    "source": "backlog",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console still returns no rows for the last 28 days"
+    },
+    "links_from": [
+      "/dailyaffirmationsapp/ (guides section)",
+      "/dailyaffirmationsapp/guides/affirmations-for-sleep/ (kids section)",
+      "related: sleep, self-love guides",
+      "/dailyaffirmationsapp/guides/ (hub)"
+    ]
   }
 ]

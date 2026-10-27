@@ -84,9 +84,9 @@
     "app_text": "Self Love is one of the free categories in Daily Affirmations. Swipe through a new set each day, save the ones that land as favorites, and share them as cards with someone who needs them too.",
     "published": "2026-10-21",
     "related": [
+      "positive-affirmations-for-kids",
       "gratitude-affirmations",
-      "affirmations-for-confidence",
-      "affirmations-for-anxiety"
+      "affirmations-for-confidence"
     ],
     "faq": [
       [
@@ -232,9 +232,9 @@
     "app_text": "Rest and Peace are both free categories in Daily Affirmations. Set your daily reminder for the evening if bedtime suits you best, save the calming ones as favorites, and keep one on your Lock Screen with a widget.",
     "published": "2026-10-25",
     "related": [
+      "positive-affirmations-for-kids",
       "affirmations-for-anxiety",
-      "gratitude-affirmations",
-      "morning-affirmations"
+      "gratitude-affirmations"
     ],
     "faq": [
       [
@@ -296,6 +296,46 @@
       [
         "What's a good affirmation for a Monday?",
         "Try \"This is a fresh day and a fresh start\" or \"I start today with one clear priority\". Pick your most important task for the week, then say it before you begin."
+      ]
+    ]
+  },
+  {
+    "slug": "positive-affirmations-for-kids",
+    "keyword": "positive affirmations for kids",
+    "title": "Positive Affirmations for Kids: 50 Simple Phrases by Age",
+    "h1": "Positive affirmations for kids: 50 simple phrases",
+    "description": "50 positive affirmations for kids, from little ones to teens, for school, friendships and big feelings, plus fun activities and tips for parents.",
+    "lead": "Positive affirmations for kids are short, simple sentences that help children build a kind and confident inner voice. Here are 50, grouped by age and situation, with easy ways to teach them and fun activities to try at home or in class.",
+    "card": "50 simple phrases for little kids, school, friendships, big feelings and teens.",
+    "image": "img/06-save.jpg",
+    "image_alt": "Saved favorite affirmations in the Daily Affirmations app",
+    "app_text": "Daily Affirmations is made for grown-ups, but it's a handy source for parents and teachers. Save the affirmations that suit your family as favorites, share them as cards, and keep a daily habit of your own so your kids see you do it too.",
+    "published": "2026-10-27",
+    "related": [
+      "affirmations-for-sleep",
+      "self-love-affirmations",
+      "affirmations-for-confidence"
+    ],
+    "faq": [
+      [
+        "What are positive affirmations for kids?",
+        "Short, simple sentences children repeat to themselves, such as \"I can do hard things\" or \"Mistakes help me learn\". They help kids build a kinder, more confident way of talking to themselves."
+      ],
+      [
+        "At what age can kids start using affirmations?",
+        "Even preschoolers can say very short ones like \"I am brave\" or \"I am loved\" together with a parent. From around school age, kids can choose their own, and teens often prefer writing them down privately."
+      ],
+      [
+        "When is the best time to say affirmations with kids?",
+        "Attach them to something you already do every day: the school run, breakfast or bedtime. One minute is plenty."
+      ],
+      [
+        "How do I get my child to say affirmations?",
+        "Do it together, keep it playful and let them choose. An affirmation jar, mirror talk or decorated cards make it feel like a game rather than a task."
+      ],
+      [
+        "Can affirmations help a child with anxiety?",
+        "They can be a comforting everyday habit, especially paired with slow breathing. They aren't a treatment, so if worries last for weeks or get in the way of daily life, talk to their teacher, school counselor or doctor."
       ]
     ]
   }
