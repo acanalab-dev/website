@@ -106,5 +106,23 @@
       "related: sleep, self-love guides",
       "/dailyaffirmationsapp/guides/ (hub)"
     ]
+  },
+  {
+    "date": "2026-10-28",
+    "keyword": "affirmations for healing",
+    "slug": "affirmations-for-healing",
+    "source": "backlog",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console still returns no rows for the last 28 days"
+    },
+    "links_from": [
+      "/dailyaffirmationsapp/ (guides section)",
+      "/dailyaffirmationsapp/guides/self-love-affirmations/ (growth section)",
+      "related: self-love, anxiety guides",
+      "/dailyaffirmationsapp/guides/ (hub)"
+    ]
   }
 ]
