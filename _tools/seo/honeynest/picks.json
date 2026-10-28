@@ -125,5 +125,23 @@
       "contextual: split-bills guide (each takes some bills)",
       "related: split-bills, proportional, moving-in guides"
     ]
+  },
+  {
+    "date": "2026-10-28",
+    "keyword": "splitting groceries with your partner",
+    "slug": "splitting-groceries-with-your-partner",
+    "source": "backlog (skipped 'what bills to split when living together': covered by existing guides)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ on 2026-10-28 returned no rows yet"
+    },
+    "links_from": [
+      "/honeynest/ (guides section, first)",
+      "/honeynest/guides/ (hub)",
+      "contextual: track-shared-expenses guide (mixed receipts)",
+      "related: track, split-bills, how-to-split guides"
+    ]
   }
 ]

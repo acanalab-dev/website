@@ -13,6 +13,7 @@
   "app_text": "HoneyNest lets you both log shared expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows how much each of you spent and the difference, so settling up takes one look. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "splitting-groceries-with-your-partner",
    "how-to-track-shared-expenses",
    "how-to-split-bills-with-your-partner",
    "proportional-bill-splitting-by-income",
@@ -141,6 +142,7 @@
   "app_text": "HoneyNest lets you set rent and other monthly bills up once as recurring expenses, note who paid each one, and log variable bills and groceries as they come. It shows each partner's total, percentage and the difference, so you know what to settle. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-24",
   "related": [
+   "splitting-groceries-with-your-partner",
    "how-to-split-rent-with-your-partner",
    "how-to-track-shared-expenses",
    "joint-vs-separate-bank-accounts-for-couples",
@@ -227,6 +229,7 @@
   "app_text": "HoneyNest is built for this: you both log shared expenses from your own iPhones, note who paid, and sort them into Home, Lifestyle and Personal. Rent and bills can repeat each month, and HoneyNest shows each partner's total, percentage and the difference for any period. You can export to CSV for your own spreadsheet. It's free; Premium adds your complete expense history.",
   "published": "2026-10-26",
   "related": [
+   "splitting-groceries-with-your-partner",
    "how-to-split-expenses-as-a-couple",
    "how-to-split-bills-with-your-partner",
    "joint-vs-separate-bank-accounts-for-couples"
@@ -288,6 +291,47 @@
    [
     "Who should pay the rental deposit?",
     "Couples often split it the same way as the rent. Write down who paid what, and agree what happens to it if one of you moves out."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "splitting-groceries-with-your-partner",
+  "ct": "split-groceries-partner",
+  "keyword": "splitting groceries with your partner",
+  "title": "Splitting Groceries With Your Partner: 5 Fair Ways",
+  "h1": "Splitting groceries with your partner: 5 fair ways",
+  "description": "How to split groceries with your partner: what counts as shared, five ways to split, mixed receipts, a worked month with real numbers and a rough grocery budget.",
+  "lead": "Groceries are the shared cost you pay most often, and the one with the most grey areas. Here's how to agree what's shared, five ways to split it, how to handle mixed receipts, and a worked month with real numbers.",
+  "card": "What's shared, five ways to split, mixed receipts and a worked month.",
+  "image": "img/03-split.jpg",
+  "image_alt": "HoneyNest showing the spending split between two partners",
+  "app_text": "In HoneyNest, each of you logs grocery shops from your own iPhone with the amount and who paid, in the Home category, and personal extras can go in Personal so they stay out of the shared totals. HoneyNest shows each partner's total, percentage and the difference, so a monthly settle-up takes one look. It's free; Premium adds your complete expense history.",
+  "published": "2026-10-28",
+  "related": [
+   "how-to-track-shared-expenses",
+   "how-to-split-bills-with-your-partner",
+   "how-to-split-expenses-as-a-couple"
+  ],
+  "faq": [
+   [
+    "Should couples split groceries 50/50?",
+    "It's the simplest option and works well if you eat mostly the same things. If your tastes or appetites differ a lot, many couples split shared basics and pay for personal extras themselves."
+   ],
+   [
+    "How do you split a grocery receipt with personal items?",
+    "Take the personal items off the total and log the rest as shared. For example, if an €84 shop included €12 of personal items, record €72 as shared."
+   ],
+   [
+    "What if one partner eats more?",
+    "You can agree an adjusted split, like 55/45, or have each person buy their own extras. Agree it once rather than debating each shop."
+   ],
+   [
+    "How often should we settle grocery costs?",
+    "Once a month, together with your other shared costs, is easiest. Settling after every shop creates lots of small transfers."
    ]
   ],
   "image_size": [
