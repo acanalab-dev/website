@@ -102,6 +102,7 @@ input[type="text"], input[type="email"], textarea {
 }
 input[type="text"]:focus, input[type="email"]:focus, textarea:focus { border-color: var(--p); box-shadow: 0 0 0 3px color-mix(in srgb, var(--p) 25%, transparent); }
 textarea { resize: vertical; min-height: 110px; }
+.store-name b { color: var(--text); font-weight: 600; overflow-wrap: anywhere; }
 .count { float: right; font-weight: 400; color: var(--muted); font-size: 12px; }
 
 .color-row { display: flex; gap: 10px; align-items: center; }
@@ -380,6 +381,18 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
         <div class="warn" id="nameWarn" hidden>On some iPhones this name may not fit under the icon and will end in "…". A shorter name always shows in full.</div>
       </div>
       <div class="field">
+        <label class="lbl" for="storeTitle">Title description <span class="count" id="storeCount"></span></label>
+        <input type="text" id="storeTitle" maxlength="27" autocomplete="off">
+        <p class="hint">Added after your app name in the App Store, like "Daily Affirmations - Your Best". The full App Store name, including the dash between the two, can be up to 30 characters.</p>
+        <p class="hint store-name">App Store name: <b id="storeName"></b></p>
+        <div class="warn" id="storeWarn" hidden></div>
+      </div>
+      <div class="field">
+        <label class="lbl" for="subtitle">Subtitle <span class="count" data-count-for="subtitle"></span></label>
+        <input type="text" id="subtitle" maxlength="30" autocomplete="off">
+        <p class="hint">The short line under your name in the App Store, like "Positive Thinking &amp; Self Care".</p>
+      </div>
+      <div class="field">
         <span class="lbl">App icon</span>
         <div class="choice" role="radiogroup" aria-label="App icon">
           <label><input type="radio" name="iconMode" value="text"><span><b>Make one from my words</b><span>Your words in handwritten script on a card, in your brand colors.</span></span></label>
@@ -646,6 +659,8 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
   // ---------- Defaults: the current Daily Affirmations brand (BrandConfig.swift) ----------
   var DEFAULTS = {
     appName: "Affirmations",
+    storeTitle: "Daily Kindness", // App Store name = appName + " - " + storeTitle (30 max)
+    subtitle: "Positive Thinking & Self Care",
     iconMode: "text",       // "text" = generated from iconText, "upload" = appIcon
     iconText: "From Jane",
     appIcon: null,          // uploaded { name, dataUrl, w, h }
@@ -767,6 +782,22 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     state.appName = clean;
     changed(true);
   });
+  ["storeTitle", "subtitle"].forEach(function (key) {
+    $(key).addEventListener("input", function () {
+      var clean = stripEmoji(this.value);
+      if (clean !== this.value) this.value = clean;
+      state[key] = clean;
+      changed(true);
+    });
+  });
+
+  // The App Store name is "<app name> - <title description>", 30 characters at most.
+  var STORE_MAX = 30, SEP = " - ";
+  function storeName() {
+    var n = (state.appName || "").trim(), d = (state.storeTitle || "").trim();
+    return d ? n + SEP + d : n;
+  }
+  function storeRoom() { return Math.max(0, STORE_MAX - (state.appName || "").trim().length - SEP.length); }
 
   function bindColor(pickId, textId, get, set) {
     $(pickId).addEventListener("input", function () { set(this.value.slice(1)); changed(); });
@@ -827,7 +858,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
   }
 
   function syncInputs() {
-    ["appName", "iconText", "eyebrow", "greeting", "message", "signature", "categoryName", "sample", "supportEmail"].forEach(function (k) {
+    ["appName", "storeTitle", "subtitle", "iconText", "eyebrow", "greeting", "message", "signature", "categoryName", "sample", "supportEmail"].forEach(function (k) {
       if ($(k).value !== state[k]) $(k).value = state[k];
     });
     function setColor(pick, text, h) {
@@ -904,6 +935,14 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     var low = [state.primary, state.secondary].concat(own ? light : []).filter(function (h) { return contrastWithWhite(h) < 2.6; });
     $("colorWarn").hidden = !low.length;
     $("colorWarn").textContent = low.length ? "White text is hard to read on #" + low[0] + ". A slightly darker shade works better for buttons and cards." : "";
+
+    // App Store name: the description field only allows what fits after the app name and " - ".
+    var full = storeName(), over = full.length - STORE_MAX;
+    $("storeTitle").maxLength = Math.max(storeRoom(), (state.storeTitle || "").length);
+    $("storeCount").textContent = full.length + "/" + STORE_MAX;
+    $("storeName").textContent = full || "\u2014";
+    $("storeWarn").hidden = over <= 0;
+    $("storeWarn").textContent = over > 0 ? "The App Store name is " + over + " character" + (over === 1 ? "" : "s") + " too long. Shorten the app name or the title description." : "";
 
     // Character counters
     document.querySelectorAll("[data-count-for]").forEach(function (el) {
@@ -1037,6 +1076,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
       "    }",
       "",
       "    // App name (Display Name): " + (state.appName || "").trim(),
+      "    // App Store name: " + storeName() + "  |  Subtitle: " + (state.subtitle || "").trim(),
       "    // Legal.supportEmail: " + supportEmail()
     ].join("\n");
   }
@@ -1047,6 +1087,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
       version: 1,
       exportedAt: new Date().toISOString(),
       appName: state.appName,
+      appStore: { name: storeName(), titleDescription: (state.storeTitle || "").trim(), subtitle: (state.subtitle || "").trim() },
       appIcon: state.iconMode === "upload"
         ? (state.appIcon ? Object.assign({ source: "upload" }, state.appIcon) : null)
         : { source: "text", text: state.iconText, name: "AppIcon.png", dataUrl: textIconUrl() },
@@ -1067,6 +1108,9 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     var c = d.colors || {}, w = d.welcome || {}, k = d.creator || {};
     var next = clone(DEFAULTS);
     next.appName = stripEmoji(d.appName).slice(0, 18);
+    var st = d.appStore || {};
+    next.storeTitle = stripEmoji(st.titleDescription || "");
+    next.subtitle = stripEmoji(st.subtitle || "").slice(0, 30);
     var ai = d.appIcon || null;
     if (ai && ai.source === "text") { next.iconMode = "text"; next.iconText = ai.text || ""; next.appIcon = null; }
     else { next.iconMode = ai ? "upload" : "text"; next.appIcon = ai; if (!ai) next.iconText = ""; }
@@ -1104,6 +1148,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     var t = function (v) { return (v || "").trim(); };
     var m = [];
     if (!t(state.appName)) m.push({ label: "App name", focus: "appName" });
+    if (storeName().length > STORE_MAX) m.push({ label: "App Store name: app name and title description are over 30 characters", focus: "storeTitle" });
     if (state.iconMode === "upload" && !state.appIcon) m.push({ label: "App icon: upload your icon, or choose \u201cMake one from my words\u201d", focus: "iconUploadBox" });
     if (state.iconMode === "text" && !t(state.iconText)) m.push({ label: "Words on the icon", focus: "iconText" });
     if (!validEmail(state.supportEmail)) m.push({ label: "Support email: enter a valid email", focus: "supportEmail" });
@@ -1114,7 +1159,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
   var triedDownload = false;
   function showMissing() {
     var m = triedDownload ? missingFields() : [];
-    ["appName", "iconText", "message", "categoryName", "supportEmail"].forEach(function (id) { $(id).classList.remove("invalid"); });
+    ["appName", "storeTitle", "iconText", "message", "categoryName", "supportEmail"].forEach(function (id) { $(id).classList.remove("invalid"); });
     $("iconUploadBox").classList.remove("invalid");
     m.forEach(function (f) { $(f.focus).classList.add("invalid"); });
     var box = $("missingBox");
