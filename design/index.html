@@ -115,12 +115,6 @@ textarea { resize: vertical; min-height: 110px; }
 .appstore .atext b { font-size: 17px; font-weight: 600; line-height: 1.2; overflow-wrap: anywhere; }
 .appstore .atext span { font-size: 13px; color: var(--ios-secondary); line-height: 1.25; overflow-wrap: anywhere; }
 .appstore .get { flex-shrink: 0; padding: 6px 20px; border-radius: 99px; background: var(--ios-fill); color: var(--ios-blue); font-size: 15px; font-weight: 700; }
-.appstore .shots { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; padding: 0 16px; }
-.appstore .shot { aspect-ratio: 9 / 19.5; border-radius: 14px; background: linear-gradient(160deg, var(--p), var(--s)); color: #fff; display: flex; flex-direction: column; align-items: center; padding: 14px 6px 0; overflow: hidden; }
-.appstore .shot b { font-size: 15px; font-weight: 800; letter-spacing: .02em; }
-.appstore .shot i { font-style: normal; font-size: 9px; font-weight: 600; opacity: .9; margin-top: 2px; text-align: center; }
-.appstore .shot .mini { margin-top: 12px; width: 78%; flex: 1; border-radius: 12px 12px 0 0; background: rgba(255,255,255,.92); }
-.ios-dark .appstore .shot .mini { background: rgba(20,20,22,.9); }
 .count { float: right; font-weight: 400; color: var(--muted); font-size: 12px; }
 
 .color-row { display: flex; gap: 10px; align-items: center; }
@@ -550,11 +544,6 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
             <div class="aico" data-store-icon></div>
             <div class="atext"><b id="storeName"></b><span id="storeSub"></span></div>
             <span class="get">Get</span>
-          </div>
-          <div class="shots" aria-hidden="true">
-            <div class="shot"><b>START</b><i>your day</i><div class="mini"></div></div>
-            <div class="shot"><b>SWIPE</b><i>through fresh ones</i><div class="mini"></div></div>
-            <div class="shot"><b>SAVE</b><i>the ones you love</i><div class="mini"></div></div>
           </div>
         </div></div></div>
         <div class="cap">On the App Store</div>
