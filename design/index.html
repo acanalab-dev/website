@@ -102,15 +102,25 @@ input[type="text"], input[type="email"], textarea {
 }
 input[type="text"]:focus, input[type="email"]:focus, textarea:focus { border-color: var(--p); box-shadow: 0 0 0 3px color-mix(in srgb, var(--p) 25%, transparent); }
 textarea { resize: vertical; min-height: 110px; }
-.store-card { margin: 4px 0 16px; padding: 12px 14px 14px; border-radius: 14px; border: 1px solid color-mix(in srgb, var(--p) 35%, var(--line)); background: color-mix(in srgb, var(--p) 8%, var(--panel)); }
-.store-eyebrow { display: block; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--p); margin-bottom: 8px; }
-.store-row { display: flex; align-items: center; gap: 12px; }
-.store-ico { width: 52px; height: 52px; border-radius: 12px; overflow: hidden; flex-shrink: 0; background: var(--field); box-shadow: 0 0 0 .5px rgba(0,0,0,.12); }
-.store-ico img { width: 100%; height: 100%; display: block; }
-.store-text { min-width: 0; flex: 1; display: grid; gap: 2px; }
-.store-text b { font-size: 16px; font-weight: 700; line-height: 1.25; color: var(--text); overflow-wrap: anywhere; }
-.store-text span { font-size: 13px; color: var(--muted); overflow-wrap: anywhere; }
-.store-get { flex-shrink: 0; padding: 5px 16px; border-radius: 99px; font-size: 14px; font-weight: 700; color: #fff; background: linear-gradient(90deg, var(--p), var(--s)); }
+/* App Store search result (preview) */
+.appstore { background: var(--ios-bg); height: 100%; position: relative; color: var(--ios-label); }
+.appstore .bigtitle { font-size: 34px; font-weight: 700; letter-spacing: .01em; padding: 10px 16px 8px; }
+.appstore .search { margin: 0 16px; height: 38px; border-radius: 12px; background: var(--ios-fill); display: flex; align-items: center; gap: 6px; padding: 0 10px; font-size: 17px; color: var(--ios-label); }
+.appstore .search svg { width: 18px; height: 18px; color: var(--ios-secondary); flex-shrink: 0; }
+.appstore .search span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.appstore .result { display: flex; align-items: center; gap: 12px; padding: 22px 16px 14px; }
+.appstore .aico { width: 64px; height: 64px; border-radius: 15px; overflow: hidden; flex-shrink: 0; box-shadow: 0 0 0 .5px rgba(0,0,0,.15); background: var(--ios-fill); }
+.appstore .aico img { width: 100%; height: 100%; display: block; }
+.appstore .atext { min-width: 0; flex: 1; display: grid; gap: 3px; }
+.appstore .atext b { font-size: 17px; font-weight: 600; line-height: 1.2; overflow-wrap: anywhere; }
+.appstore .atext span { font-size: 13px; color: var(--ios-secondary); line-height: 1.25; overflow-wrap: anywhere; }
+.appstore .get { flex-shrink: 0; padding: 6px 20px; border-radius: 99px; background: var(--ios-fill); color: var(--ios-blue); font-size: 15px; font-weight: 700; }
+.appstore .shots { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; padding: 0 16px; }
+.appstore .shot { aspect-ratio: 9 / 19.5; border-radius: 14px; background: linear-gradient(160deg, var(--p), var(--s)); color: #fff; display: flex; flex-direction: column; align-items: center; padding: 14px 6px 0; overflow: hidden; }
+.appstore .shot b { font-size: 15px; font-weight: 800; letter-spacing: .02em; }
+.appstore .shot i { font-style: normal; font-size: 9px; font-weight: 600; opacity: .9; margin-top: 2px; text-align: center; }
+.appstore .shot .mini { margin-top: 12px; width: 78%; flex: 1; border-radius: 12px 12px 0 0; background: rgba(255,255,255,.92); }
+.ios-dark .appstore .shot .mini { background: rgba(20,20,22,.9); }
 .count { float: right; font-weight: 400; color: var(--muted); font-size: 12px; }
 
 .color-row { display: flex; gap: 10px; align-items: center; }
@@ -399,14 +409,6 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
         <input type="text" id="subtitle" maxlength="30" autocomplete="off">
         <p class="hint">The short line under your name in the App Store.</p>
       </div>
-      <div class="store-card" aria-live="polite">
-        <span class="store-eyebrow">On the App Store</span>
-        <div class="store-row">
-          <div class="store-ico" data-store-icon></div>
-          <div class="store-text"><b id="storeName"></b><span id="storeSub"></span></div>
-          <span class="store-get">Get</span>
-        </div>
-      </div>
       <div class="field">
         <span class="lbl">App icon</span>
         <div class="choice" role="radiogroup" aria-label="App icon">
@@ -537,6 +539,26 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
   <!-- ======================= Previews ======================= -->
   <section class="previews" aria-label="Live preview">
     <div class="phones ios-light" id="phones">
+
+      <!-- App Store search result -->
+      <div class="phone-card">
+        <div class="phone-wrap"><div class="bezel"><div class="screen appstore">
+          <div class="status"><span>9:41</span><span class="island"></span><span class="bars">●●● <span class="batt"></span></span></div>
+          <div class="bigtitle">Search</div>
+          <div class="search"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5l5 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg><span data-bind="appName"></span></div>
+          <div class="result" aria-live="polite">
+            <div class="aico" data-store-icon></div>
+            <div class="atext"><b id="storeName"></b><span id="storeSub"></span></div>
+            <span class="get">Get</span>
+          </div>
+          <div class="shots" aria-hidden="true">
+            <div class="shot"><b>START</b><i>your day</i><div class="mini"></div></div>
+            <div class="shot"><b>SWIPE</b><i>through fresh ones</i><div class="mini"></div></div>
+            <div class="shot"><b>SAVE</b><i>the ones you love</i><div class="mini"></div></div>
+          </div>
+        </div></div></div>
+        <div class="cap">On the App Store</div>
+      </div>
 
       <!-- Home screen -->
       <div class="phone-card">
