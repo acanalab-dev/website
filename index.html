@@ -67,10 +67,8 @@ a { color: var(--accent); }
 /* ---------- Top bar ---------- */
 .top { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 85%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
 .top .wrap { display: flex; align-items: center; gap: 20px; height: 56px; }
-.logo { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; letter-spacing: -.01em; color: var(--text); text-decoration: none; white-space: nowrap; }
-.logo img { width: 30px; height: 30px; border-radius: 7px; display: block; }
-@media (max-width: 400px) { .logo { font-size: 14px; gap: 8px; } .top .btn.small { padding: 8px 12px; font-size: 13px; } }
-@media (max-width: 350px) { .logo span { display: none; } }
+.logo { display: inline-flex; align-items: baseline; font-size: 21px; font-weight: 800; letter-spacing: -.03em; color: var(--text); text-decoration: none; white-space: nowrap; }
+@media (max-width: 400px) { .logo { font-size: 18px; } .top .btn.small { padding: 8px 12px; font-size: 13px; } }
 .top nav { display: flex; gap: 18px; margin-left: auto; font-size: 14px; }
 .top nav a { color: var(--muted); text-decoration: none; }
 .top nav a:hover { color: var(--text); }
@@ -88,7 +86,7 @@ a { color: var(--accent); }
 .hero .wrap { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 48px; align-items: center; }
 .eyebrow { display: inline-block; font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
 h1 { font-size: clamp(36px, 6vw, 56px); line-height: 1.05; letter-spacing: -.03em; margin: 0 0 18px; }
-h1 .grad { background: linear-gradient(135deg, var(--brand-a), var(--brand-b)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+h1 .grad, .logo .grad { background: linear-gradient(135deg, var(--brand-a), var(--brand-b)); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .lead { font-size: 19px; color: var(--muted); margin: 0 0 28px; max-width: 34em; }
 .cta { display: flex; flex-wrap: wrap; gap: 12px; }
 .own { font-size: 17px; line-height: 1.45; margin: 28px 0 0; padding: 2px 0 2px 14px; border-left: 3px solid; border-image: linear-gradient(180deg, var(--brand-a), var(--brand-b)) 1; color: var(--text); max-width: 32em; }
@@ -240,7 +238,7 @@ footer .love { margin-top: 8px; } footer .love span { color: #e2667a; }
 
 <header class="top">
   <div class="wrap">
-    <a class="logo" href="#"><img src="creator-icon.png" alt="" width="30" height="30"><span>Own Your App</span></a>
+    <a class="logo" href="#">Own Your&nbsp;<span class="grad">App</span></a>
     <nav>
       <a href="#app">The app</a>
       <a href="#how">How it works</a>
