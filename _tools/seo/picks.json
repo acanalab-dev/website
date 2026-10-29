@@ -124,5 +124,23 @@
       "related: self-love, anxiety guides",
       "/dailyaffirmationsapp/guides/ (hub)"
     ]
+  },
+  {
+    "date": "2026-10-29",
+    "keyword": "affirmations for success",
+    "slug": "affirmations-for-success",
+    "source": "backlog",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console still returns no rows; sitemap last downloaded 2026-10-22 (10 submitted, 0 indexed)"
+    },
+    "links_from": [
+      "/dailyaffirmationsapp/ (guides section)",
+      "/dailyaffirmationsapp/guides/affirmations-for-work/ (start section)",
+      "related: work, confidence guides",
+      "/dailyaffirmationsapp/guides/ (hub)"
+    ]
   }
 ]

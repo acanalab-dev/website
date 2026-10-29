@@ -156,9 +156,9 @@
     "app_text": "Confidence is one of the free categories in Daily Affirmations. Get a fresh set every morning, save the ones that feel true as favorites, and watch your streak grow as the habit builds.",
     "published": "2026-10-23",
     "related": [
+      "affirmations-for-success",
       "affirmations-for-work",
-      "self-love-affirmations",
-      "affirmations-for-anxiety"
+      "self-love-affirmations"
     ],
     "faq": [
       [
@@ -272,9 +272,9 @@
     "app_text": "Daily Affirmations sends one gentle reminder a day at the time you pick, so you can set it for just before work. Motivation and Confidence are free categories, while Career and Focus are part of Premium. Save the ones that help as favorites and keep one in a widget between meetings.",
     "published": "2026-10-26",
     "related": [
+      "affirmations-for-success",
       "affirmations-for-confidence",
-      "morning-affirmations",
-      "affirmations-for-sleep"
+      "morning-affirmations"
     ],
     "faq": [
       [
@@ -376,6 +376,46 @@
       [
         "Are affirmations a replacement for therapy?",
         "No. They're a supportive habit you can use alongside therapy or other help. If pain feels overwhelming or isn't easing, reach out to a professional."
+      ]
+    ]
+  },
+  {
+    "slug": "affirmations-for-success",
+    "keyword": "affirmations for success",
+    "title": "Affirmations for Success: 50 Phrases to Reach Your Goals",
+    "h1": "Affirmations for success: 50 phrases to reach your goals",
+    "description": "50 affirmations for success for your mindset, goals, setbacks and career, plus a 5-minute daily routine that ties affirmations to real action.",
+    "lead": "Affirmations for success are short sentences that keep your mind on your goals and your effort, especially when progress is slow. Here are 50, grouped by what you're working on, and a 5-minute routine that turns them into daily action.",
+    "card": "50 phrases for goals, setbacks, career and success with balance.",
+    "image": "img/05-build.jpg",
+    "image_alt": "Building a daily habit with streaks in Daily Affirmations",
+    "app_text": "Motivation, Growth and Abundance are free categories in Daily Affirmations, and Career and Purpose are part of Premium. A fresh set arrives every morning, your streak shows how consistent you've been, and a widget keeps your favorite in sight while you work.",
+    "published": "2026-10-29",
+    "related": [
+      "affirmations-for-work",
+      "affirmations-for-confidence",
+      "morning-affirmations"
+    ],
+    "faq": [
+      [
+        "Do affirmations for success really work?",
+        "They work as a mindset tool, not as magic. Repeating a sentence like \"I take one action toward my goal every day\" keeps your attention on your goal and makes it easier to act. The results still come from the actions you take."
+      ],
+      [
+        "What is a good affirmation for success?",
+        "One tied to effort and growth, such as \"My effort today builds my results tomorrow\" or \"I finish what I start\". These stay believable even on days when results are slow."
+      ],
+      [
+        "When should I say success affirmations?",
+        "In the morning before you plan your day works well, and again before an important task, meeting or decision. Pair each one with a concrete action."
+      ],
+      [
+        "How do I stay motivated when success takes a long time?",
+        "Track small steps and review them weekly, celebrate milestones, and use affirmations for setbacks on hard days. Consistency matters more than motivation."
+      ],
+      [
+        "Can affirmations help with fear of failure?",
+        "They can help you reframe it, for example \"Failure is feedback, not a final verdict\". Taking small, low-risk steps alongside them is what builds real confidence over time."
       ]
     ]
   }
