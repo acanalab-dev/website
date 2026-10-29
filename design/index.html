@@ -742,7 +742,12 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
   function load() {
     try {
       var raw = localStorage.getItem(STORE_KEY);
-      if (raw) return Object.assign(clone(DEFAULTS), JSON.parse(raw));
+      if (raw) {
+        var saved = JSON.parse(raw);
+        // An early version saved this as the default subtitle; show the current default instead.
+        if (saved.subtitle === "Positive Thinking & Self Care") delete saved.subtitle;
+        return Object.assign(clone(DEFAULTS), saved);
+      }
     } catch (e) {}
     return clone(DEFAULTS);
   }
