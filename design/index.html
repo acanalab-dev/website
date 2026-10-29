@@ -380,7 +380,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
       <div class="field">
         <span class="lbl">App icon</span>
         <div class="choice" role="radiogroup" aria-label="App icon">
-          <label><input type="radio" name="iconMode" value="text"><span><b>Make one from my words</b><span>Your words in handwritten script on a dark background.</span></span></label>
+          <label><input type="radio" name="iconMode" value="text"><span><b>Make one from my words</b><span>Your words in handwritten script on a card, in your brand colors.</span></span></label>
           <label><input type="radio" name="iconMode" value="upload"><span><b>Upload my own icon</b><span>Already have an icon you like? You can use it instead.</span></span></label>
         </div>
         <div id="iconTextBox">
@@ -694,8 +694,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     light: ["e2667a", "f2929e"], dark: ["c94b5e", "a23550"]
   };
 
-  // Generated icon: same look as the Daily Affirmations icon.
-  var ICON_BG = "#3a3a3a";
+  // Generated icon: same card deck as the Daily Affirmations icon, in the brand colors.
   var ICON_FONT = '"Qwitcher Grypen", "Snell Roundhand", "Brush Script MT", cursive';
 
   var STORE_KEY = "affirm-brand-picker-v1";
@@ -927,23 +926,48 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     $("dlIcon").hidden = !iconSrc;
   }
 
-  // Draws the text icon at App Store size (1024 px): one word per line, script font, dark background.
+  // Draws the text icon at App Store size (1024 px): the Daily Affirmations card deck
+  // (two stacked cards on the brand gradient) with the words in script on the front card.
   var iconCache = { key: null, url: null };
+  function rrect(g, x, y, w, h, r) {
+    g.beginPath(); g.moveTo(x + r, y);
+    g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r);
+    g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath();
+  }
   function textIconUrl() {
     var text = (state.iconText || "").trim();
-    var key = text + "|" + fontReady;
+    var p = "#" + state.primary, s = "#" + state.secondary;
+    var key = [text, p, s, fontReady].join("|");
     if (iconCache.key === key) return iconCache.url;
     var size = 1024, c = document.createElement("canvas");
     c.width = c.height = size;
     var g = c.getContext("2d");
-    g.fillStyle = ICON_BG; g.fillRect(0, 0, size, size);
+    var bg = g.createLinearGradient(0, 0, size, size);
+    bg.addColorStop(0, p); bg.addColorStop(1, s);
+    g.fillStyle = bg; g.fillRect(0, 0, size, size);
+    var glow = g.createRadialGradient(size * 0.2, size * 0.1, 0, size * 0.2, size * 0.1, size * 0.9);
+    glow.addColorStop(0, "rgba(255,255,255,0.24)"); glow.addColorStop(1, "rgba(255,255,255,0)");
+    g.fillStyle = glow; g.fillRect(0, 0, size, size);
+
+    var w = size * 0.50, h = size * 0.60, r = size * 0.07;
+    // Back card: translucent white, tilted right.
+    g.save(); g.translate(size * 0.56, size * 0.47); g.rotate(10 * Math.PI / 180);
+    g.fillStyle = "rgba(255,255,255,0.37)"; rrect(g, -w / 2, -h / 2, w, h, r); g.fill();
+    g.restore();
+    // Front card: white with a soft shadow, tilted left.
+    g.save(); g.translate(size * 0.475, size * 0.525); g.rotate(-6 * Math.PI / 180);
+    g.shadowColor = "rgba(30,16,80,0.43)"; g.shadowBlur = 50; g.shadowOffsetY = 20;
+    var face = g.createLinearGradient(-w / 2, -h / 2, w / 2, h / 2);
+    face.addColorStop(0, "#ffffff"); face.addColorStop(1, "#f4f0ff");
+    g.fillStyle = face; rrect(g, -w / 2, -h / 2, w, h, r); g.fill();
+    g.shadowColor = "transparent";
+
+    // Words: one per line (two per line past four words), as large as fits inside the card.
     var words = text ? text.split(/\s+/) : [];
-    var lines = words.length > 3 ? [words.slice(0, Math.ceil(words.length / 2)).join(" "), words.slice(Math.ceil(words.length / 2)).join(" ")] : words;
+    var lines = words;
+    if (words.length > 4) { lines = []; for (var i = 0; i < words.length; i += 2) lines.push(words.slice(i, i + 2).join(" ")); }
     if (lines.length) {
-      // Proportions measured from the Daily Affirmations "you got this" icon:
-      // ink block about 680 px wide and 810 px tall, lines 0.55 em apart,
-      // each line shifted 0.1 em further right than the one above.
-      var LH = 0.55, STEP = 0.1, MAX_W = 690, MAX_H = 810, MAX_FS = 600;
+      var LH = 0.62, MAX_W = w * 0.82, MAX_H = h * 0.80, MAX_FS = 360;
       g.font = "700 100px " + ICON_FONT;
       var m = lines.map(function (l) {
         var t = g.measureText(l);
@@ -951,18 +975,19 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
                  asc: t.actualBoundingBoxAscent / 100, desc: t.actualBoundingBoxDescent / 100 };
       });
       var n = m.length;
-      var inkW = Math.max.apply(null, m.map(function (x) { return x.left + x.right; })) + (n - 1) * STEP;
+      var inkW = Math.max.apply(null, m.map(function (x) { return x.left + x.right; }));
       var inkH = m[0].asc + (n - 1) * LH + m[n - 1].desc;
       var fs = Math.min(MAX_W / inkW, MAX_H / inkH, MAX_FS);
       g.font = "700 " + fs + "px " + ICON_FONT;
-      g.fillStyle = "#ffffff"; g.textAlign = "left"; g.textBaseline = "alphabetic";
-      var top = (size - inkH * fs) / 2;
+      var ink = g.createLinearGradient(-w / 2, -h / 2, w / 2, h / 2);
+      ink.addColorStop(0, p); ink.addColorStop(1, s);
+      g.fillStyle = ink; g.textAlign = "left"; g.textBaseline = "alphabetic";
+      var top = -inkH * fs / 2;
       m.forEach(function (x, i) {
-        var cx = size / 2 + (i - (n - 1) / 2) * STEP * fs;
-        var px = cx - (x.right - x.left) * fs / 2;
-        g.fillText(x.l, px, top + (m[0].asc + i * LH) * fs);
+        g.fillText(x.l, -(x.right - x.left) * fs / 2, top + (m[0].asc + i * LH) * fs);
       });
     }
+    g.restore();
     iconCache = { key: key, url: c.toDataURL("image/png") };
     return iconCache.url;
   }
