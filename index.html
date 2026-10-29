@@ -109,6 +109,7 @@ h1 .grad { background: linear-gradient(135deg, var(--brand-a), var(--brand-b)); 
 .ui .batt { width: 27px; height: 13px; border-radius: 4px; background: #fff; position: relative; }
 .ui .batt::after { content: ""; position: absolute; right: -3px; top: 4px; width: 2px; height: 5px; border-radius: 1px; background: rgba(255,255,255,.5); }
 .ui .gear { position: absolute; left: 16px; top: 62px; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; font-size: 24px; background: rgba(58,58,60,.75); border: .5px solid rgba(255,255,255,.12); }
+.ui .brush { position: absolute; right: 16px; top: 62px; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; font-size: 22px; background: rgba(58,58,60,.75); border: .5px solid rgba(255,255,255,.12); }
 .ui .head { position: absolute; top: 124px; left: 16px; right: 16px; display: flex; justify-content: space-between; align-items: center; }
 .ui h3 { margin: 0; font-size: 28px; font-weight: 700; line-height: 1.1; font-family: ui-rounded, "SF Pro Rounded", -apple-system, system-ui, sans-serif; }
 .ui .date { font-size: 14px; font-weight: 500; color: rgba(235,235,245,.6); margin-top: 4px; }
@@ -296,6 +297,7 @@ footer .love { margin-top: 8px; } footer .love span { color: #e2667a; }
             <svg width="0" height="0" style="position:absolute"><defs><linearGradient id="hpFlame" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ff9500"/><stop offset="1" stop-color="#ff3b30"/></linearGradient></defs></svg>
             <div class="status"><span>9:41</span><span class="island"></span><span class="batt"></span></div>
             <div class="gear"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" d="M10.4 2.8h3.2l.5 2.5 1.7.8 2.2-1.5 2.3 2.3-1.5 2.2.8 1.7 2.5.5v3.2l-2.5.5-.8 1.7 1.5 2.2-2.3 2.3-2.2-1.5-1.7.8-.5 2.5h-3.2l-.5-2.5-1.7-.8-2.2 1.5-2.3-2.3 1.5-2.2-.8-1.7-2.5-.5v-3.2l2.5-.5.8-1.7-1.5-2.2 2.3-2.3 2.2 1.5 1.7-.8z"/><circle cx="12" cy="12" r="3.3" fill="none" stroke="currentColor" stroke-width="1.7"/></svg></div>
+            <div class="brush"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" d="M14.5 3.5l6 6-6.5 5-4.5-4.5zM9.5 10l4.5 4.5-1.5 2-5-5zM7.5 11.5l5 5-5.5 4c-1.2.9-3-.9-2.1-2.1z"/></svg></div>
             <div class="head">
               <div><h3>Today</h3><div class="date" id="mockDate">Tuesday, 13 October</div></div>
               <div class="streak"><svg viewBox="0 0 24 24"><path d="M12.5 2c.6 3.8 5.5 6.2 5.5 11.5a6 6 0 0 1-12 0c0-2.8 1.4-4.6 3-5.8-.2 2.1.6 3.6 2 4 0-3.8-.6-6.3 1.5-9.7z"/></svg><b>7</b><span>days</span></div>
@@ -330,6 +332,7 @@ footer .love { margin-top: 8px; } footer .love span { color: #e2667a; }
           <li><span class="ico"><svg viewBox="0 0 24 24"><path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2.5 1.5-3.5 2-5 1 1 1.5 2 1.5 3 1-2 1.5-5 1.5-8z"/></svg></span><span><b>Streaks and reminders</b>a gentle daily habit that brings people back</span></li>
           <li><span class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg></span><span><b>Widgets</b>on the Home Screen and Lock Screen</span></li>
           <li><span class="ico"><svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></span><span><b>Favorites and sharing</b>save the best ones and share them as cards</span></li>
+          <li><span class="ico"><svg viewBox="0 0 24 24"><path d="M14.5 3.5l6 6-6.5 5-4.5-4.5zM9.5 10l4.5 4.5-1.5 2-5-5zM7.5 11.5l5 5-5.5 4c-1.2.9-3-.9-2.1-2.1z"/></svg></span><span><b>Card styles</b>calm photo and texture backgrounds for every card</span></li>
         </ul>
         <a class="live" id="showcaseLink" href="dailyaffirmationsapp/" target="_blank" rel="noopener">
           <div class="info"><img src="app-icon.png" alt="" width="52" height="52"><span><b>Daily Affirmations</b><small>Our own app on the App Store</small></span></div>
