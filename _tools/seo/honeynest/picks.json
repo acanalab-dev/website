@@ -143,5 +143,23 @@
       "contextual: track-shared-expenses guide (mixed receipts)",
       "related: track, split-bills, how-to-split guides"
     ]
+  },
+  {
+    "date": "2026-10-29",
+    "keyword": "how to talk about money with your partner",
+    "slug": "how-to-talk-about-money-with-your-partner",
+    "source": "backlog (next unused)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ on 2026-10-29 returned no rows yet"
+    },
+    "links_from": [
+      "/honeynest/ (guides section, first)",
+      "/honeynest/guides/ (hub)",
+      "contextual: moving-in checklist (money conversation)",
+      "related: moving-in, how-to-split, joint-vs-separate guides"
+    ]
   }
 ]

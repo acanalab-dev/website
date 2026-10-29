@@ -13,6 +13,7 @@
   "app_text": "HoneyNest lets you both log shared expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows how much each of you spent and the difference, so settling up takes one look. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-talk-about-money-with-your-partner",
    "splitting-groceries-with-your-partner",
    "how-to-track-shared-expenses",
    "how-to-split-bills-with-your-partner",
@@ -99,6 +100,7 @@
   "app_text": "HoneyNest helps you start your shared home organized: set rent and bills up as recurring expenses, log the extras as you go, and see who paid what each month. Invite your partner with a QR code so you both see the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-talk-about-money-with-your-partner",
    "how-to-split-rent-with-your-partner",
    "joint-vs-separate-bank-accounts-for-couples",
    "how-to-split-bills-with-your-partner",
@@ -187,6 +189,7 @@
   "app_text": "Whichever setup you choose, HoneyNest keeps one shared record: log expenses from both iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows each partner's total, percentage and the difference, so separate accounts stay easy to settle and a joint account is easy to check. Your partner joins with a QR code. It's free; Premium adds your complete expense history.",
   "published": "2026-10-25",
   "related": [
+   "how-to-talk-about-money-with-your-partner",
    "how-to-track-shared-expenses",
    "how-to-split-bills-with-your-partner",
    "proportional-bill-splitting-by-income",
@@ -332,6 +335,47 @@
    [
     "How often should we settle grocery costs?",
     "Once a month, together with your other shared costs, is easiest. Settling after every shop creates lots of small transfers."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "how-to-talk-about-money-with-your-partner",
+  "ct": "talk-money-partner",
+  "keyword": "how to talk about money with your partner",
+  "title": "How to Talk About Money With Your Partner (Without Fighting)",
+  "h1": "How to talk about money with your partner, without fighting",
+  "description": "How to talk about money with your partner: when to start, questions to ask, what to cover, how to handle disagreement, and a 15-minute monthly check-in.",
+  "lead": "Money talks get much easier with a little structure. Here's how to pick the moment, questions that open things up without blame, what to cover, how to handle disagreement, and a short monthly check-in with real numbers.",
+  "card": "When to start, questions to ask, handling disagreement and a monthly check-in.",
+  "image": "img/02-see.jpg",
+  "image_alt": "HoneyNest showing Home expenses and the spending split between two partners",
+  "app_text": "HoneyNest gives your money talks real numbers to look at: you both log shared expenses from your own iPhones and note who paid. It shows each partner's total, percentage and the difference, with Home, Lifestyle and Personal kept apart, and on supported iPhones it can give a short on-device read on your spending. It's free; Premium adds your complete expense history.",
+  "published": "2026-10-29",
+  "related": [
+   "moving-in-together-finances-checklist",
+   "how-to-split-expenses-as-a-couple",
+   "joint-vs-separate-bank-accounts-for-couples"
+  ],
+  "faq": [
+   [
+    "How do I start a conversation about money with my partner?",
+    "Pick a calm moment, not right after a big bill or an argument, and suggest it in advance. Start with what money means to each of you before you get to numbers."
+   ],
+   [
+    "What should couples talk about when it comes to money?",
+    "Roughly what each of you earns, regular commitments, any debts, which costs you share and how, whether you want joint or separate accounts, and how much each can spend without checking."
+   ],
+   [
+    "How often should couples talk about money?",
+    "A short check-in once a month works for many couples, plus a bigger conversation when something changes, like a new job or a move."
+   ],
+   [
+    "What if we keep arguing about money?",
+    "Talk about the system rather than each other, look at real numbers together, and try a new approach for three months before reviewing it. If it keeps being hard, a qualified counsellor or adviser can help."
    ]
   ],
   "image_size": [
