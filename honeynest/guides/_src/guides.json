@@ -13,6 +13,7 @@
   "app_text": "HoneyNest lets you both log shared expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows how much each of you spent and the difference, so settling up takes one look. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-settle-up-who-owes-what",
    "how-to-talk-about-money-with-your-partner",
    "splitting-groceries-with-your-partner",
    "how-to-track-shared-expenses",
@@ -57,6 +58,7 @@
   "app_text": "HoneyNest tracks every shared expense and who paid it, and shows each partner's total and percentage for any period. Compare those percentages with your agreed split, like 60/40, to see what to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-settle-up-who-owes-what",
    "how-to-split-rent-with-your-partner",
    "joint-vs-separate-bank-accounts-for-couples",
    "how-to-split-bills-with-your-partner",
@@ -232,6 +234,7 @@
   "app_text": "HoneyNest is built for this: you both log shared expenses from your own iPhones, note who paid, and sort them into Home, Lifestyle and Personal. Rent and bills can repeat each month, and HoneyNest shows each partner's total, percentage and the difference for any period. You can export to CSV for your own spreadsheet. It's free; Premium adds your complete expense history.",
   "published": "2026-10-26",
   "related": [
+   "how-to-settle-up-who-owes-what",
    "splitting-groceries-with-your-partner",
    "how-to-split-expenses-as-a-couple",
    "how-to-split-bills-with-your-partner",
@@ -376,6 +379,47 @@
    [
     "What if we keep arguing about money?",
     "Talk about the system rather than each other, look at real numbers together, and try a new approach for three months before reviewing it. If it keeps being hard, a qualified counsellor or adviser can help."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "how-to-settle-up-who-owes-what",
+  "ct": "settle-up-who-owes",
+  "keyword": "how to settle up who owes what",
+  "title": "How to Settle Up Who Owes What: A Simple Formula for Couples",
+  "h1": "How to settle up who owes what: a simple formula for couples",
+  "description": "How to work out who owes what at the end of the month: one simple formula, personal items, money already sent, a worked example at 50/50 and 60/40.",
+  "lead": "Turning a month of payments into one clear number is easier than it looks. Here's a simple formula, how to handle personal items and money you've already sent each other, and a full example with real numbers.",
+  "card": "One formula, personal items, earlier transfers and a full worked example.",
+  "image": "img/03-split.jpg",
+  "image_alt": "HoneyNest showing the spending split between two partners",
+  "app_text": "HoneyNest does the first part for you: you both log shared expenses and who paid, and it shows each partner's total, percentage and the difference for any period. Compare that with your agreed split, add any personal items or transfers between you, and you have the number to settle. It's free; Premium adds your complete expense history.",
+  "published": "2026-10-30",
+  "related": [
+   "how-to-track-shared-expenses",
+   "how-to-split-expenses-as-a-couple",
+   "proportional-bill-splitting-by-income"
+  ],
+  "faq": [
+   [
+    "How do you work out who owes what as a couple?",
+    "For each person, take what they paid towards shared costs and subtract their share (the total times their agreed percentage). A positive result means they're owed money; a negative one means they owe it."
+   ],
+   [
+    "How do we handle something one of us bought only for the other?",
+    "Keep it out of the shared total and add it as an amount owed in full. If one partner paid €60 for something only the other uses, the other owes the whole €60."
+   ],
+   [
+    "What if one of us already sent money during the month?",
+    "Subtract it from what that person owes at the end of the month, so it isn't counted twice."
+   ],
+   [
+    "How often should couples settle up?",
+    "Once a month works for most couples. Small amounts can be carried forward to the next month instead of sent."
    ]
   ],
   "image_size": [
