@@ -142,5 +142,23 @@
       "related: work, confidence guides",
       "/dailyaffirmationsapp/guides/ (hub)"
     ]
+  },
+  {
+    "date": "2026-10-30",
+    "keyword": "short positive affirmations",
+    "slug": "short-positive-affirmations",
+    "source": "backlog",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console still returns no rows; sitemap resubmitted 2026-10-29"
+    },
+    "links_from": [
+      "/dailyaffirmationsapp/ (guides section)",
+      "/dailyaffirmationsapp/guides/how-to-write-affirmations/ (using section)",
+      "related: how-to-write, morning guides",
+      "/dailyaffirmationsapp/guides/ (hub)"
+    ]
   }
 ]

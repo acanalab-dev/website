@@ -12,9 +12,9 @@
     "app_text": "Daily Affirmations gives you a fresh set every morning, a gentle reminder at the time you pick, and a widget so today's affirmation is the first thing you see when you unlock your phone.",
     "published": "2026-10-21",
     "related": [
+      "short-positive-affirmations",
       "affirmations-for-work",
-      "gratitude-affirmations",
-      "affirmations-for-confidence"
+      "gratitude-affirmations"
     ],
     "faq": [
       [
@@ -48,9 +48,9 @@
     "app_text": "Not ready to write your own yet? Daily Affirmations has hundreds of affirmations across categories like confidence, gratitude and calm. Save the ones that feel true as favorites, then use them as a starting point for your own.",
     "published": "2026-10-21",
     "related": [
+      "short-positive-affirmations",
       "gratitude-affirmations",
-      "morning-affirmations",
-      "self-love-affirmations"
+      "morning-affirmations"
     ],
     "faq": [
       [
@@ -416,6 +416,46 @@
       [
         "Can affirmations help with fear of failure?",
         "They can help you reframe it, for example \"Failure is feedback, not a final verdict\". Taking small, low-risk steps alongside them is what builds real confidence over time."
+      ]
+    ]
+  },
+  {
+    "slug": "short-positive-affirmations",
+    "keyword": "short positive affirmations",
+    "title": "Short Positive Affirmations: 70 Easy Phrases to Remember",
+    "h1": "Short positive affirmations: 70 easy phrases to remember",
+    "description": "70 short positive affirmations of six words or fewer for confidence, calm, self-love, motivation and hard days, plus 7 easy ways to use them.",
+    "lead": "Short positive affirmations are tiny sentences you can remember in any moment and say in a single breath. Here are 70, all six words or fewer, grouped by what you need, plus simple ways to keep them in sight all day.",
+    "card": "70 affirmations of six words or fewer, easy to remember anywhere.",
+    "image": "img/03-see.jpg",
+    "image_alt": "Daily Affirmations widgets on the iPhone Home Screen",
+    "app_text": "Daily Affirmations puts a fresh affirmation on your Home Screen and Lock Screen with widgets, so a short, kind sentence is there every time you pick up your phone. Self Love, Confidence, Peace and Motivation are all free categories, and you can save your favorites to come back to.",
+    "published": "2026-10-30",
+    "related": [
+      "how-to-write-affirmations",
+      "morning-affirmations",
+      "affirmations-for-confidence"
+    ],
+    "faq": [
+      [
+        "What is a good short positive affirmation?",
+        "One you can say in a single breath and believe at least a little, such as \"I've got this\", \"I am enough\" or \"One thing at a time\". Short and simple beats clever."
+      ],
+      [
+        "Are short affirmations as effective as long ones?",
+        "They do a different job. Long affirmations are good for reflection and daily routines. Short ones are easier to remember in the moment, when you're stressed or busy. Many people use both."
+      ],
+      [
+        "How many short affirmations should I use?",
+        "Start with one to three. Use the same ones for at least a week so they become automatic, then swap in new ones when they stop catching your attention."
+      ],
+      [
+        "Where should I put short affirmations?",
+        "Anywhere you look often: your phone's Lock Screen or a widget, a sticky note on the mirror or monitor, the top of your to-do list or journal."
+      ],
+      [
+        "What is the shortest affirmation?",
+        "Two words can be enough, like \"Keep going\" or \"Just start\". Even a single word, such as \"calm\" or \"enough\", can work as an anchor if it means something to you."
       ]
     ]
   }
