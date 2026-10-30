@@ -1054,8 +1054,51 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
       });
     }
     g.restore();
-    iconCache = { key: key, url: c.toDataURL("image/png") };
+    iconCache = { key: key, url: c.toDataURL("image/png"), rgb: null };
+    var cache = iconCache;
+    rgbPngUrl(c).then(function (u) { cache.rgb = u; }, function () {});
     return iconCache.url;
+  }
+  // Apple rejects an App Store icon whose PNG has an alpha channel, even a fully opaque one,
+  // and canvas.toDataURL always writes RGBA. This re-encodes the icon as an RGB PNG for export.
+  var CRC = (function () {
+    var t = new Uint32Array(256);
+    for (var n = 0; n < 256; n++) { var c = n; for (var k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; }
+    return t;
+  })();
+  function crc32(bytes) { var c = 0xffffffff; for (var i = 0; i < bytes.length; i++) c = CRC[(c ^ bytes[i]) & 255] ^ (c >>> 8); return (c ^ 0xffffffff) >>> 0; }
+  function pngChunk(type, data) {
+    var out = new Uint8Array(12 + data.length), dv = new DataView(out.buffer);
+    dv.setUint32(0, data.length);
+    for (var i = 0; i < 4; i++) out[4 + i] = type.charCodeAt(i);
+    out.set(data, 8);
+    dv.setUint32(8 + data.length, crc32(out.subarray(4, 8 + data.length)));
+    return out;
+  }
+  function rgbPngUrl(canvas) {
+    if (typeof CompressionStream === "undefined") return Promise.reject(new Error("no CompressionStream"));
+    var w = canvas.width, h = canvas.height;
+    var px = canvas.getContext("2d").getImageData(0, 0, w, h).data;
+    var raw = new Uint8Array(h * (1 + w * 3));
+    for (var y = 0, o = 0; y < h; y++) {
+      raw[o++] = 0; // no filter
+      for (var x = 0; x < w; x++) { var i = (y * w + x) * 4; raw[o++] = px[i]; raw[o++] = px[i + 1]; raw[o++] = px[i + 2]; }
+    }
+    var zipped = new Blob([raw]).stream().pipeThrough(new CompressionStream("deflate")); // zlib format, as PNG needs
+    return new Response(zipped).arrayBuffer().then(function (buf) {
+      var ihdr = new Uint8Array(13), dv = new DataView(ihdr.buffer);
+      dv.setUint32(0, w); dv.setUint32(4, h); ihdr[8] = 8; ihdr[9] = 2; // 8-bit RGB
+      var blob = new Blob([new Uint8Array([137, 80, 78, 71, 13, 10, 26, 10]), pngChunk("IHDR", ihdr), pngChunk("IDAT", new Uint8Array(buf)), pngChunk("IEND", new Uint8Array(0))], { type: "image/png" });
+      return new Promise(function (resolve, reject) {
+        var r = new FileReader(); r.onload = function () { resolve(r.result); }; r.onerror = reject; r.readAsDataURL(blob);
+      });
+    });
+  }
+  // The icon to hand over: the RGB version once it's ready, otherwise the canvas PNG.
+  function exportIconUrl() {
+    if (state.iconMode === "upload") return state.appIcon ? state.appIcon.dataUrl : null;
+    var url = textIconUrl();
+    return iconCache.rgb || url;
   }
   function currentIconUrl() {
     if (state.iconMode === "upload") return state.appIcon ? state.appIcon.dataUrl : null;
@@ -1127,7 +1170,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
       appStore: { name: storeName(), titleDescription: (state.storeTitle || "").trim(), subtitle: (state.subtitle || "").trim() },
       appIcon: state.iconMode === "upload"
         ? (state.appIcon ? Object.assign({ source: "upload" }, state.appIcon) : null)
-        : { source: "text", text: state.iconText, name: "AppIcon.png", dataUrl: textIconUrl() },
+        : { source: "text", text: state.iconText, name: "AppIcon.png", dataUrl: exportIconUrl() },
       colors: { primary: state.primary, secondary: state.secondary },
       support: { ownEmail: true, email: supportEmail() },
       welcome: { eyebrow: state.eyebrow, greeting: state.greeting, message: state.message, signature: state.signature },
@@ -1281,7 +1324,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     }
   });
   $("dlIcon").addEventListener("click", function () {
-    var url = currentIconUrl();
+    var url = exportIconUrl();
     if (url) download("AppIcon." + (state.iconMode === "upload" ? ext(state.appIcon) : "png"), url);
   });
 
