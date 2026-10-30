@@ -9,7 +9,7 @@
 <meta property="og:url" content="https://acanalab.com/design/">
 <meta property="og:title" content="Design your affirmations app">
 <meta property="og:description" content="Pick your app name, icon and colors, and see them on real app screens in a few minutes.">
-<meta property="og:image" content="https://acanalab.com/og-image.jpg?v=3">
+<meta property="og:image" content="https://acanalab.com/og-image.jpg?v=4">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
@@ -1012,13 +1012,13 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     glow.addColorStop(0, "rgba(255,255,255,0.24)"); glow.addColorStop(1, "rgba(255,255,255,0)");
     g.fillStyle = glow; g.fillRect(0, 0, size, size);
 
-    var w = size * 0.50, h = size * 0.60, r = size * 0.07;
+    var w = size * 0.66, h = size * 0.70, r = size * 0.085;
     // Back card: translucent white, tilted right.
-    g.save(); g.translate(size * 0.56, size * 0.47); g.rotate(10 * Math.PI / 180);
+    g.save(); g.translate(size * 0.545, size * 0.465); g.rotate(8 * Math.PI / 180);
     g.fillStyle = "rgba(255,255,255,0.37)"; rrect(g, -w / 2, -h / 2, w, h, r); g.fill();
     g.restore();
     // Front card: white with a soft shadow, tilted left.
-    g.save(); g.translate(size * 0.475, size * 0.525); g.rotate(-6 * Math.PI / 180);
+    g.save(); g.translate(size * 0.48, size * 0.525); g.rotate(-4 * Math.PI / 180);
     g.shadowColor = "rgba(30,16,80,0.43)"; g.shadowBlur = 50; g.shadowOffsetY = 20;
     var face = g.createLinearGradient(-w / 2, -h / 2, w / 2, h / 2);
     face.addColorStop(0, "#ffffff"); face.addColorStop(1, "#f4f0ff");
@@ -1030,7 +1030,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     var lines = words;
     if (words.length > 4) { lines = []; for (var i = 0; i < words.length; i += 2) lines.push(words.slice(i, i + 2).join(" ")); }
     if (lines.length) {
-      var LH = 0.62, MAX_W = w * 0.82, MAX_H = h * 0.80, MAX_FS = 360;
+      var LH = 0.56, MAX_W = w * 0.85, MAX_H = h * 0.84, MAX_FS = 420;
       g.font = "700 100px " + ICON_FONT;
       var m = lines.map(function (l) {
         var t = g.measureText(l);
@@ -1045,9 +1045,12 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
       var ink = g.createLinearGradient(-w / 2, -h / 2, w / 2, h / 2);
       ink.addColorStop(0, p); ink.addColorStop(1, s);
       g.fillStyle = ink; g.textAlign = "left"; g.textBaseline = "alphabetic";
+      // A stroke in the same gradient thickens the thin script so it reads at home screen size.
+      g.strokeStyle = ink; g.lineWidth = fs * 0.03; g.lineJoin = "round";
       var top = -inkH * fs / 2;
       m.forEach(function (x, i) {
-        g.fillText(x.l, -(x.right - x.left) * fs / 2, top + (m[0].asc + i * LH) * fs);
+        var tx = -(x.right - x.left) * fs / 2, ty = top + (m[0].asc + i * LH) * fs;
+        g.strokeText(x.l, tx, ty); g.fillText(x.l, tx, ty);
       });
     }
     g.restore();
