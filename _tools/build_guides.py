@@ -56,7 +56,7 @@ APPS = [
         "hub_get": "Track shared expenses with your partner. Free to download. For iPhone.",
         "static_pages": ["/honeynest/", "/honeynest/privacy-policy", "/honeynest/terms-of-use"],
         "campaigns": True,
-        "box_image": ["img/phone-share.webp?v=2", 640, 1351, "HoneyNest showing shared Home expenses and who paid each one"],
+        "box_image": ["img/phone-see.webp?v=2", 640, 1351, "HoneyNest analytics view showing where your money goes and the spending split between partners"],
     },
 ]
 
