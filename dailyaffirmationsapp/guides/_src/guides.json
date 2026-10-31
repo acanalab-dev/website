@@ -120,9 +120,9 @@
     "app_text": "Daily Affirmations brings you a fresh set every morning, so calming words become familiar before you need them. Peace is a free category, Anxiety Relief is part of Premium, and a Home Screen widget keeps one steady sentence in sight all day.",
     "published": "2026-10-22",
     "related": [
+      "affirmations-for-stress",
       "affirmations-for-healing",
-      "affirmations-for-sleep",
-      "affirmations-for-confidence"
+      "affirmations-for-sleep"
     ],
     "faq": [
       [
@@ -272,9 +272,9 @@
     "app_text": "Daily Affirmations sends one gentle reminder a day at the time you pick, so you can set it for just before work. Motivation and Confidence are free categories, while Career and Focus are part of Premium. Save the ones that help as favorites and keep one in a widget between meetings.",
     "published": "2026-10-26",
     "related": [
+      "affirmations-for-stress",
       "affirmations-for-success",
-      "affirmations-for-confidence",
-      "morning-affirmations"
+      "affirmations-for-confidence"
     ],
     "faq": [
       [
@@ -456,6 +456,46 @@
       [
         "What is the shortest affirmation?",
         "Two words can be enough, like \"Keep going\" or \"Just start\". Even a single word, such as \"calm\" or \"enough\", can work as an anchor if it means something to you."
+      ]
+    ]
+  },
+  {
+    "slug": "affirmations-for-stress",
+    "keyword": "affirmations for stress",
+    "title": "Affirmations for Stress: 50 Phrases to Feel Steady Again",
+    "h1": "Affirmations for stress: 50 phrases to feel steady again",
+    "description": "50 affirmations for stress for overwhelming moments, letting go of what you can't control and recharging, plus a quick 3-minute stress reset.",
+    "lead": "Affirmations for stress are short, steady sentences that interrupt the spiral when pressure builds, so you can see the next step clearly. Here are 50, grouped by situation, and a 3-minute reset you can use anywhere.",
+    "card": "50 steady phrases for overwhelm, letting go and recharging, plus a 3-minute reset.",
+    "image": "img/07-explore.jpg",
+    "image_alt": "Exploring affirmation categories in Daily Affirmations",
+    "app_text": "Peace and Rest are free categories in Daily Affirmations, and Anxiety Relief and Resilience are part of Premium. A fresh set arrives every morning, and a widget keeps one steady sentence on your Home Screen for the moments you need it.",
+    "published": "2026-10-31",
+    "related": [
+      "affirmations-for-anxiety",
+      "affirmations-for-work",
+      "affirmations-for-sleep"
+    ],
+    "faq": [
+      [
+        "Do affirmations help with stress?",
+        "They can help you pause and respond more calmly in stressful moments by replacing panicked thoughts with steadier ones. They don't remove the cause of stress, so pair them with practical steps like prioritizing or asking for help."
+      ],
+      [
+        "What is a good affirmation for stress?",
+        "A short, believable one you can recall under pressure, such as \"One thing at a time is enough\" or \"I don't have to fix everything at once\"."
+      ],
+      [
+        "What's the difference between affirmations for stress and for anxiety?",
+        "Stress affirmations focus on pressure from specific things, like deadlines or busy weeks, and on taking the next step. Anxiety affirmations focus more on worry and feeling safe. Many work for both."
+      ],
+      [
+        "How do I use affirmations when I'm overwhelmed?",
+        "Stop, take a few slow breaths, name what's stressing you, say one affirmation, then choose just the next small action. The whole reset takes about three minutes."
+      ],
+      [
+        "When should I get help for stress?",
+        "If stress feels constant, affects your sleep or health, or doesn't ease when the busy period ends, talk to someone you trust or a doctor or counselor."
       ]
     ]
   }

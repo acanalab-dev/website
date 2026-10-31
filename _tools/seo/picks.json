@@ -160,5 +160,23 @@
       "related: how-to-write, morning guides",
       "/dailyaffirmationsapp/guides/ (hub)"
     ]
+  },
+  {
+    "date": "2026-10-31",
+    "keyword": "affirmations for stress",
+    "slug": "affirmations-for-stress",
+    "source": "backlog",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console still returns no rows; sitemap 33 submitted, 0 indexed"
+    },
+    "links_from": [
+      "/dailyaffirmationsapp/ (guides section)",
+      "/dailyaffirmationsapp/guides/affirmations-for-anxiety/ (overthinking section)",
+      "related: anxiety, work guides",
+      "/dailyaffirmationsapp/guides/ (hub)"
+    ]
   }
 ]
