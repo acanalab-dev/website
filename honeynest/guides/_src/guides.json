@@ -58,6 +58,7 @@
   "app_text": "HoneyNest tracks every shared expense and who paid it, and shows each partner's total and percentage for any period. Compare those percentages with your agreed split, like 60/40, to see what to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "couples-budget-template",
    "how-to-settle-up-who-owes-what",
    "how-to-split-rent-with-your-partner",
    "joint-vs-separate-bank-accounts-for-couples",
@@ -146,6 +147,7 @@
   "app_text": "HoneyNest lets you set rent and other monthly bills up once as recurring expenses, note who paid each one, and log variable bills and groceries as they come. It shows each partner's total, percentage and the difference, so you know what to settle. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-24",
   "related": [
+   "couples-budget-template",
    "splitting-groceries-with-your-partner",
    "how-to-split-rent-with-your-partner",
    "how-to-track-shared-expenses",
@@ -234,6 +236,7 @@
   "app_text": "HoneyNest is built for this: you both log shared expenses from your own iPhones, note who paid, and sort them into Home, Lifestyle and Personal. Rent and bills can repeat each month, and HoneyNest shows each partner's total, percentage and the difference for any period. You can export to CSV for your own spreadsheet. It's free; Premium adds your complete expense history.",
   "published": "2026-10-26",
   "related": [
+   "couples-budget-template",
    "how-to-settle-up-who-owes-what",
    "splitting-groceries-with-your-partner",
    "how-to-split-expenses-as-a-couple",
@@ -420,6 +423,47 @@
    [
     "How often should couples settle up?",
     "Once a month works for most couples. Small amounts can be carried forward to the next month instead of sent."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "couples-budget-template",
+  "ct": "couples-budget-template",
+  "keyword": "couples budget template",
+  "title": "Couples Budget Template (Free Download) With an Example",
+  "h1": "Couples budget template: free download and a filled-in example",
+  "description": "A free couples budget template for Excel, Google Sheets or Numbers: income, shared costs, your split and what's left, with a filled-in example and monthly check.",
+  "lead": "One page with your incomes, shared costs, your split and what's left for each of you covers most of what a couple needs. Download the free template, see it filled in with real numbers, and keep it current in a few minutes a month.",
+  "card": "Free download for Excel, Sheets or Numbers, with a filled-in example.",
+  "image": "img/05-track.jpg",
+  "image_alt": "HoneyNest showing a couple's monthly Home spending over four months",
+  "app_text": "HoneyNest fills in the “Actual” side for you: you both log shared expenses from your own iPhones, note who paid, and see totals by Home, Lifestyle and Personal, plus each partner's total, percentage and the difference. Monthly bills can repeat automatically, and you can export everything to CSV to use with this template. It's free; Premium adds your complete expense history.",
+  "published": "2026-10-31",
+  "related": [
+   "how-to-track-shared-expenses",
+   "proportional-bill-splitting-by-income",
+   "how-to-split-bills-with-your-partner"
+  ],
+  "faq": [
+   [
+    "What should a couples budget include?",
+    "Each partner's take-home income, your shared costs by category, how you split them, what's left for each of you, and room for yearly costs and a small buffer."
+   ],
+   [
+    "Does the template work in Google Sheets?",
+    "Yes. The template is a CSV file that opens in Google Sheets, Excel and Numbers, with the totals and split worked out by formulas."
+   ],
+   [
+    "Should we budget personal spending too?",
+    "That's up to you. Many couples budget shared costs together and leave each person's remaining money to them."
+   ],
+   [
+    "How often should we update our budget?",
+    "Check it once a month against what you actually spent, and update incomes and categories whenever something changes."
    ]
   ],
   "image_size": [
