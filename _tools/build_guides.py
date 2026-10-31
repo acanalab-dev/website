@@ -40,7 +40,7 @@ APPS = [
         "static_pages": ["/dailyaffirmationsapp/", "/dailyaffirmationsapp/privacy-policy",
                          "/dailyaffirmationsapp/terms-of-use"],
         # App Store campaign tags (ct=) on each badge; store.js adds pt= and mt=.
-        "campaigns": False,
+        "campaigns": True,
     },
     {
         "folder": "honeynest",
