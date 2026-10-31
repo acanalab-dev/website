@@ -54,7 +54,7 @@ th { font-weight: 600; }
 
 /* ---------- App box ---------- */
 .app { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 22px; align-items: center; background: var(--panel); border: 1px solid var(--line); border-radius: 22px; padding: 22px; margin: 40px 0; }
-.app img { width: 100%; height: auto; border-radius: 14px; box-shadow: 0 14px 30px -18px rgba(40, 30, 90, .5); }
+.app img { width: 100%; height: auto; filter: drop-shadow(0 14px 20px rgba(40, 30, 90, .35)); }
 .app h2 { margin: 0 0 6px; font-size: 22px; }
 .app p { margin: 0 0 14px; color: var(--muted); font-size: 16px; }
 .store { display: inline-flex; align-items: center; gap: 10px; padding: 9px 20px 9px 16px; border-radius: 13px; background: #000; color: #fff; text-decoration: none; border: 1px solid rgba(255, 255, 255, .25); }

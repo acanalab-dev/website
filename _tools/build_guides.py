@@ -41,6 +41,8 @@ APPS = [
                          "/dailyaffirmationsapp/terms-of-use"],
         # App Store campaign tags (ct=) on each badge; store.js adds pt= and mt=.
         "campaigns": True,
+        # Phone shown next to the App Store badge on every guide (the hero's front phone).
+        "box_image": ["img/phone-today.webp", 560, 1151, "The Today screen of Daily Affirmations with an affirmation card"],
     },
     {
         "folder": "honeynest",
@@ -54,6 +56,7 @@ APPS = [
         "hub_get": "Track shared expenses with your partner. Free to download. For iPhone.",
         "static_pages": ["/honeynest/", "/honeynest/privacy-policy", "/honeynest/terms-of-use"],
         "campaigns": True,
+        "box_image": ["img/phone-share.webp?v=2", 640, 1351, "HoneyNest showing shared Home expenses and who paid each one"],
     },
 ]
 
@@ -160,7 +163,7 @@ class App:
         toc_html = "".join(f'<li><a href="#{i}">{t}</a></li>' for i, t in toc)
         faq_html = "\n".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in g["faq"])
         related = "\n".join(self.card(by_slug[s]) for s in g["related"] if s in by_slug)
-        w, h = g.get("image_size", [600, 1304])
+        box_src, box_w, box_h, box_alt = self.cfg["box_image"]
         page = self.head(g["title"] + f" | {self.name}", g["description"], url, image, ld) + f"""
 <main class="wrap">
 <article>
@@ -173,7 +176,7 @@ class App:
 {body.strip()}
 
 <aside class="app">
-  <img src="{self.path}{g["image"]}" alt="{e(g["image_alt"])}" width="{w}" height="{h}" loading="lazy">
+  <img src="{self.path}{box_src}" alt="{e(box_alt)}" width="{box_w}" height="{box_h}" loading="lazy">
   <div>
     <h2>{e(self.cfg["box_heading"])}</h2>
     <p>{e(g["app_text"])}</p>
