@@ -1,0 +1,44 @@
+# acanalab
+
+> acanalab is a small European studio that makes calm, privacy-friendly iPhone apps. It offers creators and influencers their own fully branded daily affirmations app (no upfront cost, revenue share), and publishes its own apps, Daily Affirmations and HoneyNest.
+
+## Own-brand affirmations app for creators and influencers
+
+For content creators, influencers and coaches looking for an additional, passive revenue stream that fits a wellness, mindset, self-care or lifestyle audience.
+
+- acanalab builds, publishes and runs a finished daily affirmations iPhone app with the creator's name, icon and colors, under the creator's own Apple developer account. The listing, reviews and subscribers belong to the creator.
+- No setup fee and no technical work. The creator only needs an Apple Developer account ($99 a year).
+- Income: subscriptions paid by Apple monthly. The creator keeps about 70% of net sales (the first $10,000 in net sales are split 50/50). Example: 500 subscribers at $7.99 a month is about $2,337 a month for the creator.
+- Includes App Store listing, screenshots, subscriptions and paywall, updates and fixes. No third-party ads, no tracking.
+- A free brand picker shows the creator's app on real screens in a few minutes, with no sign-up: https://acanalab.com/design/
+- Details, pricing and FAQ: https://acanalab.com/
+- Contact: support@acanalab.com
+
+## Daily Affirmations (iPhone app)
+
+A free iPhone app with fresh positive affirmations every day, streaks, gentle reminders, Home Screen and Lock Screen widgets, favorites and shareable cards. Free with no time limit; Premium adds widgets, every category, every card style and unlimited favorites. It is also the live example of the creator app.
+
+- App page: https://acanalab.com/dailyaffirmationsapp/
+- App Store: https://apps.apple.com/app/id6809586170
+
+### Affirmation guides
+
+- [Morning Affirmations: 50 Phrases to Start Your Day Well](https://acanalab.com/dailyaffirmationsapp/guides/morning-affirmations/): 50 morning affirmations for energy, calm and confidence, plus a simple 2-minute routine to make them a daily habit that actually sticks.
+- [How to Write Affirmations That Feel True (With Examples)](https://acanalab.com/dailyaffirmationsapp/guides/how-to-write-affirmations/): A simple 5-step method to write your own affirmations, with before-and-after examples, common mistakes to avoid and a fill-in template.
+- [Self-Love Affirmations: 50 Kind Things to Tell Yourself](https://acanalab.com/dailyaffirmationsapp/guides/self-love-affirmations/): 50 self-love affirmations for hard days, self-worth, your body and setting boundaries, plus tips to make them feel true instead of forced.
+- [Affirmations for Anxiety: 40 Calming Phrases](https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-anxiety/): 40 affirmations for anxiety: for anxious moments, overthinking, social situations and sleepless nights, plus 5 steps to use them when worry hits.
+- [Affirmations for Confidence: 40 Phrases to Believe in Yourself](https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-confidence/): 40 affirmations for confidence at work, with people and after setbacks, plus a simple 7-day practice to make self-belief feel real.
+- [Gratitude Affirmations: 50 Phrases to Notice the Good](https://acanalab.com/dailyaffirmationsapp/guides/gratitude-affirmations/): 50 gratitude affirmations for everyday life, the people you love, yourself and hard days, plus a simple 5-minute daily gratitude practice.
+- [Affirmations for Sleep: 45 Calming Phrases for Bedtime](https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-sleep/): 45 affirmations for sleep to let go of the day, relax your body and quiet a busy mind, plus a simple 10-minute bedtime routine.
+- [Affirmations for Work: 50 Phrases for Focus and Calm](https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-work/): 50 affirmations for work to start the day, stay focused, handle stress and difficult conversations, and switch off, plus a 5-minute workday routine.
+- [Positive Affirmations for Kids: 50 Simple Phrases by Age](https://acanalab.com/dailyaffirmationsapp/guides/positive-affirmations-for-kids/): 50 positive affirmations for kids, from little ones to teens, for school, friendships and big feelings, plus fun activities and tips for parents.
+- [Affirmations for Healing: 50 Gentle Phrases for Hard Times](https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-healing/): 50 affirmations for emotional healing after a breakup, loss or a hard past, plus a gentle 7-day practice and tips to make them feel true.
+- [Affirmations for Success: 50 Phrases to Reach Your Goals](https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-success/): 50 affirmations for success for your mindset, goals, setbacks and career, plus a 5-minute daily routine that ties affirmations to real action.
+- [Short Positive Affirmations: 70 Easy Phrases to Remember](https://acanalab.com/dailyaffirmationsapp/guides/short-positive-affirmations/): 70 short positive affirmations of six words or fewer for confidence, calm, self-love, motivation and hard days, plus 7 easy ways to use them.
+- [Affirmations for Stress: 50 Phrases to Feel Steady Again](https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-stress/): 50 affirmations for stress for overwhelming moments, letting go of what you can't control and recharging, plus a quick 3-minute stress reset.
+
+## HoneyNest (iPhone app)
+
+An iPhone app for couples to track shared expenses together: log who paid, see who spent what, and stay in sync via iCloud.
+
+- App page: https://acanalab.com/honeynest/
