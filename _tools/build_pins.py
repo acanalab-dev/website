@@ -102,7 +102,7 @@ def pins_for(g, index):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--start", default=(dt.date.today() + dt.timedelta(days=1)).isoformat())
+    ap.add_argument("--start", help="first publish day; default: the day after the last scheduled pin, or tomorrow")
     ap.add_argument("--per-day", type=int, default=2)
     args = ap.parse_args()
 
@@ -136,7 +136,11 @@ def main():
     subprocess.run(["node", str(ROOT / "_tools" / "pins" / "render.js"), f.name], check=True, env=env)
     os.unlink(f.name)
 
-    start = dt.date.fromisoformat(args.start)
+    if args.start:
+        start = dt.date.fromisoformat(args.start)
+    else:
+        last = max((dt.date.fromisoformat(p["publish"][:10]) for p in state), default=dt.date.today())
+        start = max(dt.date.today(), last) + dt.timedelta(days=1)
     with CSV_OUT.open("w", newline="") as fh:
         w = csv.writer(fh)
         w.writerow(["Title", "Media URL", "Pinterest board", "Thumbnail", "Description", "Link", "Publish date", "Keywords"])
