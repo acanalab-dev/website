@@ -18,6 +18,7 @@ import html
 import json
 import re
 import sys
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -262,6 +263,9 @@ def main(selected):
         if not selected or app.folder in selected:
             print(f"{app.name}: built {app.build()} guides and hub")
     print(f"sitemap.xml ({build_sitemap(apps)} URLs, all apps) and robots.txt")
+    # Keep the AI summary (llms.txt) in step with the guide lists.
+    subprocess.run([sys.executable, str(Path(__file__).with_name("build_llms.py"))], check=True, stdout=subprocess.DEVNULL)
+    print("llms.txt")
 
 
 if __name__ == "__main__":
