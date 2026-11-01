@@ -72,6 +72,8 @@ APPS = [
         "hub_get": "A daily affirmations app with your name on it. No setup fee, you earn every month.",
         "static_pages": ["/design/"],
         "nav_cta": "Your own app",
+        # Same app box text on every creator guide (guides.json needs no app_text).
+        "box_text": "We build a daily affirmations app with your name, icon and colors and publish it under your own Apple account. No setup fee: you earn from subscriptions every month.",
         "cta": [["Contact us", "mailto:support@acanalab.com?subject=My%20own%20app", "outline"],
                 ["Design your app", "/design/", "main"]],
         "campaigns": False,
@@ -205,7 +207,7 @@ class App:
   <img src="{self.path}{box_src}" alt="{e(box_alt)}" width="{box_w}" height="{box_h}" loading="lazy">
   <div>
     <h2>{e(self.cfg["box_heading"])}</h2>
-    <p>{e(g["app_text"])}</p>
+    <p>{e(self.cfg.get("box_text") or g["app_text"])}</p>
     {self.store(g.get("ct", g["slug"]))}
   </div>
 </aside>

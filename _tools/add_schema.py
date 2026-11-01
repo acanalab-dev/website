@@ -37,7 +37,7 @@ inject("index.html", [
     ORG,
     {"@type": "Service", "@id": f"{SITE}/#service", "name": "White-label affirmations app for creators",
      "serviceType": "White-label iPhone app for creators and influencers",
-     "description": ("acanalab builds, publishes and runs a fully branded daily affirmations iPhone app for "
+     "description": ("acanalab builds and publishes a fully branded daily affirmations iPhone app for "
                      "creators and influencers, under the creator's own Apple developer account. No setup fee: "
                      "the creator keeps about 70% of net subscription sales (50/50 on the first $10,000), "
                      "paid by Apple monthly. A passive income stream that fits wellness, mindset and lifestyle audiences."),
