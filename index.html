@@ -228,6 +228,12 @@ details p { margin: 0 0 14px; color: var(--muted); font-size: 14px; line-height:
 .closing .btn.light { background: #fff; color: #4b3a8f; }
 .closing .btn.outline { color: #fff; border: 1px solid rgba(255,255,255,.6); background: transparent; }
 .closing .cta { justify-content: center; }
+section.guides-link { padding: 0 0 40px; }
+.gl { display: flex; align-items: center; justify-content: space-between; gap: 16px; max-width: 720px; margin: 0 auto; padding: 18px 22px; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; color: var(--text); text-decoration: none; }
+.gl b { display: block; font-size: 17px; }
+.gl small { display: block; color: var(--muted); font-size: 14px; margin-top: 2px; }
+.gl .go { font-size: 22px; color: var(--accent); }
+.gl:hover { border-color: var(--accent); }
 footer { padding: 32px 0 48px; text-align: center; font-size: 13px; color: var(--muted); }
 footer b { color: var(--text); margin-right: 8px; }
 footer a { color: var(--muted); text-decoration: none; margin: 0 8px; }
@@ -594,9 +600,19 @@ footer .love { margin-top: 8px; } footer .love span { color: #e2667a; }
       </div>
     </div>
   </section>
+
+  <!-- Creator guides -->
+  <section class="guides-link">
+    <div class="wrap">
+      <a class="gl" href="guides/">
+        <span><b>Guides for creators</b><small>Practical guides on passive income and new revenue streams for creators and influencers.</small></span>
+        <span class="go" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </section>
 </main>
 
-<footer><div><b>© 2026 acanalab</b><a href="guides/">Creator guides</a><a href="terms-of-use">Terms of Use</a><a href="privacy-policy">Privacy Policy</a><a href="dailyaffirmationsapp/guides/">Affirmation guides</a><a href="honeynest/">HoneyNest</a><a href="honeynest/guides/">Couples money guides</a></div><div class="love">Made with <span aria-label="love">♥</span> in Europe</div></footer>
+<footer><div><b>© 2026 acanalab</b><a href="guides/">Creator guides</a><a href="terms-of-use">Terms of Use</a><a href="privacy-policy">Privacy Policy</a><a href="dailyaffirmationsapp/guides/">Affirmation guides</a></div><div class="love">Made with <span aria-label="love">♥</span> in Europe</div></footer>
 
 <script>
 (function () {

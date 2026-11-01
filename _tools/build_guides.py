@@ -62,7 +62,7 @@ APPS = [
     {
         # The creator offer on the homepage; guides live at /guides/.
         "folder": "",
-        "name": "acanalab",
+        "name": "Own Your App",
         "icon": "/creator-icon.png",
         "guides_label": "Guides for creators",
         "box_heading": "Your own app, earning every month",
@@ -171,6 +171,17 @@ class App:
     def card(self, g):
         return f'<li><a href="{self.path}guides/{g["slug"]}/"><b>{e(g["h1"])}</b><span>{e(g["card"])}</span></a></li>'
 
+    def app_box(self, text, ct):
+        box_src, box_w, box_h, box_alt = self.cfg["box_image"]
+        return f"""<aside class="app">
+  <img src="{self.path}{box_src}" alt="{e(box_alt)}" width="{box_w}" height="{box_h}" loading="lazy">
+  <div>
+    <h2>{e(self.cfg["box_heading"])}</h2>
+    <p>{e(text)}</p>
+    {self.store(ct)}
+  </div>
+</aside>"""
+
     def build_guide(self, g, by_slug):
         url = f"{self.hub_url}{g['slug']}/"
         body = (self.src / f"{g['slug']}.html").read_text()
@@ -191,7 +202,6 @@ class App:
         faq_html = "\n".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in g["faq"])
         related = "\n".join(self.card(by_slug[s]) for s in g["related"] if s in by_slug)
         related_html = f'<h2>Related guides</h2>\n<ul class="cards">\n{related}\n</ul>' if related else ""
-        box_src, box_w, box_h, box_alt = self.cfg["box_image"]
         page = self.head(g["title"] + f" | {self.name}", g["description"], url, image, ld) + f"""
 <main class="wrap">
 <article>
@@ -203,14 +213,7 @@ class App:
 
 {body.strip()}
 
-<aside class="app">
-  <img src="{self.path}{box_src}" alt="{e(box_alt)}" width="{box_w}" height="{box_h}" loading="lazy">
-  <div>
-    <h2>{e(self.cfg["box_heading"])}</h2>
-    <p>{e(self.cfg.get("box_text") or g["app_text"])}</p>
-    {self.store(g.get("ct", g["slug"]))}
-  </div>
-</aside>
+{self.app_box(self.cfg.get("box_text") or g["app_text"], g.get("ct", g["slug"]))}
 
 <h2 id="faq">Frequently asked questions</h2>
 {faq_html}
@@ -230,6 +233,15 @@ class App:
                "hasPart": [{"@type": "Article", "headline": g["h1"], "url": f"{self.hub_url}{g['slug']}/"} for g in guides]}]
         newest = sorted(guides, key=lambda g: g["published"], reverse=True)
         cards = "\n".join(self.card(g) for g in newest)
+        if c.get("box_text"):  # creator guides: same app box as on every guide
+            get_app = self.app_box(c["box_text"], "guides-hub")
+        else:
+            get_app = f"""<aside class="get-app">
+  <img src="{c["icon"]}" alt="" width="56" height="56">
+  <h2>Get {e(self.name)}</h2>
+  <p>{e(c["hub_get"])}</p>
+  {self.store("guides-hub")}
+</aside>"""
         page = self.head(c["hub_title"], c["hub_description"], self.hub_url, f"{self.url}og-image.jpg", ld) + f"""
 <main class="wrap">
 <article>
@@ -239,12 +251,7 @@ class App:
 <ul class="cards">
 {cards}
 </ul>
-<aside class="get-app">
-  <img src="{c["icon"]}" alt="" width="56" height="56">
-  <h2>Get {e(self.name)}</h2>
-  <p>{e(c["hub_get"])}</p>
-  {self.store("guides-hub")}
-</aside>
+{get_app}
 </article>
 </main>
 """ + self.foot()
