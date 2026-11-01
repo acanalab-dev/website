@@ -87,3 +87,7 @@ footer b { color: var(--text); margin-right: 8px; }
 .cta-btn { display: inline-block; padding: 12px 22px; border-radius: 13px; background: linear-gradient(135deg, var(--brand-a, #667eea), var(--brand-b, #764ba2)); color: #fff; font-weight: 600; text-decoration: none; }
 .cta-btn:hover { filter: brightness(1.05); }
 @media (max-width: 480px) { table { font-size: 13.5px; } th, td { padding-left: 6px; padding-right: 6px; } }
+.cta-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.get-app .cta-row { justify-content: center; }
+.cta-btn.outline { background: none; color: var(--accent); border: 1.5px solid var(--accent); padding: 10.5px 20.5px; }
+@media (max-width: 520px) { .app .cta-row { justify-content: center; } }

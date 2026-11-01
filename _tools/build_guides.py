@@ -72,7 +72,8 @@ APPS = [
         "hub_get": "A daily affirmations app with your name on it. No setup fee, you earn every month.",
         "static_pages": ["/design/"],
         "nav_cta": "Your own app",
-        "cta": ["Design your app", "/design/"],
+        "cta": [["Contact us", "mailto:support@acanalab.com?subject=My%20own%20app", "outline"],
+                ["Design your app", "/design/", "main"]],
         "campaigns": False,
         "box_image": ["img/hero-today-dark.webp", 600, 1233, "A branded daily affirmations app on an iPhone"],
     },
@@ -122,8 +123,9 @@ class App:
 
     def store(self, ct):
         if self.cta:
-            label, href = self.cta
-            return f'<a class="cta-btn" href="{href}">{e(label)}</a>'
+            # list of (label, href, style)
+            btns = "".join(f'<a class="cta-btn {style}" href="{href}">{e(label)}</a>' for label, href, style in self.cta)
+            return f'<div class="cta-row">{btns}</div>'
         return store(ct if self.cfg["campaigns"] else None)
 
     def head(self, title, description, url, image, extra_ld):
