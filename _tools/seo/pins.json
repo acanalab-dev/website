@@ -4,251 +4,419 @@
     "slug": "morning-affirmations",
     "board": "Morning Affirmations",
     "kind": "list",
-    "publish": "2026-11-02T08:30:00"
+    "publish": "2026-11-02T08:30:00",
+    "via": "csv"
   },
   {
     "id": "self-love-affirmations-list",
     "slug": "self-love-affirmations",
     "board": "Self Love Affirmations",
     "kind": "list",
-    "publish": "2026-11-02T19:30:00"
+    "publish": "2026-11-02T19:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-anxiety-list",
     "slug": "affirmations-for-anxiety",
     "board": "Affirmations for Anxiety and Stress",
     "kind": "list",
-    "publish": "2026-11-03T08:30:00"
+    "publish": "2026-11-03T08:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-confidence-list",
     "slug": "affirmations-for-confidence",
     "board": "Confidence and Success Affirmations",
     "kind": "list",
-    "publish": "2026-11-03T19:30:00"
+    "publish": "2026-11-03T19:30:00",
+    "via": "csv"
   },
   {
     "id": "gratitude-affirmations-list",
     "slug": "gratitude-affirmations",
     "board": "Gratitude Affirmations",
     "kind": "list",
-    "publish": "2026-11-04T08:30:00"
+    "publish": "2026-11-04T08:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-sleep-list",
     "slug": "affirmations-for-sleep",
     "board": "Sleep and Bedtime Affirmations",
     "kind": "list",
-    "publish": "2026-11-04T19:30:00"
+    "publish": "2026-11-04T19:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-work-list",
     "slug": "affirmations-for-work",
     "board": "Affirmations for Work",
     "kind": "list",
-    "publish": "2026-11-05T08:30:00"
+    "publish": "2026-11-05T08:30:00",
+    "via": "csv"
   },
   {
     "id": "positive-affirmations-for-kids-list",
     "slug": "positive-affirmations-for-kids",
     "board": "Affirmations for Kids",
     "kind": "list",
-    "publish": "2026-11-05T19:30:00"
+    "publish": "2026-11-05T19:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-healing-list",
     "slug": "affirmations-for-healing",
     "board": "Affirmations for Healing",
     "kind": "list",
-    "publish": "2026-11-06T08:30:00"
+    "publish": "2026-11-06T08:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-success-list",
     "slug": "affirmations-for-success",
     "board": "Confidence and Success Affirmations",
     "kind": "list",
-    "publish": "2026-11-06T19:30:00"
+    "publish": "2026-11-06T19:30:00",
+    "via": "csv"
   },
   {
     "id": "short-positive-affirmations-list",
     "slug": "short-positive-affirmations",
     "board": "Short Positive Affirmations",
     "kind": "list",
-    "publish": "2026-11-07T08:30:00"
+    "publish": "2026-11-07T08:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-stress-list",
     "slug": "affirmations-for-stress",
     "board": "Affirmations for Anxiety and Stress",
     "kind": "list",
-    "publish": "2026-11-07T19:30:00"
+    "publish": "2026-11-07T19:30:00",
+    "via": "csv"
   },
   {
     "id": "morning-affirmations-quote-1",
     "slug": "morning-affirmations",
     "board": "Morning Affirmations",
     "kind": "quote",
-    "publish": "2026-11-08T08:30:00"
+    "publish": "2026-11-08T08:30:00",
+    "via": "csv"
   },
   {
     "id": "self-love-affirmations-quote-1",
     "slug": "self-love-affirmations",
     "board": "Self Love Affirmations",
     "kind": "quote",
-    "publish": "2026-11-08T19:30:00"
+    "publish": "2026-11-08T19:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-anxiety-quote-1",
     "slug": "affirmations-for-anxiety",
     "board": "Affirmations for Anxiety and Stress",
     "kind": "quote",
-    "publish": "2026-11-09T08:30:00"
+    "publish": "2026-11-09T08:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-confidence-quote-1",
     "slug": "affirmations-for-confidence",
     "board": "Confidence and Success Affirmations",
     "kind": "quote",
-    "publish": "2026-11-09T19:30:00"
+    "publish": "2026-11-09T19:30:00",
+    "via": "csv"
   },
   {
     "id": "gratitude-affirmations-quote-1",
     "slug": "gratitude-affirmations",
     "board": "Gratitude Affirmations",
     "kind": "quote",
-    "publish": "2026-11-10T08:30:00"
+    "publish": "2026-11-10T08:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-sleep-quote-1",
     "slug": "affirmations-for-sleep",
     "board": "Sleep and Bedtime Affirmations",
     "kind": "quote",
-    "publish": "2026-11-10T19:30:00"
+    "publish": "2026-11-10T19:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-work-quote-1",
     "slug": "affirmations-for-work",
     "board": "Affirmations for Work",
     "kind": "quote",
-    "publish": "2026-11-11T08:30:00"
+    "publish": "2026-11-11T08:30:00",
+    "via": "csv"
   },
   {
     "id": "positive-affirmations-for-kids-quote-1",
     "slug": "positive-affirmations-for-kids",
     "board": "Affirmations for Kids",
     "kind": "quote",
-    "publish": "2026-11-11T19:30:00"
+    "publish": "2026-11-11T19:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-healing-quote-1",
     "slug": "affirmations-for-healing",
     "board": "Affirmations for Healing",
     "kind": "quote",
-    "publish": "2026-11-12T08:30:00"
+    "publish": "2026-11-12T08:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-success-quote-1",
     "slug": "affirmations-for-success",
     "board": "Confidence and Success Affirmations",
     "kind": "quote",
-    "publish": "2026-11-12T19:30:00"
+    "publish": "2026-11-12T19:30:00",
+    "via": "csv"
   },
   {
     "id": "short-positive-affirmations-quote-1",
     "slug": "short-positive-affirmations",
     "board": "Short Positive Affirmations",
     "kind": "quote",
-    "publish": "2026-11-13T08:30:00"
+    "publish": "2026-11-13T08:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-stress-quote-1",
     "slug": "affirmations-for-stress",
     "board": "Affirmations for Anxiety and Stress",
     "kind": "quote",
-    "publish": "2026-11-13T19:30:00"
+    "publish": "2026-11-13T19:30:00",
+    "via": "csv"
   },
   {
     "id": "morning-affirmations-quote-2",
     "slug": "morning-affirmations",
     "board": "Morning Affirmations",
     "kind": "quote",
-    "publish": "2026-11-14T08:30:00"
+    "publish": "2026-11-14T08:30:00",
+    "via": "csv"
   },
   {
     "id": "self-love-affirmations-quote-2",
     "slug": "self-love-affirmations",
     "board": "Self Love Affirmations",
     "kind": "quote",
-    "publish": "2026-11-14T19:30:00"
+    "publish": "2026-11-14T19:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-anxiety-quote-2",
     "slug": "affirmations-for-anxiety",
     "board": "Affirmations for Anxiety and Stress",
     "kind": "quote",
-    "publish": "2026-11-15T08:30:00"
+    "publish": "2026-11-15T08:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-confidence-quote-2",
     "slug": "affirmations-for-confidence",
     "board": "Confidence and Success Affirmations",
     "kind": "quote",
-    "publish": "2026-11-15T19:30:00"
+    "publish": "2026-11-15T19:30:00",
+    "via": "csv"
   },
   {
     "id": "gratitude-affirmations-quote-2",
     "slug": "gratitude-affirmations",
     "board": "Gratitude Affirmations",
     "kind": "quote",
-    "publish": "2026-11-16T08:30:00"
+    "publish": "2026-11-16T08:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-sleep-quote-2",
     "slug": "affirmations-for-sleep",
     "board": "Sleep and Bedtime Affirmations",
     "kind": "quote",
-    "publish": "2026-11-16T19:30:00"
+    "publish": "2026-11-16T19:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-work-quote-2",
     "slug": "affirmations-for-work",
     "board": "Affirmations for Work",
     "kind": "quote",
-    "publish": "2026-11-17T08:30:00"
+    "publish": "2026-11-17T08:30:00",
+    "via": "csv"
   },
   {
     "id": "positive-affirmations-for-kids-quote-2",
     "slug": "positive-affirmations-for-kids",
     "board": "Affirmations for Kids",
     "kind": "quote",
-    "publish": "2026-11-17T19:30:00"
+    "publish": "2026-11-17T19:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-healing-quote-2",
     "slug": "affirmations-for-healing",
     "board": "Affirmations for Healing",
     "kind": "quote",
-    "publish": "2026-11-18T08:30:00"
+    "publish": "2026-11-18T08:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-success-quote-2",
     "slug": "affirmations-for-success",
     "board": "Confidence and Success Affirmations",
     "kind": "quote",
-    "publish": "2026-11-18T19:30:00"
+    "publish": "2026-11-18T19:30:00",
+    "via": "csv"
   },
   {
     "id": "short-positive-affirmations-quote-2",
     "slug": "short-positive-affirmations",
     "board": "Short Positive Affirmations",
     "kind": "quote",
-    "publish": "2026-11-19T08:30:00"
+    "publish": "2026-11-19T08:30:00",
+    "via": "csv"
   },
   {
     "id": "affirmations-for-stress-quote-2",
     "slug": "affirmations-for-stress",
     "board": "Affirmations for Anxiety and Stress",
     "kind": "quote",
-    "publish": "2026-11-19T19:30:00"
+    "publish": "2026-11-19T19:30:00",
+    "via": "csv"
+  },
+  {
+    "id": "morning-affirmations-quote-3",
+    "slug": "morning-affirmations",
+    "board": "Morning Affirmations",
+    "kind": "quote",
+    "publish": "2026-10-31T21:00:00",
+    "pin_title": "It's okay to start the day gently. | Morning affirmation",
+    "description": "\"It's okay to start the day gently.\" Save this morning affirmation for when you need it. Find 50 more morning affirmations in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/morning-affirmations/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "via": "rss"
+  },
+  {
+    "id": "self-love-affirmations-quote-3",
+    "slug": "self-love-affirmations",
+    "board": "Self Love Affirmations",
+    "kind": "quote",
+    "publish": "2026-10-31T22:00:00",
+    "pin_title": "I bring something unique to the world. | Self-love affirmation",
+    "description": "\"I bring something unique to the world.\" Save this self-love affirmation for when you need it. Find 50 more self-love affirmations in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/self-love-affirmations/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "via": "rss"
+  },
+  {
+    "id": "affirmations-for-anxiety-quote-3",
+    "slug": "affirmations-for-anxiety",
+    "board": "Affirmations for Anxiety and Stress",
+    "kind": "quote",
+    "publish": "2026-10-31T23:00:00",
+    "pin_title": "Not every \"what if\" needs an answer. | Affirmation for anxiety",
+    "description": "\"Not every \"what if\" needs an answer.\" Save this affirmation for anxiety for when you need it. Find 40 more affirmations for anxiety in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-anxiety/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "via": "rss"
+  },
+  {
+    "id": "affirmations-for-confidence-quote-3",
+    "slug": "affirmations-for-confidence",
+    "board": "Confidence and Success Affirmations",
+    "kind": "quote",
+    "publish": "2026-11-01T00:00:00",
+    "pin_title": "I've prepared for this, and that preparation counts. | Confidence affirmation",
+    "description": "\"I've prepared for this, and that preparation counts.\" Save this confidence affirmation for when you need it. Find 40 more affirmations for confidence in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-confidence/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "via": "rss"
+  },
+  {
+    "id": "gratitude-affirmations-quote-3",
+    "slug": "gratitude-affirmations",
+    "board": "Gratitude Affirmations",
+    "kind": "quote",
+    "publish": "2026-11-01T01:00:00",
+    "pin_title": "I appreciate the people who make me laugh. | Gratitude affirmation",
+    "description": "\"I appreciate the people who make me laugh.\" Save this gratitude affirmation for when you need it. Find 50 more gratitude affirmations in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/gratitude-affirmations/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "via": "rss"
+  },
+  {
+    "id": "affirmations-for-sleep-quote-3",
+    "slug": "affirmations-for-sleep",
+    "board": "Sleep and Bedtime Affirmations",
+    "kind": "quote",
+    "publish": "2026-11-01T02:00:00",
+    "pin_title": "I am safe and warm in this moment. | Bedtime affirmation",
+    "description": "\"I am safe and warm in this moment.\" Save this bedtime affirmation for when you need it. Find 45 more affirmations for sleep in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-sleep/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "via": "rss"
+  },
+  {
+    "id": "affirmations-for-work-quote-3",
+    "slug": "affirmations-for-work",
+    "board": "Affirmations for Work",
+    "kind": "quote",
+    "publish": "2026-11-01T03:00:00",
+    "pin_title": "I work in steady blocks, and I rest in between. | Work affirmation",
+    "description": "\"I work in steady blocks, and I rest in between.\" Save this work affirmation for when you need it. Find 50 more affirmations for work in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-work/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "via": "rss"
+  },
+  {
+    "id": "positive-affirmations-for-kids-quote-3",
+    "slug": "positive-affirmations-for-kids",
+    "board": "Affirmations for Kids",
+    "kind": "quote",
+    "publish": "2026-11-01T04:00:00",
+    "pin_title": "I am a good friend, and I deserve good friends. | Affirmation for kids",
+    "description": "\"I am a good friend, and I deserve good friends.\" Save this affirmation for kids for when you need it. Find 50 more positive affirmations for kids in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/positive-affirmations-for-kids/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "via": "rss"
+  },
+  {
+    "id": "affirmations-for-healing-quote-3",
+    "slug": "affirmations-for-healing",
+    "board": "Affirmations for Healing",
+    "kind": "quote",
+    "publish": "2026-11-01T05:00:00",
+    "pin_title": "I forgive myself for what I didn't know back then. | Healing affirmation",
+    "description": "\"I forgive myself for what I didn't know back then.\" Save this healing affirmation for when you need it. Find 50 more affirmations for healing in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-healing/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "via": "rss"
+  },
+  {
+    "id": "affirmations-for-success-quote-3",
+    "slug": "affirmations-for-success",
+    "board": "Confidence and Success Affirmations",
+    "kind": "quote",
+    "publish": "2026-11-01T06:00:00",
+    "pin_title": "Progress matters more than speed. | Success affirmation",
+    "description": "\"Progress matters more than speed.\" Save this success affirmation for when you need it. Find 50 more affirmations for success in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-success/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "via": "rss"
+  },
+  {
+    "id": "short-positive-affirmations-quote-3",
+    "slug": "short-positive-affirmations",
+    "board": "Short Positive Affirmations",
+    "kind": "quote",
+    "publish": "2026-11-01T07:00:00",
+    "pin_title": "My body deserves care. | Short affirmation",
+    "description": "\"My body deserves care.\" Save this short affirmation for when you need it. Find 70 more short positive affirmations in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/short-positive-affirmations/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "via": "rss"
+  },
+  {
+    "id": "affirmations-for-stress-quote-3",
+    "slug": "affirmations-for-stress",
+    "board": "Affirmations for Anxiety and Stress",
+    "kind": "quote",
+    "publish": "2026-11-01T08:00:00",
+    "pin_title": "It's okay to let some things wait. | Affirmation for stress",
+    "description": "\"It's okay to let some things wait.\" Save this affirmation for stress for when you need it. Find 50 more affirmations for stress in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-stress/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "via": "rss"
   }
 ]
