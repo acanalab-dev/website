@@ -1,0 +1,21 @@
+# Tells Bing (which powers ChatGPT search and DuckDuckGo) and the other IndexNow engines
+# about every page in the sitemap whenever the site changes. Key file: /<key>.txt at the site root.
+name: IndexNow
+on:
+  push:
+    branches: [main]
+    paths: ["sitemap.xml", "llms.txt", "index.html", "*/index.html", "*/guides/**"]
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for GitHub Pages to deploy
+        run: sleep 180
+      - name: Submit sitemap URLs
+        run: |
+          KEY=76ddf040582eb5dec17cf7414ac35002
+          URLS=$(curl -fsS https://acanalab.com/sitemap.xml | grep -o '<loc>[^<]*' | sed 's/<loc>//' | jq -R . | jq -s '. + ["https://acanalab.com/llms.txt"]')
+          BODY=$(jq -n --argjson u "$URLS" --arg k "$KEY" '{host:"acanalab.com",key:$k,keyLocation:("https://acanalab.com/"+$k+".txt"),urlList:$u}')
+          echo "Submitting $(echo "$URLS" | jq length) URLs"
+          curl -sS -o /dev/null -w "api.indexnow.org: %{http_code}\n" -H 'Content-Type: application/json; charset=utf-8' -d "$BODY" https://api.indexnow.org/indexnow
