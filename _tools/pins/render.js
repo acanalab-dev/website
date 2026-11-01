@@ -31,14 +31,15 @@ body { width: 1000px; height: 1500px; font-family: Inter, sans-serif; -webkit-fo
 .foot { position: relative; display: flex; align-items: center; gap: 22px; margin-top: 40px; }
 .foot img { width: 76px; height: 76px; border-radius: 18px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
 .foot b { display: block; font-size: 32px; }
-.foot small { font-size: 26px; opacity: .8; }
+.foot b span { font-weight: 500; opacity: .75; }
+.foot small { font-size: 28px; font-weight: 600; opacity: .9; }
 .cta { position: relative; margin-top: 10px; display: inline-block; background: #fff; color: #4b3a8f; font-weight: 700; font-size: 34px; padding: 22px 38px; border-radius: 60px; align-self: flex-start; }
 .blush .cta { background: #2a2148; color: #fff; }
 `;
 
 function pinHtml(j) {
   const deco = j.theme === "night" ? '<div class="stars"></div>' : j.theme === "brand" ? '<div class="glow"></div>' : "";
-  const foot = `<div class="foot"><img src="file://${root}/app-icon.png"><div><b>Daily Affirmations</b><small>Free on the App Store · acanalab.com</small></div></div>`;
+  const foot = `<div class="foot"><img src="file://${root}/app-icon.png"><div><b>Daily Affirmations <span>· Free on the App Store</span></b><small>acanalab.com/dailyaffirmationsapp</small></div></div>`;
   const body = j.kind === "quote"
     ? `<div class="quote${j.text.length > 48 ? " long" : ""}"><span>${esc(j.text)}</span></div>`
     : `<div class="title">${esc(j.title)}</div><ul class="list">${j.items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul><div class="cta">${esc(j.cta)} →</div>`;
