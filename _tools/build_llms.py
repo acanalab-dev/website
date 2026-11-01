@@ -9,10 +9,14 @@ SITE = "https://acanalab.com"
 
 
 def guides(app):
-    f = ROOT / app / "guides" / "_src" / "guides.json"
+    f = (ROOT / app if app else ROOT) / "guides" / "_src" / "guides.json"
     if not f.exists():
         return []
     return [f"- [{g['title']}]({SITE}/{app}/guides/{g['slug']}/): {g['description']}" for g in json.loads(f.read_text())]
+
+
+def guides_root():
+    return [l.replace(f"{SITE}//guides/", f"{SITE}/guides/") for l in guides("")]
 
 
 out = f"""# acanalab
@@ -30,6 +34,10 @@ For content creators, influencers and coaches looking for an additional, passive
 - A free brand picker shows the creator's app on real screens in a few minutes, with no sign-up: {SITE}/design/
 - Details, pricing and FAQ: {SITE}/
 - Contact: support@acanalab.com
+
+### Guides for creators
+
+{chr(10).join(guides_root())}
 
 ## Daily Affirmations (iPhone app)
 

@@ -59,6 +59,23 @@ APPS = [
         "campaigns": True,
         "box_image": ["img/phone-see.webp?v=2", 640, 1351, "HoneyNest analytics view showing where your money goes and the spending split between partners"],
     },
+    {
+        # The creator offer on the homepage; guides live at /guides/.
+        "folder": "",
+        "name": "acanalab",
+        "icon": "/creator-icon.png",
+        "guides_label": "Guides for creators",
+        "box_heading": "Your own app, earning every month",
+        "hub_title": "Guides for Creators: Passive Income and Your Own App | acanalab",
+        "hub_description": "Practical guides for creators and influencers on passive income, new revenue streams and launching your own branded app.",
+        "hub_lead": "Practical guides for creators and influencers on passive income and new revenue streams, written by the team that builds branded apps for creators.",
+        "hub_get": "A daily affirmations app with your name on it. No setup fee, you earn every month.",
+        "static_pages": ["/design/"],
+        "nav_cta": "Your own app",
+        "cta": ["Design your app", "/design/"],
+        "campaigns": False,
+        "box_image": ["img/hero-today-dark.webp", 600, 1233, "A branded daily affirmations app on an iPhone"],
+    },
 ]
 
 e = html.escape
@@ -89,19 +106,24 @@ class App:
         self.cfg = cfg
         self.folder = cfg["folder"]
         self.name = cfg["name"]
-        self.dir = ROOT / self.folder
+        # folder "" puts the guides at the site root (/guides/), for the creator offer on the homepage.
+        self.dir = ROOT / self.folder if self.folder else ROOT
         self.guides_dir = self.dir / "guides"
         self.src = self.guides_dir / "_src"
-        self.path = f"/{self.folder}/"
+        self.path = f"/{self.folder}/" if self.folder else "/"
         self.url = f"{SITE}{self.path}"
         self.hub_url = f"{self.url}guides/"
         self.css_v = version(self.guides_dir / "guides.css")
-        self.store_v = version(self.dir / "store.js")
+        self.cta = cfg.get("cta")  # (label, href): a button instead of the App Store badge
+        self.store_v = None if self.cta else version(self.dir / "store.js")
 
     def guides(self):
         return json.loads((self.src / "guides.json").read_text())
 
     def store(self, ct):
+        if self.cta:
+            label, href = self.cta
+            return f'<a class="cta-btn" href="{href}">{e(label)}</a>'
         return store(ct if self.cfg["campaigns"] else None)
 
     def head(self, title, description, url, image, extra_ld):
@@ -129,14 +151,14 @@ class App:
 <body>
 <header class="bar"><div class="wrap">
   <a class="home" href="{self.path}"><img src="{icon}" alt="" width="32" height="32">{e(self.name)}</a>
-  <nav><a href="{self.path}guides/">Guides</a><a class="get" href="{self.path}">Get the app</a></nav>
+  <nav><a href="{self.path}guides/">Guides</a><a class="get" href="{self.path}">{e(self.cfg.get("nav_cta", "Get the app"))}</a></nav>
 </div></header>
 """
 
     def foot(self):
         p = self.path
-        return f"""<script src="{p}store.js?v={self.store_v}"></script>
-<footer><div><b>© 2026 acanalab</b><a href="{p}">{e(self.name)}</a><a href="{p}guides/">Guides</a><a href="{p}privacy-policy">Privacy Policy</a><a href="{p}terms-of-use">Terms of Use</a></div></footer>
+        script = "" if self.cta else f'<script src="{p}store.js?v={self.store_v}"></script>\n'
+        return script + f"""<footer><div><b>© 2026 acanalab</b><a href="{p}">{e(self.name)}</a><a href="{p}guides/">Guides</a><a href="{p}privacy-policy">Privacy Policy</a><a href="{p}terms-of-use">Terms of Use</a></div></footer>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "4be6ca5b24cc460ebc172901ce154768"}}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
@@ -164,6 +186,7 @@ class App:
         toc_html = "".join(f'<li><a href="#{i}">{t}</a></li>' for i, t in toc)
         faq_html = "\n".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in g["faq"])
         related = "\n".join(self.card(by_slug[s]) for s in g["related"] if s in by_slug)
+        related_html = f'<h2>Related guides</h2>\n<ul class="cards">\n{related}\n</ul>' if related else ""
         box_src, box_w, box_h, box_alt = self.cfg["box_image"]
         page = self.head(g["title"] + f" | {self.name}", g["description"], url, image, ld) + f"""
 <main class="wrap">
@@ -188,10 +211,7 @@ class App:
 <h2 id="faq">Frequently asked questions</h2>
 {faq_html}
 
-<h2>Related guides</h2>
-<ul class="cards">
-{related}
-</ul>
+{related_html}
 </article>
 </main>
 """ + self.foot()
