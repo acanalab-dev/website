@@ -193,6 +193,7 @@
   "app_text": "Whichever setup you choose, HoneyNest keeps one shared record: log expenses from both iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows each partner's total, percentage and the difference, so separate accounts stay easy to settle and a joint account is easy to check. Your partner joins with a QR code. It's free; Premium adds your complete expense history.",
   "published": "2026-10-25",
   "related": [
+   "budgeting-for-newlyweds",
    "how-to-talk-about-money-with-your-partner",
    "how-to-track-shared-expenses",
    "how-to-split-bills-with-your-partner",
@@ -362,6 +363,7 @@
   "app_text": "HoneyNest gives your money talks real numbers to look at: you both log shared expenses from your own iPhones and note who paid. It shows each partner's total, percentage and the difference, with Home, Lifestyle and Personal kept apart, and on supported iPhones it can give a short on-device read on your spending. It's free; Premium adds your complete expense history.",
   "published": "2026-10-29",
   "related": [
+   "budgeting-for-newlyweds",
    "moving-in-together-finances-checklist",
    "how-to-split-expenses-as-a-couple",
    "joint-vs-separate-bank-accounts-for-couples"
@@ -444,6 +446,7 @@
   "app_text": "HoneyNest fills in the “Actual” side for you: you both log shared expenses from your own iPhones, note who paid, and see totals by Home, Lifestyle and Personal, plus each partner's total, percentage and the difference. Monthly bills can repeat automatically. The summary screen shows Home and Lifestyle together for the period you pick, ready to copy into the template. It's free; Premium adds your complete expense history.",
   "published": "2026-10-31",
   "related": [
+   "budgeting-for-newlyweds",
    "how-to-track-shared-expenses",
    "proportional-bill-splitting-by-income",
    "how-to-split-bills-with-your-partner"
@@ -464,6 +467,47 @@
    [
     "How often should we update our budget?",
     "Check it once a month against what you actually spent, and update incomes and categories whenever something changes."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "budgeting-for-newlyweds",
+  "ct": "budgeting-newlyweds",
+  "keyword": "budgeting for newlyweds",
+  "title": "Budgeting for Newlyweds: A Simple First Budget, With an Example",
+  "h1": "Budgeting for newlyweds: a simple first budget",
+  "description": "Budgeting for newlyweds: see the full picture, tidy up wedding costs, decide how much to combine, set shared goals and build a first budget, with a worked example.",
+  "lead": "After the wedding, money often changes more than couples expect. Here's a simple first budget for newlyweds: the full picture, leftover wedding costs, how much to combine, a couple of shared goals, and a worked example with real numbers.",
+  "card": "Wedding leftovers, how much to combine, shared goals and a worked first budget.",
+  "image": "img/02-see.jpg",
+  "image_alt": "HoneyNest showing Home expenses and the spending split between two partners",
+  "app_text": "HoneyNest gives newlyweds one shared record: you both log expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal apart. It shows each partner's total, percentage and the difference, rent and bills can repeat monthly, and the summary screen shows Home and Lifestyle together for any period. Your partner joins with a QR code. It's free; Premium adds your complete expense history.",
+  "published": "2026-11-01",
+  "related": [
+   "joint-vs-separate-bank-accounts-for-couples",
+   "couples-budget-template",
+   "how-to-talk-about-money-with-your-partner"
+  ],
+  "faq": [
+   [
+    "How should newlyweds start budgeting?",
+    "Start by listing both incomes, regular costs, debts and accounts together. Then tidy up any leftover wedding costs, decide which costs are shared and how to split them, and put it all on one page."
+   ],
+   [
+    "Do married couples have to combine all their money?",
+    "No. Many married couples keep a joint account for shared costs and a personal account each. Fully separate and fully joint setups also work if you both agree."
+   ],
+   [
+    "How do we plan for a shared goal?",
+    "Give it an amount and a date, divide the amount by the number of months, and add that as a line in your budget. For example, €2,400 in 12 months is €200 a month."
+   ],
+   [
+    "How often should newlyweds review their budget?",
+    "A short monthly check-in works well, with a bigger review when something changes, like a new job or a move."
    ]
   ],
   "image_size": [

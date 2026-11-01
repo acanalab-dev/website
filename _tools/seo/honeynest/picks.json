@@ -198,5 +198,23 @@
       "/honeynest/guides/ (hub)",
       "related: track, proportional, split-bills guides"
     ]
+  },
+  {
+    "date": "2026-11-01",
+    "keyword": "budgeting for newlyweds",
+    "slug": "budgeting-for-newlyweds",
+    "source": "backlog (splitwise page postponed again: sources still unreachable)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ on 2026-11-01 returned no rows yet"
+    },
+    "links_from": [
+      "/honeynest/ (guides section, first)",
+      "/honeynest/guides/ (hub)",
+      "contextual: joint-vs-separate guide (fully joint)",
+      "related: joint-vs-separate, budget template, talk-about-money guides"
+    ]
   }
 ]
