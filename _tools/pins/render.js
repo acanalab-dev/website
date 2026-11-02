@@ -11,6 +11,15 @@ const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, 
 
 const css = `
 @font-face { font-family: Lora; src: url(file://${here}/fonts/Lora.ttf); font-weight: 400 700; }
+@font-face { font-family: Lora; src: url(file://${here}/fonts/Lora-Italic.ttf); font-weight: 400 700; font-style: italic; }
+@font-face { font-family: Nunito; src: url(file://${here}/fonts/Nunito.ttf); font-weight: 200 1000; }
+/* App card themes (photo/texture backgrounds), see themes/themes.json */
+.photo { background-size: cover; background-position: center; }
+.photo .dim { position: absolute; inset: 0; }
+.photo.light-text .quote, .photo.light-text .kicker { text-shadow: 0 2px 18px rgba(0,0,0,.35); }
+.photo .quote.serifItalic { font-style: italic; }
+.photo .quote.rounded { font-family: "Nunito", "Varela Round", "Inter", sans-serif; font-weight: 700; letter-spacing: -.02em; }
+.photo .foot { background: rgba(255,255,255,.55); color: #2a2148; margin: 40px -30px 0; padding: 18px 26px; border-radius: 26px; backdrop-filter: blur(6px); }
 * { box-sizing: border-box; margin: 0; }
 body { width: 1000px; height: 1500px; font-family: Inter, sans-serif; -webkit-font-smoothing: antialiased; }
 .pin { width: 1000px; height: 1500px; position: relative; overflow: hidden; color: #fff; display: flex; flex-direction: column; padding: 110px 90px 90px; }
@@ -43,6 +52,12 @@ function pinHtml(j) {
   const body = j.kind === "quote"
     ? `<div class="quote${j.text.length > 48 ? " long" : ""}"><span>${esc(j.text)}</span></div>`
     : `<div class="title">${esc(j.title)}</div><ul class="list">${j.items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul><div class="cta">${esc(j.cta)} →</div>`;
+  if (j.bg) {
+    const b = j.bg;
+    const light = /^#?f{6}$/i.test(b.text.replace("#", "")) ? " light-text" : "";
+    const quote = `<div class="quote ${b.font}${j.text.length > 48 ? " long" : ""}"><span>${esc(j.text)}</span></div>`;
+    return `<div class="pin photo${light}" style="color:${b.text};background-image:url('file://${here}/themes/${b.image}')"><div class="dim" style="background:rgba(0,0,0,${b.dim})"></div><div class="kicker">${esc(j.kicker)}</div>${quote}${foot}</div>`;
+  }
   return `<div class="pin ${j.theme}">${deco}<div class="kicker">${esc(j.kicker)}</div>${body}${foot}</div>`;
 }
 

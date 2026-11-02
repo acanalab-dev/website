@@ -1,0 +1,178 @@
+[
+ {
+  "id": "whiteDunes",
+  "name": "White dunes",
+  "image": "theme-white-dunes.jpg",
+  "text": "#2f3e46",
+  "font": "rounded",
+  "dim": 0.0
+ },
+ {
+  "id": "stillSea",
+  "name": "Still sea",
+  "image": "theme-still-sea.jpg",
+  "text": "#3d3a45",
+  "font": "serifItalic",
+  "dim": 0.0
+ },
+ {
+  "id": "pinkClouds",
+  "name": "Pink clouds",
+  "image": "theme-pink-clouds.jpg",
+  "text": "#5a3550",
+  "font": "serifItalic",
+  "dim": 0.0
+ },
+ {
+  "id": "polaroidSea",
+  "name": "Polaroid sea",
+  "image": "theme-polaroid-sea.jpg",
+  "text": "#3a3a3a",
+  "font": "serif",
+  "dim": 0.0
+ },
+ {
+  "id": "mistyField",
+  "name": "Misty field",
+  "image": "theme-misty-field.jpg",
+  "text": "#ffffff",
+  "font": "serif",
+  "dim": 0.2
+ },
+ {
+  "id": "pastelPeaks",
+  "name": "Pastel peaks",
+  "image": "theme-pastel-peaks.jpg",
+  "text": "#ffffff",
+  "font": "serif",
+  "dim": 0.3
+ },
+ {
+  "id": "sandRipples",
+  "name": "Sand ripples",
+  "image": "theme-sand-ripples.jpg",
+  "text": "#ffffff",
+  "font": "serif",
+  "dim": 0.25
+ },
+ {
+  "id": "seaFoam",
+  "name": "Sea foam",
+  "image": "theme-sea-foam.jpg",
+  "text": "#33261c",
+  "font": "serif",
+  "dim": 0.0
+ },
+ {
+  "id": "goldenShore",
+  "name": "Golden shore",
+  "image": "theme-golden-shore.jpg",
+  "text": "#5a4632",
+  "font": "serifItalic",
+  "dim": 0.0
+ },
+ {
+  "id": "palmShadow",
+  "name": "Palm shadow",
+  "image": "theme-palm-shadow.jpg",
+  "text": "#ffffff",
+  "font": "rounded",
+  "dim": 0.3
+ },
+ {
+  "id": "leafShadow",
+  "name": "Leaf shadow",
+  "image": "theme-leaf-shadow.jpg",
+  "text": "#ffffff",
+  "font": "serif",
+  "dim": 0.35
+ },
+ {
+  "id": "lavenderSunset",
+  "name": "Lavender sunset",
+  "image": "theme-lavender-sunset.jpg",
+  "text": "#ffffff",
+  "font": "serif",
+  "dim": 0.25
+ },
+ {
+  "id": "milkyWay",
+  "name": "Milky Way",
+  "image": "theme-milky-way.jpg",
+  "text": "#ffffff",
+  "font": "serif",
+  "dim": 0.1
+ },
+ {
+  "id": "starlight",
+  "name": "Starlight",
+  "image": "theme-starlight.jpg",
+  "text": "#ffffff",
+  "font": "rounded",
+  "dim": 0.15
+ },
+ {
+  "id": "vintageBloom",
+  "name": "Vintage bloom",
+  "image": "theme-vintage-bloom.jpg",
+  "text": "#ffffff",
+  "font": "serif",
+  "dim": 0.35
+ },
+ {
+  "id": "blueHour",
+  "name": "Blue hour",
+  "image": "theme-blue-hour.jpg",
+  "text": "#ffffff",
+  "font": "rounded",
+  "dim": 0.15
+ },
+ {
+  "id": "paper",
+  "name": "Paper",
+  "image": "theme-paper-cream.jpg",
+  "text": "#4a3f35",
+  "font": "serif",
+  "dim": 0.0
+ },
+ {
+  "id": "watercolor",
+  "name": "Watercolor",
+  "image": "theme-watercolor-blush.jpg",
+  "text": "#5b3048",
+  "font": "serifItalic",
+  "dim": 0.0
+ },
+ {
+  "id": "linen",
+  "name": "Linen",
+  "image": "theme-linen-sage.jpg",
+  "text": "#ffffff",
+  "font": "rounded",
+  "dim": 0.12
+ },
+ {
+  "id": "duskGlow",
+  "name": "Dusk glow",
+  "image": "theme-dusk-glow.jpg",
+  "text": "#ffffff",
+  "font": "serif",
+  "dim": 0.0
+ },
+ {
+  "id": "marble",
+  "name": "Marble",
+  "image": "theme-marble-stone.jpg",
+  "text": "#3a3a3a",
+  "font": "serifItalic",
+  "dim": 0.0
+ },
+ {
+  "id": "forestFog",
+  "name": "Forest fog",
+  "image": "theme-forest-fog.jpg",
+  "text": "#ffffff",
+  "font": "rounded",
+  "dim": 0.0
+ }
+]

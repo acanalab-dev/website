@@ -52,6 +52,13 @@ GUIDES = {
     "do-affirmations-work": ("Self Love Affirmations", "Believable affirmation"),
 }
 THEMES = ["night", "brand", "blush"]
+# Quote pins use the app's own card themes (photos and textures), picked by pin id.
+CARD_THEMES = json.loads((ROOT / "_tools" / "pins" / "themes" / "themes.json").read_text())
+
+
+def card_theme(pin_id):
+    import hashlib
+    return CARD_THEMES[int(hashlib.md5(pin_id.encode()).hexdigest(), 16) % len(CARD_THEMES)]
 TIMES = ["08:30", "19:30", "13:00"]  # local publish times, spread across the day
 
 
@@ -105,7 +112,8 @@ def pins_for(g, index):
 
 def render(pins):
     OUT.mkdir(exist_ok=True)
-    jobs = [dict(p, out=str(OUT / f"{p['id']}.jpg")) for p in pins]
+    jobs = [dict(p, out=str(OUT / f"{p['id']}.jpg"), **({"bg": card_theme(p["id"])} if p["kind"] == "quote" else {}))
+            for p in pins]
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f:
         json.dump(jobs, f)
     env = dict(os.environ, NODE_PATH=subprocess.run(["npm", "root", "-g"], capture_output=True, text=True).stdout.strip())
