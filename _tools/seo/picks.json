@@ -178,5 +178,24 @@
       "related: anxiety, work guides",
       "/dailyaffirmationsapp/guides/ (hub)"
     ]
+  },
+  {
+    "date": "2026-11-02",
+    "keyword": "do affirmations work",
+    "slug": "do-affirmations-work",
+    "source": "backlog",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console still returns no rows; app page crawled not indexed, guides unknown to Google"
+    },
+    "links_from": [
+      "/dailyaffirmationsapp/ (guides section)",
+      "/dailyaffirmationsapp/guides/how-to-write-affirmations/ (what makes an affirmation work)",
+      "related: how-to-write, short-positive",
+      "/dailyaffirmationsapp/guides/ (hub)"
+    ],
+    "pins": "3 pins in Self Love Affirmations feed"
   }
 ]

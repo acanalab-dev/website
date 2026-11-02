@@ -49,6 +49,7 @@ GUIDES = {
     "short-positive-affirmations": ("Short Positive Affirmations", "Short affirmation"),
     "positive-affirmations-for-kids": ("Affirmations for Kids", "Affirmation for kids"),
     "affirmations-for-work": ("Affirmations for Work", "Work affirmation"),
+    "do-affirmations-work": ("Self Love Affirmations", "Believable affirmation"),
 }
 THEMES = ["night", "brand", "blush"]
 TIMES = ["08:30", "19:30", "13:00"]  # local publish times, spread across the day
@@ -86,7 +87,7 @@ def pins_for(g, index):
     pins = [{
         "id": f"{slug}-list", "slug": slug, "board": board, "kind": "list", "theme": theme(0),
         "kicker": sub.strip(), "title": head.strip(), "items": listed, "cta": f"Read all {count}",
-        "pin_title": f"{head.strip()}: {sub.strip()}"[:100],
+        "pin_title": (f"{head.strip()}: {sub.strip()}" if sub.strip() else head.strip())[:100],
         "description": f"{g['description']} Save this list and read all {count} in the free guide.",
         "link": link,
     }]

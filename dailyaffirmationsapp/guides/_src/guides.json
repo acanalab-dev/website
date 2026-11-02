@@ -48,9 +48,9 @@
     "app_text": "Not ready to write your own yet? Daily Affirmations has hundreds of affirmations across categories like confidence, gratitude and calm. Save the ones that feel true as favorites, then use them as a starting point for your own.",
     "published": "2026-10-21",
     "related": [
+      "do-affirmations-work",
       "short-positive-affirmations",
-      "gratitude-affirmations",
-      "morning-affirmations"
+      "gratitude-affirmations"
     ],
     "faq": [
       [
@@ -432,9 +432,9 @@
     "app_text": "Daily Affirmations puts a fresh affirmation on your Home Screen and Lock Screen with widgets, so a short, kind sentence is there every time you pick up your phone. Self Love, Confidence, Peace and Motivation are all free categories, and you can save your favorites to come back to.",
     "published": "2026-10-30",
     "related": [
+      "do-affirmations-work",
       "how-to-write-affirmations",
-      "morning-affirmations",
-      "affirmations-for-confidence"
+      "morning-affirmations"
     ],
     "faq": [
       [
@@ -496,6 +496,46 @@
       [
         "When should I get help for stress?",
         "If stress feels constant, affects your sleep or health, or doesn't ease when the busy period ends, talk to someone you trust or a doctor or counselor."
+      ]
+    ]
+  },
+  {
+    "slug": "do-affirmations-work",
+    "keyword": "do affirmations work",
+    "title": "Do Affirmations Work? What the Research Says",
+    "h1": "Do affirmations work? What the research says",
+    "description": "Do affirmations work? What studies actually show, when affirmations backfire, how to make them believable, 20 affirmations to start with and a 2-week experiment.",
+    "lead": "Affirmations can work, but not in the \"say it and it will happen\" way. Research shows modest, real benefits, especially when affirmations connect to your values, and a clear way they can backfire. Here's what the studies say and how to use affirmations so they actually help.",
+    "card": "What studies show, when they backfire, and how to make them work for you.",
+    "image": "img/07-style.jpg",
+    "image_alt": "Card styles in Daily Affirmations",
+    "app_text": "Daily Affirmations gives you a fresh set every morning, so they don't turn into background noise. Self Love, Confidence, Growth and Peace are free, along with streaks and gentle reminders that help you run your own two-week experiment. Premium adds widgets and categories like Resilience and Purpose.",
+    "published": "2026-11-02",
+    "related": [
+      "how-to-write-affirmations",
+      "short-positive-affirmations",
+      "morning-affirmations"
+    ],
+    "faq": [
+      [
+        "Do affirmations actually work?",
+        "Research suggests they can have modest, real benefits, such as lower stress reactions and less defensiveness, especially when they connect to your personal values. They work best when they feel believable and are paired with action."
+      ],
+      [
+        "Is there scientific evidence for affirmations?",
+        "Yes. Studies based on self-affirmation theory, such as a 2014 review by Cohen and Sherman and a 2005 stress study by Creswell and colleagues, found benefits from reflecting on personal values. Effects are usually modest and vary between studies."
+      ],
+      [
+        "Why do affirmations make me feel worse?",
+        "If an affirmation feels untrue, your mind argues back and you end up focusing on your doubts. A 2009 study found this happened to people with low self-esteem. Softer, more believable wording usually fixes it."
+      ],
+      [
+        "How long does it take for affirmations to work?",
+        "Many people notice a difference in how they talk to themselves within two weeks of daily use. Try a simple two-week experiment and rate your day each evening to see if it helps you."
+      ],
+      [
+        "Can affirmations replace therapy?",
+        "No. Affirmations can be a helpful extra, but they aren't a treatment for depression, anxiety or other mental health conditions. If you're struggling, talk to a doctor, therapist or someone you trust."
       ]
     ]
   }
