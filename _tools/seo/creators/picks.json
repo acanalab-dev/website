@@ -5,5 +5,17 @@
     "slug": "passive-income-for-influencers",
     "source": "backlog",
     "note": "First creator guide, approved by Jurica"
+  },
+  {
+    "date": "2026-11-02",
+    "keyword": "additional revenue streams for creators",
+    "slug": "revenue-streams-for-creators",
+    "source": "backlog",
+    "note": "GSC no rows yet",
+    "links_from": [
+      "/guides/passive-income-for-influencers/ (how to choose)",
+      "related: passive-income-for-influencers",
+      "/guides/ (hub)"
+    ]
   }
 ]
