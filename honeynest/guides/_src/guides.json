@@ -58,6 +58,7 @@
   "app_text": "HoneyNest tracks every shared expense and who paid it, and shows each partner's total and percentage for any period. Compare those percentages with your agreed split, like 60/40, to see what to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-split-wedding-costs",
    "couples-budget-template",
    "how-to-settle-up-who-owes-what",
    "how-to-split-rent-with-your-partner",
@@ -405,6 +406,7 @@
   "app_text": "HoneyNest does the first part for you: you both log shared expenses and who paid, and it shows each partner's total, percentage and the difference for any period. Compare that with your agreed split, add any personal items or transfers between you, and you have the number to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-30",
   "related": [
+   "how-to-split-wedding-costs",
    "how-to-track-shared-expenses",
    "how-to-split-expenses-as-a-couple",
    "proportional-bill-splitting-by-income"
@@ -488,6 +490,7 @@
   "app_text": "HoneyNest gives newlyweds one shared record: you both log expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal apart. It shows each partner's total, percentage and the difference, rent and bills can repeat monthly, and the summary screen shows Home and Lifestyle together for any period. Your partner joins with a QR code. It's free; Premium adds your complete expense history.",
   "published": "2026-11-01",
   "related": [
+   "how-to-split-wedding-costs",
    "joint-vs-separate-bank-accounts-for-couples",
    "couples-budget-template",
    "how-to-talk-about-money-with-your-partner"
@@ -508,6 +511,47 @@
    [
     "How often should newlyweds review their budget?",
     "A short monthly check-in works well, with a bigger review when something changes, like a new job or a move."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "how-to-split-wedding-costs",
+  "ct": "split-wedding-costs",
+  "keyword": "how to split wedding costs",
+  "title": "How to Split Wedding Costs: Couples, Families and Examples",
+  "h1": "How to split wedding costs: couples, families and examples",
+  "description": "How to split wedding costs: agree a total, handle family contributions, split the rest 50/50 or by income, and track every deposit, with worked examples.",
+  "lead": "Wedding costs add up fast and often involve family too. Here's how to agree a total, handle family contributions openly, split the rest between you, and keep track of every deposit, with worked examples.",
+  "card": "Family contributions, 50/50 or by income, uneven guest lists and tracking deposits.",
+  "image": "img/03-split.jpg",
+  "image_alt": "HoneyNest showing the spending split between two partners",
+  "app_text": "HoneyNest can keep your wedding payments in one place: log each deposit in Lifestyle with who paid, from either of your iPhones. It shows each partner's total, percentage and the difference for any period, so you know where you stand before the next payment is due. Your partner joins with a QR code. It's free; Premium adds your complete expense history.",
+  "published": "2026-11-02",
+  "related": [
+   "budgeting-for-newlyweds",
+   "how-to-settle-up-who-owes-what",
+   "proportional-bill-splitting-by-income"
+  ],
+  "faq": [
+   [
+    "Who traditionally pays for a wedding?",
+    "Traditions differ between families and countries. Today many couples ask each family whether they'd like to contribute, then split the rest between themselves."
+   ],
+   [
+    "Should couples split wedding costs 50/50?",
+    "It's a common choice when incomes are similar. If one partner earns noticeably more, some couples split by income instead."
+   ],
+   [
+    "How do we split costs if one family has more guests?",
+    "Some couples split per-guest costs, like catering, by the number of guests from each side. It's optional and mainly useful when families are contributing."
+   ],
+   [
+    "How do we keep track of wedding payments?",
+    "Record every deposit and payment with the supplier, amount, date and who paid, plus what's still due. Settle up between you once a month."
    ]
   ],
   "image_size": [
