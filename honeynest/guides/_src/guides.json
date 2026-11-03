@@ -364,6 +364,7 @@
   "app_text": "HoneyNest gives your money talks real numbers to look at: you both log shared expenses from your own iPhones and note who paid. It shows each partner's total, percentage and the difference, with Home, Lifestyle and Personal kept apart, and on supported iPhones it can give a short on-device read on your spending. It's free; Premium adds your complete expense history.",
   "published": "2026-10-29",
   "related": [
+   "saving-for-a-goal-as-a-couple",
    "budgeting-for-newlyweds",
    "moving-in-together-finances-checklist",
    "how-to-split-expenses-as-a-couple",
@@ -448,6 +449,7 @@
   "app_text": "HoneyNest fills in the “Actual” side for you: you both log shared expenses from your own iPhones, note who paid, and see totals by Home, Lifestyle and Personal, plus each partner's total, percentage and the difference. Monthly bills can repeat automatically. The summary screen shows Home and Lifestyle together for the period you pick, ready to copy into the template. It's free; Premium adds your complete expense history.",
   "published": "2026-10-31",
   "related": [
+   "saving-for-a-goal-as-a-couple",
    "budgeting-for-newlyweds",
    "how-to-track-shared-expenses",
    "proportional-bill-splitting-by-income",
@@ -490,6 +492,7 @@
   "app_text": "HoneyNest gives newlyweds one shared record: you both log expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal apart. It shows each partner's total, percentage and the difference, rent and bills can repeat monthly, and the summary screen shows Home and Lifestyle together for any period. Your partner joins with a QR code. It's free; Premium adds your complete expense history.",
   "published": "2026-11-01",
   "related": [
+   "saving-for-a-goal-as-a-couple",
    "how-to-split-wedding-costs",
    "joint-vs-separate-bank-accounts-for-couples",
    "couples-budget-template",
@@ -552,6 +555,47 @@
    [
     "How do we keep track of wedding payments?",
     "Record every deposit and payment with the supplier, amount, date and who paid, plus what's still due. Settle up between you once a month."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "saving-for-a-goal-as-a-couple",
+  "ct": "saving-goal-couple",
+  "keyword": "saving for a goal as a couple",
+  "title": "Saving for a Goal as a Couple: A Simple Plan With Examples",
+  "h1": "Saving for a goal as a couple: a simple plan",
+  "description": "How to save for a shared goal as a couple: set an amount and date, work out the monthly amount, split contributions fairly, and adjust if you fall behind.",
+  "lead": "Saving for something together goes smoother with a clear plan. Here's how to set a specific goal, work out the monthly amount, split contributions fairly, keep the money apart, and adjust when life gets in the way.",
+  "card": "Amount and date, fair contributions, and what to do if you fall behind.",
+  "image": "img/05-track.jpg",
+  "image_alt": "HoneyNest showing a couple's monthly Home spending over four months",
+  "app_text": "HoneyNest doesn't track savings goals, but it helps you find the room for one: you both log shared expenses, see where the money goes by Home, Lifestyle and Personal, and see each partner's share. Knowing your real monthly spending makes it easier to choose a goal amount you can keep up. It's free; Premium adds your complete expense history.",
+  "published": "2026-11-03",
+  "related": [
+   "budgeting-for-newlyweds",
+   "couples-budget-template",
+   "how-to-talk-about-money-with-your-partner"
+  ],
+  "faq": [
+   [
+    "How do couples save for a goal together?",
+    "Agree on one specific goal with an amount and a date, divide the amount by the number of months, split the monthly amount in a way you both find fair, and set up automatic transfers into a separate pot."
+   ],
+   [
+    "Should we save 50/50 or by income?",
+    "Either works. 50/50 is simple when incomes are similar; contributing the same share of income can feel fairer when incomes differ."
+   ],
+   [
+    "What if we fall behind on our savings goal?",
+    "Work out what's left and choose together: save a bit more each month to keep the date, or keep the monthly amount and move the date back."
+   ],
+   [
+    "Where should we keep money for a shared goal?",
+    "Many couples use a separate account or savings pot so the money isn't mixed with everyday spending. Which product suits you is a question for your bank or a qualified adviser."
    ]
   ],
   "image_size": [
