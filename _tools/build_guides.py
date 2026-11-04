@@ -32,6 +32,8 @@ APPS = [
         "folder": "dailyaffirmationsapp",
         "name": "Daily Affirmations",
         "icon": "/app-icon.png",
+        # Safari on iPhone shows Apple's "Get" banner on every guide.
+        "app_store_id": "6809586170",
         "guides_label": "Affirmation guides",
         "box_heading": "Make it a daily habit",
         "hub_title": "Affirmation Guides: Tips, Lists and Routines | Daily Affirmations",
@@ -133,11 +135,13 @@ class App:
     def head(self, title, description, url, image, extra_ld):
         ld = "\n".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in extra_ld)
         icon = self.cfg["icon"]
+        app_id = self.cfg.get("app_store_id")
+        banner = f'\n<meta name="apple-itunes-app" content="app-id={app_id}">' if app_id else ""
         return f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">{banner}
 <title>{e(title)}</title>
 <meta name="description" content="{e(description)}">
 <link rel="canonical" href="{url}">
