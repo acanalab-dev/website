@@ -252,5 +252,23 @@
       "contextual: newlyweds guide (shared goals)",
       "related: newlyweds, budget template, talk-about-money guides"
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "keyword": "splitting costs on a couples trip",
+    "slug": "splitting-costs-on-a-couples-trip",
+    "source": "backlog (splitwise page postponed again: sources still unreachable)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ on 2026-11-04 returned no rows yet"
+    },
+    "links_from": [
+      "/honeynest/ (guides section, first)",
+      "/honeynest/guides/ (hub)",
+      "contextual: saving-goal guide (worked example)",
+      "related: settle-up, saving-goal, track guides"
+    ]
   }
 ]
