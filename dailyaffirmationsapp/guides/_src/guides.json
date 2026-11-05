@@ -84,9 +84,9 @@
     "app_text": "Self Love is one of the free categories in Daily Affirmations. Swipe through a new set each day, save the ones that land as favorites, and share them as cards with someone who needs them too.",
     "published": "2026-10-21",
     "related": [
+      "affirmations-for-relationships",
       "affirmations-for-healing",
-      "positive-affirmations-for-kids",
-      "gratitude-affirmations"
+      "positive-affirmations-for-kids"
     ],
     "faq": [
       [
@@ -352,9 +352,9 @@
     "app_text": "Self Love, Peace and Fresh Start are free categories in Daily Affirmations, and Resilience is part of Premium. A fresh set arrives every morning, so you always have a kind sentence ready. Save the ones that help as favorites to come back to on harder days.",
     "published": "2026-10-28",
     "related": [
+      "affirmations-for-relationships",
       "self-love-affirmations",
-      "affirmations-for-anxiety",
-      "gratitude-affirmations"
+      "affirmations-for-anxiety"
     ],
     "faq": [
       [
@@ -536,6 +536,47 @@
       [
         "Can affirmations replace therapy?",
         "No. Affirmations can be a helpful extra, but they aren't a treatment for depression, anxiety or other mental health conditions. If you're struggling, talk to a doctor, therapist or someone you trust."
+      ]
+    ]
+  },
+  {
+    "slug": "affirmations-for-relationships",
+    "keyword": "affirmations for relationships",
+    "ct": "relationships",
+    "title": "Affirmations for Relationships: 50 Phrases for Love and Connection",
+    "h1": "Affirmations for relationships: 50 phrases for love and connection",
+    "description": "50 affirmations for relationships: for your partner, communication and conflict, being single, friends and family, and after a breakup, plus a 5-minute ritual for couples.",
+    "lead": "Affirmations for relationships help you show up with more patience, openness and self-respect. Here are 50, grouped by situation, from a relationship you're in to being single or moving on, plus a simple weekly ritual for couples.",
+    "card": "50 phrases for partners, conflict, being single, friends and moving on.",
+    "image": "img/04-get.jpg",
+    "image_alt": "Daily Affirmations app screens",
+    "app_text": "Relationships is a Premium category in Daily Affirmations, alongside Kindness and Resilience. Self Love, Gratitude and Happiness are free, with a fresh set every morning, streaks and gentle reminders to keep the habit going.",
+    "published": "2026-11-05",
+    "related": [
+      "self-love-affirmations",
+      "affirmations-for-healing",
+      "gratitude-affirmations"
+    ],
+    "faq": [
+      [
+        "What are affirmations for relationships?",
+        "Short, positive sentences that focus your attention on how you want to show up in a relationship, such as \"I listen to understand, not to win\". They help you respond with more patience and self-respect."
+      ],
+      [
+        "Can affirmations improve my relationship?",
+        "They can help you stay calmer, listen better and notice the good, which often improves how conversations go. They don't change the other person and don't replace honest communication."
+      ],
+      [
+        "What is a good affirmation for love?",
+        "A believable one that focuses on you, such as \"I am worthy of a loving, healthy relationship\" or \"I show my love in small ways every day\"."
+      ],
+      [
+        "Can couples do affirmations together?",
+        "Yes. A short weekly ritual where you share one thing you appreciated and choose a shared affirmation for the week is a simple way to start."
+      ],
+      [
+        "What affirmations help after a breakup?",
+        "Gentle ones that allow grief and look ahead, such as \"I am allowed to grieve what I lost\" and \"This ending makes room for something new\"."
       ]
     ]
   }

@@ -197,5 +197,24 @@
       "/dailyaffirmationsapp/guides/ (hub)"
     ],
     "pins": "3 pins in Self Love Affirmations feed"
+  },
+  {
+    "date": "2026-11-05",
+    "keyword": "affirmations for relationships",
+    "slug": "affirmations-for-relationships",
+    "source": "backlog",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console still returns no rows; app page crawled not indexed, newest guides unknown"
+    },
+    "links_from": [
+      "/dailyaffirmationsapp/ (guides section)",
+      "/dailyaffirmationsapp/guides/self-love-affirmations/ (boundaries)",
+      "related: self-love, healing",
+      "/dailyaffirmationsapp/guides/ (hub)"
+    ],
+    "pins": "3 pins in Self Love Affirmations feed"
   }
 ]
