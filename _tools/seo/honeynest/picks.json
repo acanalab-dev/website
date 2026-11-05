@@ -270,5 +270,23 @@
       "contextual: saving-goal guide (worked example)",
       "related: settle-up, saving-goal, track guides"
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "keyword": "splitwise alternative for couples",
+    "slug": "splitwise-alternative-for-couples",
+    "source": "backlog (competitor page approved by Jurica 2026-10-29; Splitwise facts from its App Store listing, checked 2026-11-05)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ on 2026-11-05 returned no rows yet"
+    },
+    "links_from": [
+      "/honeynest/ (guides section, first)",
+      "/honeynest/guides/ (hub)",
+      "contextual: track guide (choose a tool)",
+      "related: track, settle-up, split-expenses guides"
+    ]
   }
 ]

@@ -13,6 +13,7 @@
   "app_text": "HoneyNest lets you both log shared expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows how much each of you spent and the difference, so settling up takes one look. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "splitwise-alternative-for-couples",
    "how-to-settle-up-who-owes-what",
    "how-to-talk-about-money-with-your-partner",
    "splitting-groceries-with-your-partner",
@@ -238,6 +239,7 @@
   "app_text": "HoneyNest is built for this: you both log shared expenses from your own iPhones, note who paid, and sort them into Home, Lifestyle and Personal. Rent and bills can repeat each month, and HoneyNest shows each partner's total, percentage and the difference for any period. It's free; Premium adds your complete expense history.",
   "published": "2026-10-26",
   "related": [
+   "splitwise-alternative-for-couples",
    "splitting-costs-on-a-couples-trip",
    "couples-budget-template",
    "how-to-settle-up-who-owes-what",
@@ -408,6 +410,7 @@
   "app_text": "HoneyNest does the first part for you: you both log shared expenses and who paid, and it shows each partner's total, percentage and the difference for any period. Compare that with your agreed split, add any personal items or transfers between you, and you have the number to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-30",
   "related": [
+   "splitwise-alternative-for-couples",
    "splitting-costs-on-a-couples-trip",
    "how-to-split-wedding-costs",
    "how-to-track-shared-expenses",
@@ -640,6 +643,47 @@
    [
     "What if one of us paid for big bookings months in advance?",
     "Record them as you book. If it's a large amount, you can agree a partial transfer before the trip so one person isn't out of pocket for months."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "splitwise-alternative-for-couples",
+  "ct": "splitwise-alt-couples",
+  "keyword": "splitwise alternative for couples",
+  "title": "Splitwise Alternative for Couples: What to Look For",
+  "h1": "Looking for a Splitwise alternative for couples? What to look for",
+  "description": "What couples need from a shared expenses app, a worked settle-up example, a factual note on Splitwise, and an honest look at when each kind of app may suit you.",
+  "lead": "Many couples start with a general expense-splitting app. Here's what two people sharing a home usually need, a worked example of the numbers, and an honest look at when Splitwise or a couples app may suit you better.",
+  "card": "What couples need from an expenses app, and when each kind suits you.",
+  "image": "img/03-split.jpg",
+  "image_alt": "HoneyNest showing each partner's total, percentage and the difference",
+  "app_text": "HoneyNest is an iPhone app made for couples: you both add shared costs from your own iPhones, synced with iCloud, and it shows who paid, each partner's total, percentage and the difference. Recurring monthly costs come back for you to approve, edit or skip. It splits shared costs 50/50, works on iPhone only and doesn't convert currencies, so check it fits how you share. It's free; Premium adds your complete expense history.",
+  "published": "2026-11-05",
+  "related": [
+   "how-to-track-shared-expenses",
+   "how-to-settle-up-who-owes-what",
+   "how-to-split-expenses-as-a-couple"
+  ],
+  "faq": [
+   [
+    "What should couples look for in a shared expenses app?",
+    "Both partners able to add costs, who paid each cost, running totals and the difference, shared and personal costs kept apart, recurring bills, and support for the split you agreed on."
+   ],
+   [
+    "Is Splitwise good for couples?",
+    "Its App Store listing names couples sharing costs as one use, and it also suits groups, roommates and trips. Whether it fits you depends on who you share costs with, which phones you use and how you split."
+   ],
+   [
+    "Does HoneyNest work on Android?",
+    "No. HoneyNest is an iPhone app, and both partners need an iPhone to share expenses through iCloud."
+   ],
+   [
+    "If my partner paid €770 more than me, do I owe €770?",
+    "No. At 50/50 you'd send half the difference, €385, because the money moves from one share to the other."
    ]
   ],
   "image_size": [
