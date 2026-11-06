@@ -105,6 +105,7 @@
   "app_text": "HoneyNest helps you start your shared home organized: set rent and bills up as recurring expenses, log the extras as you go, and see who paid what each month. Invite your partner with a QR code so you both see the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "fair-way-to-split-household-chores-and-costs",
    "how-to-talk-about-money-with-your-partner",
    "how-to-split-rent-with-your-partner",
    "joint-vs-separate-bank-accounts-for-couples",
@@ -149,6 +150,7 @@
   "app_text": "HoneyNest lets you set rent and other monthly bills up once as recurring expenses, note who paid each one, and log variable bills and groceries as they come. It shows each partner's total, percentage and the difference, so you know what to settle. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-24",
   "related": [
+   "fair-way-to-split-household-chores-and-costs",
    "couples-budget-template",
    "splitting-groceries-with-your-partner",
    "how-to-split-rent-with-your-partner",
@@ -326,6 +328,7 @@
   "app_text": "In HoneyNest, each of you logs grocery shops from your own iPhone with the amount and who paid, in the Home category, and personal extras can go in Personal so they stay out of the shared totals. HoneyNest shows each partner's total, percentage and the difference, so a monthly settle-up takes one look. It's free; Premium adds your complete expense history.",
   "published": "2026-10-28",
   "related": [
+   "fair-way-to-split-household-chores-and-costs",
    "how-to-track-shared-expenses",
    "how-to-split-bills-with-your-partner",
    "how-to-split-expenses-as-a-couple"
@@ -684,6 +687,47 @@
    [
     "If my partner paid €770 more than me, do I owe €770?",
     "No. At 50/50 you'd send half the difference, €385, because the money moves from one share to the other."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "fair-way-to-split-household-chores-and-costs",
+  "ct": "split-chores-costs",
+  "keyword": "fair way to split household chores and costs",
+  "title": "A Fair Way to Split Household Chores and Costs as a Couple",
+  "h1": "A fair way to split household chores and costs",
+  "description": "How couples can split housework and shared costs fairly: list every chore, count the invisible work, agree what fair means, and check in monthly, with an example.",
+  "lead": "Fairness at home is rarely only about money or only about housework. Here's how to put chores and costs on one page, agree what fair means for you, and check it once a month, with a worked example.",
+  "card": "List every chore, count the invisible work, and balance time and money.",
+  "image": "img/04-add.jpg",
+  "image_alt": "HoneyNest adding a shared household expense",
+  "app_text": "HoneyNest takes care of the money side: log household purchases in the Home tab from either of your iPhones and note who paid. It shows each partner's total, percentage and the difference for the period you pick, and recurring monthly costs like a cleaner come back for you to approve, edit or skip. It splits shared costs 50/50 and doesn't track chores. It's free; Premium adds your complete expense history.",
+  "published": "2026-11-06",
+  "related": [
+   "how-to-split-bills-with-your-partner",
+   "splitting-groceries-with-your-partner",
+   "how-to-settle-up-who-owes-what"
+  ],
+  "faq": [
+   [
+    "What is a fair way to split household chores?",
+    "List every chore with rough weekly time, including planning and admin, agree what fair means for you (equal time, equal total effort or preference), and give each chore a clear owner."
+   ],
+   [
+    "Should the partner who does more chores pay less?",
+    "Some couples agree that, especially when one does much more housework on purpose. It's optional and works when you both agree openly."
+   ],
+   [
+    "Is paying for a cleaner a shared cost?",
+    "If it saves both of you time on shared housework, many couples treat it as a shared cost and split it like rent or bills."
+   ],
+   [
+    "How often should we review the chore split?",
+    "Once a month is enough. Add it to your monthly money check-in and adjust when work hours or routines change."
    ]
   ],
   "image_size": [
