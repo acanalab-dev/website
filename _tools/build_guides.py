@@ -51,6 +51,11 @@ APPS = [
         "folder": "honeynest",
         "name": "HoneyNest",
         "icon": "/honeynest/app-icon.png",
+        # Safari on iPhone shows Apple's "Get" banner on every guide.
+        "app_store_id": "6775592748",
+        # Short App Store line in the middle of every guide (after the worked example),
+        # for readers who leave before the box at the end.
+        "mid_cta": "Want the numbers without the spreadsheet? In HoneyNest you both log shared costs and who paid, and it shows each partner's total, percentage and the difference.",
         "guides_label": "Couples money guides",
         "box_heading": "Track it together",
         "hub_title": "Couples Money Guides: Splitting Bills and Shared Expenses | HoneyNest",
@@ -186,9 +191,24 @@ class App:
   </div>
 </aside>"""
 
+    def with_mid_cta(self, body, ct):
+        """Put a short App Store line before the h2 after the worked example, or the middle h2."""
+        starts = [m.start() for m in re.finditer(r"<h2[ >]", body)]
+        we = body.find('<h2 id="worked-example"')
+        later = [s for s in starts if s > we] if we >= 0 else []
+        at = later[0] if later else (starts[len(starts) // 2] if len(starts) > 2 else None)
+        if at is None:
+            return body
+        cta = f'''<aside class="mid-cta"><p>{e(self.cfg["mid_cta"])}</p>{self.store(ct)}</aside>
+
+'''
+        return body[:at] + cta + body[at:]
+
     def build_guide(self, g, by_slug):
         url = f"{self.hub_url}{g['slug']}/"
         body = (self.src / f"{g['slug']}.html").read_text()
+        if self.cfg.get("mid_cta"):
+            body = self.with_mid_cta(body, g.get("ct", g["slug"]))
         toc = re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', body)
         image = f"{self.url}{g['image']}"
         ld = [

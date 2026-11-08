@@ -96,3 +96,5 @@ footer b { color: var(--text); margin-right: 8px; }
 .calc input { width: 100%; font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--text); }
 .calc output { display: block; margin-top: 12px; font-weight: 600; }
 .table-wrap { overflow-x: auto; }
+.mid-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; background: var(--panel); border-radius: 14px; padding: 16px 18px; margin: 28px 0; }
+.mid-cta p { margin: 0; flex: 1 1 260px; }
