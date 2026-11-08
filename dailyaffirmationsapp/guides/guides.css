@@ -84,3 +84,5 @@ details p { margin: 8px 0 0; }
 footer { padding: 48px 16px; text-align: center; font-size: 13px; color: var(--muted); }
 footer a { color: var(--muted); text-decoration: none; margin: 0 8px; white-space: nowrap; display: inline-block; }
 footer b { color: var(--text); margin-right: 8px; }
+.mid-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; margin: 28px 0; }
+.mid-cta p { margin: 0; flex: 1 1 260px; }

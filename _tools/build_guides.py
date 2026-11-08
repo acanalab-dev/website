@@ -34,6 +34,7 @@ APPS = [
         "icon": "/app-icon.png",
         # Safari on iPhone shows Apple's "Get" banner on every guide.
         "app_store_id": "6809586170",
+        "mid_cta": "Want a fresh affirmation every morning without searching for one? Daily Affirmations is a free iPhone app with gentle reminders and Home Screen widgets.",
         "guides_label": "Affirmation guides",
         "box_heading": "Make it a daily habit",
         "hub_title": "Affirmation Guides: Tips, Lists and Routines | Daily Affirmations",
