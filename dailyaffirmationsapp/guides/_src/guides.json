@@ -192,9 +192,9 @@
     "app_text": "Gratitude and Abundance are both free categories in Daily Affirmations. Get a fresh set every morning, save the ones that feel true as favorites, and share one as a card with someone you're thankful for.",
     "published": "2026-10-24",
     "related": [
+      "abundance-affirmations",
       "affirmations-for-sleep",
-      "morning-affirmations",
-      "self-love-affirmations"
+      "morning-affirmations"
     ],
     "faq": [
       [
@@ -392,9 +392,9 @@
     "app_text": "Motivation, Growth and Abundance are free categories in Daily Affirmations, and Career and Purpose are part of Premium. A fresh set arrives every morning, your streak shows how consistent you've been, and a widget keeps your favorite in sight while you work.",
     "published": "2026-10-29",
     "related": [
+      "abundance-affirmations",
       "affirmations-for-work",
-      "affirmations-for-confidence",
-      "morning-affirmations"
+      "affirmations-for-confidence"
     ],
     "faq": [
       [
@@ -577,6 +577,46 @@
       [
         "What affirmations help after a breakup?",
         "Gentle ones that allow grief and look ahead, such as \"I am allowed to grieve what I lost\" and \"This ending makes room for something new\"."
+      ]
+    ]
+  },
+  {
+    "slug": "abundance-affirmations",
+    "keyword": "abundance affirmations",
+    "title": "Abundance Affirmations: 50 Phrases for Money, Opportunity and Gratitude",
+    "h1": "Abundance affirmations: 50 phrases for money, opportunity and gratitude",
+    "description": "50 abundance affirmations for money, opportunities, everyday gratitude and letting go of scarcity, plus how to rewrite scarcity thoughts and a 5-minute routine.",
+    "lead": "Abundance affirmations shift your attention from what's missing to what's possible. They won't make money appear, but they can change how you see money, opportunities and your own ability. Here are 50, grouped by area, plus a simple daily routine.",
+    "card": "50 phrases for money, opportunity, gratitude and letting go of scarcity.",
+    "image": "img/08-share.jpg",
+    "image_alt": "Sharing an affirmation card from Daily Affirmations",
+    "app_text": "Abundance is a free category in Daily Affirmations, along with Gratitude, Growth and Happiness. A fresh set arrives every morning, and Premium adds Career and Purpose, plus widgets that keep one affirmation on your Home Screen.",
+    "published": "2026-11-09",
+    "related": [
+      "gratitude-affirmations",
+      "affirmations-for-success",
+      "how-to-write-affirmations"
+    ],
+    "faq": [
+      [
+        "What are abundance affirmations?",
+        "Short, positive sentences that focus your attention on what you have and what's possible, rather than on what's missing. For example: \"There is enough for me and for everyone else.\""
+      ],
+      [
+        "Do abundance affirmations work for money?",
+        "They can change your mindset about money, which affects your choices and habits. They don't create money on their own, so pair them with practical steps like budgeting, saving or asking for fair pay."
+      ],
+      [
+        "What is an abundance mindset?",
+        "The belief that there are enough resources and opportunities to go around, and that you can create more. It's the opposite of a scarcity mindset, which sees everything as limited and competitive."
+      ],
+      [
+        "How do I use abundance affirmations?",
+        "Choose two that feel believable, say them each morning, and pair them with one small action toward your goal. A short gratitude list makes them more effective."
+      ],
+      [
+        "What's a good abundance affirmation to start with?",
+        "\"My life is already rich in many ways\" is a gentle, believable start. If you want one for money, try \"I make thoughtful choices with my money\"."
       ]
     ]
   }

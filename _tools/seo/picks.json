@@ -216,5 +216,24 @@
       "/dailyaffirmationsapp/guides/ (hub)"
     ],
     "pins": "3 pins in Self Love Affirmations feed"
+  },
+  {
+    "date": "2026-11-09",
+    "keyword": "abundance affirmations",
+    "slug": "abundance-affirmations",
+    "source": "backlog",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console still returns no rows; app page crawled not indexed, newest guides unknown"
+    },
+    "links_from": [
+      "/dailyaffirmationsapp/ (guides section)",
+      "/dailyaffirmationsapp/guides/gratitude-affirmations/ (gratitude and abundance)",
+      "related: gratitude, success",
+      "/dailyaffirmationsapp/guides/ (hub)"
+    ],
+    "pins": "3 pins in Gratitude Affirmations feed"
   }
 ]
