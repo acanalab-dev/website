@@ -150,6 +150,7 @@
   "app_text": "HoneyNest lets you set rent and other monthly bills up once as recurring expenses, note who paid each one, and log variable bills and groceries as they come. It shows each partner's total, percentage and the difference, so you know what to settle. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-24",
   "related": [
+   "how-to-split-subscriptions-with-your-partner",
    "fair-way-to-split-household-chores-and-costs",
    "couples-budget-template",
    "splitting-groceries-with-your-partner",
@@ -197,6 +198,7 @@
   "app_text": "Whichever setup you choose, HoneyNest keeps one shared record: log expenses from both iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows each partner's total, percentage and the difference, so separate accounts stay easy to settle and a joint account is easy to check. Your partner joins with a QR code. It's free; Premium adds your complete expense history.",
   "published": "2026-10-25",
   "related": [
+   "how-to-split-subscriptions-with-your-partner",
    "budgeting-for-newlyweds",
    "how-to-talk-about-money-with-your-partner",
    "how-to-track-shared-expenses",
@@ -241,6 +243,7 @@
   "app_text": "HoneyNest is built for this: you both log shared expenses from your own iPhones, note who paid, and sort them into Home, Lifestyle and Personal. Rent and bills can repeat each month, and HoneyNest shows each partner's total, percentage and the difference for any period. It's free; Premium adds your complete expense history.",
   "published": "2026-10-26",
   "related": [
+   "how-to-split-subscriptions-with-your-partner",
    "splitwise-alternative-for-couples",
    "splitting-costs-on-a-couples-trip",
    "couples-budget-template",
@@ -728,6 +731,47 @@
    [
     "How often should we review the chore split?",
     "Once a month is enough. Add it to your monthly money check-in and adjust when work hours or routines change."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "how-to-split-subscriptions-with-your-partner",
+  "ct": "split-subscriptions",
+  "keyword": "how to split subscriptions with your partner",
+  "title": "How to Split Subscriptions with Your Partner: Streaming, Music and More",
+  "h1": "How to split subscriptions with your partner",
+  "description": "How couples can split streaming, music and other subscriptions fairly: list them, decide what's shared, pick a method, and handle yearly and family plans, with an example.",
+  "lead": "Subscriptions pile up quietly across two cards. Here's how to list them, decide which are shared, pick a simple way to split them, and handle yearly plans and family plans, with a worked example.",
+  "card": "List them, decide what's shared, and handle yearly and family plans.",
+  "image": "img/05-track.jpg",
+  "image_alt": "HoneyNest tracking shared expenses between two partners",
+  "app_text": "HoneyNest has expense types for subscriptions, streaming and music, and recurring monthly costs come back each month for you to approve, edit or skip, so shared plans don't need retyping. Either of you can add costs from your own iPhone, and it shows who paid, each partner's total, percentage and the difference. It splits shared costs 50/50. It's free; Premium adds your complete expense history.",
+  "published": "2026-11-09",
+  "related": [
+   "how-to-split-bills-with-your-partner",
+   "how-to-settle-up-who-owes-what",
+   "how-to-track-shared-expenses"
+  ],
+  "faq": [
+   [
+    "Should couples split streaming subscriptions?",
+    "A simple rule is to share the ones you both use regularly and keep the ones only one of you uses personal."
+   ],
+   [
+    "What's the easiest way to split subscriptions?",
+    "Either add shared ones to your monthly settle-up, take turns paying so totals come out roughly even, or pay them from a joint account."
+   ],
+   [
+    "How do we split a yearly subscription?",
+    "Split it when it's paid, for example €60 each for a €120 plan at 50/50, or think of it as a monthly amount."
+   ],
+   [
+    "Who should be the account holder on a family plan?",
+    "Agree on one person, since they usually control the plan and its payment, and keep a note of who's on it."
    ]
   ],
   "image_size": [
