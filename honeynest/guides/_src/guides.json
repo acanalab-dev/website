@@ -13,6 +13,7 @@
   "app_text": "HoneyNest lets you both log shared expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows how much each of you spent and the difference, so settling up takes one look. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "splitting-costs-when-one-partner-earns-much-more",
    "splitwise-alternative-for-couples",
    "how-to-settle-up-who-owes-what",
    "how-to-talk-about-money-with-your-partner",
@@ -59,6 +60,7 @@
   "app_text": "HoneyNest tracks every shared expense and who paid it, and shows each partner's total and percentage for any period. Compare those percentages with your agreed split, like 60/40, to see what to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "splitting-costs-when-one-partner-earns-much-more",
    "how-to-split-wedding-costs",
    "couples-budget-template",
    "how-to-settle-up-who-owes-what",
@@ -198,6 +200,7 @@
   "app_text": "Whichever setup you choose, HoneyNest keeps one shared record: log expenses from both iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows each partner's total, percentage and the difference, so separate accounts stay easy to settle and a joint account is easy to check. Your partner joins with a QR code. It's free; Premium adds your complete expense history.",
   "published": "2026-10-25",
   "related": [
+   "splitting-costs-when-one-partner-earns-much-more",
    "how-to-split-subscriptions-with-your-partner",
    "budgeting-for-newlyweds",
    "how-to-talk-about-money-with-your-partner",
@@ -772,6 +775,47 @@
    [
     "Who should be the account holder on a family plan?",
     "Agree on one person, since they usually control the plan and its payment, and keep a note of who's on it."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "splitting-costs-when-one-partner-earns-much-more",
+  "ct": "partner-earns-more",
+  "keyword": "splitting costs when one partner earns much more",
+  "title": "Splitting Costs When One Partner Earns Much More: 4 Fair Options",
+  "h1": "Splitting costs when one partner earns much more",
+  "description": "When one partner earns much more, 50/50 can strain the other. Compare four ways to split shared costs with the numbers side by side, plus what matters beyond the math.",
+  "lead": "With a big income gap, a 50/50 split can quietly squeeze the lower earner. Here are four ways couples handle it, with the numbers side by side, and the conversations that matter as much as the math.",
+  "card": "Four options for a big income gap, with what each of you has left.",
+  "image": "img/03-split.jpg",
+  "image_alt": "HoneyNest showing each partner's total, percentage and the difference",
+  "app_text": "HoneyNest shows who paid each shared cost, each partner's total, percentage and the difference for the period you pick, so you can see at a glance how close you are to the split you agreed. Its split setting is 50/50, so if you split by income, compare the percentages it shows with your agreed shares yourself. You both add costs from your own iPhones. It's free; Premium adds your complete expense history.",
+  "published": "2026-11-10",
+  "related": [
+   "proportional-bill-splitting-by-income",
+   "joint-vs-separate-bank-accounts-for-couples",
+   "how-to-talk-about-money-with-your-partner"
+  ],
+  "faq": [
+   [
+    "Is it fair to split 50/50 when one partner earns much more?",
+    "It can be if you both agree and shared costs stay at a level the lower earner can comfortably afford. Many couples with a big gap prefer to split by income instead."
+   ],
+   [
+    "What does splitting by income mean?",
+    "Each partner pays the same percentage of their income. For incomes of €5,000 and €2,000 and €2,800 of shared costs, that's €2,000 and €800, or 40% each."
+   ],
+   [
+    "What is the base plus upgrades method?",
+    "You split a base level of shared costs you both can afford, and when the higher earner wants something pricier, they pay the extra."
+   ],
+   [
+    "Should the higher earner pay for everything?",
+    "Some couples choose that, but it works best when you agree on it openly and both keep some personal money that needs no explaining."
    ]
   ],
   "image_size": [
