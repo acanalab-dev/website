@@ -41,5 +41,19 @@
       "related: revenue-streams, white-label",
       "/guides/ (hub)"
     ]
+  },
+  {
+    "date": "2026-11-11",
+    "keyword": "digital products for influencers",
+    "slug": "digital-products-for-influencers",
+    "source": "backlog",
+    "note": "GSC no rows yet",
+    "links_from": [
+      "/guides/passive-income-for-influencers/ (templates)",
+      "/guides/revenue-streams-for-creators/ (digital products)",
+      "/guides/make-money-as-a-small-influencer/ (digital products)",
+      "related: passive-income, revenue-streams, small-influencer",
+      "/guides/ (hub)"
+    ]
   }
 ]
