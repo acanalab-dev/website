@@ -463,6 +463,7 @@
   "app_text": "HoneyNest fills in the “Actual” side for you: you both log shared expenses from your own iPhones, note who paid, and see totals by Home, Lifestyle and Personal, plus each partner's total, percentage and the difference. Monthly bills can repeat automatically. The summary screen shows Home and Lifestyle together for the period you pick, ready to copy into the template. It's free; Premium adds your complete expense history.",
   "published": "2026-10-31",
   "related": [
+   "couples-emergency-fund",
    "saving-for-a-goal-as-a-couple",
    "budgeting-for-newlyweds",
    "how-to-track-shared-expenses",
@@ -506,6 +507,7 @@
   "app_text": "HoneyNest gives newlyweds one shared record: you both log expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal apart. It shows each partner's total, percentage and the difference, rent and bills can repeat monthly, and the summary screen shows Home and Lifestyle together for any period. Your partner joins with a QR code. It's free; Premium adds your complete expense history.",
   "published": "2026-11-01",
   "related": [
+   "couples-emergency-fund",
    "saving-for-a-goal-as-a-couple",
    "how-to-split-wedding-costs",
    "joint-vs-separate-bank-accounts-for-couples",
@@ -590,6 +592,7 @@
   "app_text": "HoneyNest doesn't track savings goals, but it helps you find the room for one: you both log shared expenses, see where the money goes by Home, Lifestyle and Personal, and see each partner's share. Knowing your real monthly spending makes it easier to choose a goal amount you can keep up. It's free; Premium adds your complete expense history.",
   "published": "2026-11-03",
   "related": [
+   "couples-emergency-fund",
    "splitting-costs-on-a-couples-trip",
    "budgeting-for-newlyweds",
    "couples-budget-template",
@@ -816,6 +819,47 @@
    [
     "Should the higher earner pay for everything?",
     "Some couples choose that, but it works best when you agree on it openly and both keep some personal money that needs no explaining."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "couples-emergency-fund",
+  "ct": "couples-emergency-fund",
+  "keyword": "couples emergency fund how much and who pays",
+  "title": "Couples Emergency Fund: How Much and Who Pays",
+  "h1": "A couples emergency fund: how much and who pays",
+  "description": "How couples can build a shared emergency fund: agree what it's for, work out a target, split contributions 50/50 or by income, and refill it after use, with an example.",
+  "lead": "A shared emergency fund turns a broken boiler or a lost job from a crisis into an inconvenience. Here's how to agree what it's for, set a target, split the contributions and refill it after you use it, with a worked example.",
+  "card": "Set a target, split the contributions, and agree the rules for using it.",
+  "image": "img/02-see.jpg",
+  "image_alt": "HoneyNest showing where shared money goes",
+  "app_text": "HoneyNest helps you see the essential shared costs that set your target: log rent, bills and groceries from either of your iPhones, and the summary screen shows Home and Lifestyle together for the period you pick. Add your monthly fund transfer as a recurring cost you approve, edit or skip each month, and note who paid an emergency cost. It splits shared costs 50/50. It's free; Premium adds your complete expense history.",
+  "published": "2026-11-11",
+  "related": [
+   "saving-for-a-goal-as-a-couple",
+   "couples-budget-template",
+   "proportional-bill-splitting-by-income"
+  ],
+  "faq": [
+   [
+    "How big should a couples emergency fund be?",
+    "Many people aim for a few months of essential shared costs, often somewhere between three and six, but the right amount depends on your situation, such as how stable your incomes are."
+   ],
+   [
+    "Who should pay into a shared emergency fund?",
+    "Use the same rule as your other shared costs: 50/50 if your incomes are similar, or by income so you each put in the same share of what you earn."
+   ],
+   [
+    "What counts as an emergency?",
+    "Costs that are urgent, necessary and unplanned, like an urgent home or car repair, or covering shared costs if one of you loses income. Agree on the grey areas in advance."
+   ],
+   [
+    "What happens to the emergency fund if we break up?",
+    "Agree that while things are calm, for example that you each get back what you put in or split it equally, and write it down."
    ]
   ],
   "image_size": [

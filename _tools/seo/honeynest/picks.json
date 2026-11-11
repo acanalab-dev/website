@@ -342,5 +342,23 @@
       "contextual: proportional splitting guide (end)",
       "related: proportional, split-expenses, joint-vs-separate guides"
     ]
+  },
+  {
+    "date": "2026-11-11",
+    "keyword": "couples emergency fund how much and who pays",
+    "slug": "couples-emergency-fund",
+    "source": "backlog (Jurica OK 2026-11-08; no Search Console rows for /honeynest/ yet)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ on 2026-11-11 returned no rows yet"
+    },
+    "links_from": [
+      "/honeynest/ (guides section, first)",
+      "/honeynest/guides/ (hub)",
+      "contextual: moving-in checklist (plan a small buffer)",
+      "related: saving-goal, budget template, newlyweds guides"
+    ]
   }
 ]
