@@ -232,16 +232,23 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
 .glassbtn { position: absolute; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; font-size: 20px; background: rgba(255,255,255,.75); border: .5px solid rgba(0,0,0,.08); box-shadow: 0 2px 10px rgba(0,0,0,.08); color: var(--ios-label); }
 .ios-dark .glassbtn { background: rgba(58,58,60,.75); border-color: rgba(255,255,255,.1); }
 .today { background: var(--ios-grouped); height: 100%; position: relative; }
+/* Soft echo of the card colors behind the whole screen, like the app */
+.today::before { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, var(--card1), var(--card2)); opacity: .3; pointer-events: none; }
+.ios-dark .today::before { opacity: .32; filter: brightness(.55); }
+.today > * { position: relative; z-index: 1; }
+.today > .glassbtn, .today > .head, .today > .stack, .today > .tabbar { position: absolute; }
 .today .gear { left: 15px; top: 58px; }
 .today .brush { right: 15px; top: 58px; }
 .today .head { display: flex; justify-content: space-between; align-items: center; padding: 0 16px 0 16px; position: absolute; top: 120px; left: 0; right: 0; }
 .today h3 { font-family: ui-rounded, "SF Pro Rounded", -apple-system, system-ui, sans-serif; font-size: 28px; font-weight: 700; margin: 0; line-height: 1.1; }
 .today .date { font-size: 14px; font-weight: 500; color: var(--ios-secondary); margin-top: 4px; }
-.streak { display: flex; align-items: center; gap: 8px; padding: 10px 18px; border-radius: 99px; background: var(--ios-fill); }
+.streak { display: flex; align-items: center; gap: 8px; height: 44px; padding: 0 18px; border-radius: 99px; background: rgba(255,255,255,.6); border: .5px solid rgba(0,0,0,.08); }
+.ios-dark .streak { background: rgba(58,58,60,.6); border-color: rgba(255,255,255,.1); }
+.streak .num { display: flex; flex-direction: column; align-items: center; line-height: 1; gap: 1px; }
 .streak .flame { font-size: 24px; color: #ff6a00; }
 .streak .flame use { fill: url(#flameGrad); }
-.streak b { font-family: ui-rounded, "SF Pro Rounded", -apple-system, system-ui, sans-serif; font-size: 20px; }
-.streak span { font-size: 14px; font-weight: 500; color: var(--ios-secondary); }
+.streak b { font-family: ui-rounded, "SF Pro Rounded", -apple-system, system-ui, sans-serif; font-size: 18px; }
+.streak span { font-size: 11px; font-weight: 500; color: var(--ios-secondary); }
 .stack { position: absolute; left: 20px; right: 20px; top: 258px; height: 420px; }
 .card { position: absolute; inset: 0; border-radius: 24px; display: flex; flex-direction: column; align-items: center; color: #fff; border: 1px solid rgba(255,255,255,.25); box-shadow: 0 8px 16px rgba(0,0,0,.12); }
 .ios-dark .card { border-color: rgba(255,255,255,.12); box-shadow: 0 8px 20px rgba(0,0,0,.4); }
@@ -266,7 +273,48 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
 .sheet .close { left: 15px; top: 16px; font-size: 18px; }
 .sheet .navtitle { font-size: 17px; font-weight: 600; text-align: center; height: 76px; line-height: 76px; }
 .panel { background: var(--ios-cell); border-radius: 16px; margin: 0 16px 20px; padding: 16px; }
-.hero { border-radius: 20px; text-align: center; padding: 24px 20px; }
+.hero { border-radius: 20px; padding: 18px 18px 0; }
+.hero .top { display: flex; align-items: center; gap: 16px; padding-bottom: 16px; border-bottom: .5px solid var(--ios-sep); }
+.hero .ring { margin: 0 !important; width: 64px !important; height: 64px !important; font-size: 34px !important; flex-shrink: 0; }
+.hero .bn { display: flex; align-items: baseline; gap: 8px; }
+.hero .bn b { display: inline; font-size: 40px; }
+.hero .msg3 { font-size: 13px; font-weight: 700; margin-top: 4px; line-height: 1.25; }
+.hero .stats2 { display: grid; grid-template-columns: 1fr 1px 1fr; align-items: center; padding: 12px 0 14px; text-align: center; }
+.hero .stats2 i { height: 40px; background: var(--ios-sep); }
+.hero .stats2 b { display: inline; font-size: 24px; margin-left: 6px; }
+.hero .stats2 .si { font-size: 15px; }
+.hero .stats2 .si.brand use { fill: url(#brandGrad); }
+.hero .stats2 .si.green use { fill: url(#greenGrad); }
+.hero .stats2 span { display: block; font-size: 12px; font-weight: 500; color: var(--ios-secondary); margin-top: 2px; }
+.missed { display: flex; gap: 10px; margin-top: 14px; padding-top: 14px; border-top: .5px solid var(--ios-sep); }
+.missed .u { font-size: 15px; color: var(--s); flex-shrink: 0; margin-top: 1px; }
+.missed b { display: block; font-size: 13px; }
+.missed span { display: block; font-size: 12px; color: var(--ios-secondary); line-height: 1.35; margin-top: 2px; }
+
+/* Favorites with the AI take card */
+.favs { background: var(--ios-grouped); height: 100%; position: relative; overflow: hidden; }
+.favs .gear { left: 15px; top: 58px; }
+.favs .fhead { position: absolute; top: 120px; left: 16px; right: 16px; display: flex; justify-content: space-between; align-items: center; }
+.favs h3 { font-family: ui-rounded, "SF Pro Rounded", -apple-system, system-ui, sans-serif; font-size: 28px; font-weight: 700; margin: 0; line-height: 1.1; }
+.favs .cnt { font-size: 14px; font-weight: 500; color: var(--ios-secondary); margin-top: 4px; }
+.favs .pill { height: 40px; padding: 0 16px; border-radius: 20px; display: flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 600; background: var(--ios-cell); box-shadow: 0 2px 10px rgba(0,0,0,.06); }
+.favs .list2 { position: absolute; top: 196px; left: 16px; right: 16px; display: flex; flex-direction: column; gap: 12px; }
+.aicard { border-radius: 18px; padding: 14px 16px; position: relative; background: var(--ios-cell); overflow: hidden; }
+.aicard::before { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, var(--p), var(--s)); opacity: .12; }
+.ios-dark .aicard::before { opacity: .22; }
+.aicard::after { content: ""; position: absolute; inset: 0; border-radius: 18px; padding: 1px; background: linear-gradient(135deg, var(--p), var(--s)); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; opacity: .55; }
+.aicard > * { position: relative; }
+.aicard .ah { display: flex; align-items: center; gap: 6px; font-family: ui-rounded, "SF Pro Rounded", -apple-system, system-ui, sans-serif; font-weight: 600; font-size: 13px; color: var(--p); }
+.aicard .ah .rf { margin-left: auto; font-size: 15px; }
+.aicard p { margin: 8px 0 0; font-family: ui-serif, "New York", Georgia, serif; font-style: italic; font-size: 14px; line-height: 1.4; }
+.frow { border-radius: 18px; padding: 14px 16px; background: var(--ios-cell); box-shadow: 0 4px 12px rgba(0,0,0,.05); position: relative; overflow: hidden; }
+.frow::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, var(--fc, var(--card1)), transparent 70%); opacity: .1; }
+.frow > * { position: relative; }
+.frow .ft { font-family: ui-serif, "New York", Georgia, serif; font-style: italic; font-weight: 600; font-size: 15px; line-height: 1.3; padding-right: 26px; }
+.frow .fh { position: absolute; right: 14px; top: 14px; color: #ff2d55; font-size: 17px; }
+.frow .fc { margin-top: 12px; font-size: 10px; font-weight: 600; letter-spacing: .8px; text-transform: uppercase; color: var(--fc, var(--card1)); display: flex; align-items: center; gap: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-right: 26px; }
+.frow .fs { position: absolute; right: 16px; bottom: 12px; font-size: 14px; color: var(--ios-secondary); }
+.ios-dark .frow .fc { filter: brightness(1.9) saturate(.9); }
 .hero .ring { width: 96px; height: 96px; border-radius: 50%; margin: 0 auto 14px; display: grid; place-items: center; background: linear-gradient(135deg, rgba(247,151,30,.15), rgba(255,210,0,.15)); font-size: 54px; }
 .hero .ring use { fill: url(#flameGradV); }
 .hero b { display: block; font-family: ui-rounded, "SF Pro Rounded", -apple-system, system-ui, sans-serif; font-size: 40px; line-height: 1.1; }
@@ -364,6 +412,9 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
     <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M12 7v5.3l3.3 2"/></symbol>
     <symbol id="i-flag" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5.5 21V3.5M5.5 4h12l-2.2 4 2.2 4h-12"/></symbol>
     <symbol id="i-icloud" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M7.2 18.5h10.3a4 4 0 0 0 .5-8A6 6 0 0 0 6.4 9.6a4.5 4.5 0 0 0 .8 8.9z"/></symbol>
+    <symbol id="i-umbrella" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.5c5.3 0 9.5 3.9 9.5 8.8h-8.5v6.9a2.7 2.7 0 0 1-5.4 0h1.8a.9.9 0 0 0 1.8 0v-6.9H2.5c0-4.9 4.2-8.8 9.5-8.8z"/></symbol>
+    <symbol id="i-chevron.down" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M6 9l6 6 6-6"/></symbol>
+    <symbol id="i-arrow.clockwise" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3M19.5 4v4.5H15"/></symbol>
     <symbol id="i-gear" viewBox="0 0 24 24"><path fill="currentColor" d="M10.3 2h3.4l.5 2.7 1.8.8 2.3-1.6 2.4 2.4-1.6 2.3.8 1.8 2.7.5v3.4l-2.7.5-.8 1.8 1.6 2.3-2.4 2.4-2.3-1.6-1.8.8-.5 2.7h-3.4l-.5-2.7-1.8-.8-2.3 1.6-2.4-2.4 1.6-2.3-.8-1.8L2 13.7v-3.4l2.7-.5.8-1.8-1.6-2.3 2.4-2.4 2.3 1.6 1.8-.8zM12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/></symbol>
   </defs>
 </svg>
@@ -601,8 +652,8 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
           <div class="glassbtn gear"><svg class="sym"><use href="#i-gear-o"/></svg></div>
           <div class="glassbtn brush" title="Card style"><svg class="sym"><use href="#i-paintbrush"/></svg></div>
           <div class="head">
-            <div><h3>Today</h3><div class="date" id="todayDate"></div></div>
-            <div class="streak"><svg class="sym flame"><use href="#i-flame.fill"/></svg><b>3</b><span>days</span></div>
+            <div><h3>Good morning</h3><div class="date" id="todayDate"></div></div>
+            <div class="streak"><svg class="sym flame"><use href="#i-flame.fill"/></svg><div class="num"><b>3</b><span>days</span></div></div>
           </div>
           <div class="stack">
             <div class="card front">
@@ -621,6 +672,48 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
         <div class="cap">Today</div>
       </div>
 
+      <!-- Favorites with the AI take -->
+      <div class="phone-card">
+        <div class="phone-wrap"><div class="bezel"><div class="screen favs">
+          <div class="status"><span>9:41</span><span class="island"></span><span class="bars">●●● <span class="batt"></span></span></div>
+          <div class="glassbtn gear"><svg class="sym"><use href="#i-gear-o"/></svg></div>
+          <div class="fhead">
+            <div><h3>Favorites</h3><div class="cnt">8 saved</div></div>
+            <div class="pill">All <svg class="sym" style="font-size:12px"><use href="#i-chevron.down"/></svg></div>
+          </div>
+          <div class="list2">
+            <div class="aicard">
+              <div class="ah"><svg class="sym"><use href="#i-sparkles"/></svg>AI take on your favorites<svg class="sym rf"><use href="#i-arrow.clockwise"/></svg></div>
+              <p>You keep coming back to feeling safe, resting without guilt and trusting yourself. It sounds like you are learning to be gentler with yourself.</p>
+            </div>
+            <div class="frow">
+              <div class="ft" data-bind="sample"></div>
+              <svg class="sym fh"><use href="#i-heart.fill"/></svg>
+              <div class="fc"><svg class="sym"><use data-cat-icon href="#i-sparkles"/></svg><span data-bind="categoryName"></span></div>
+              <svg class="sym fs"><use href="#i-share"/></svg>
+            </div>
+            <div class="frow" style="--fc:#2f3f86">
+              <div class="ft">I do not have to earn my rest.</div>
+              <svg class="sym fh"><use href="#i-heart.fill"/></svg>
+              <div class="fc"><svg class="sym"><use href="#i-moon.fill"/></svg>Rest</div>
+              <svg class="sym fs"><use href="#i-share"/></svg>
+            </div>
+            <div class="frow" style="--fc:#ef8914">
+              <div class="ft">My doubts do not define my destiny.</div>
+              <svg class="sym fh"><use href="#i-heart.fill"/></svg>
+              <div class="fc"><svg class="sym"><use href="#i-star.fill"/></svg>Confidence</div>
+              <svg class="sym fs"><use href="#i-share"/></svg>
+            </div>
+          </div>
+          <div class="tabbar">
+            <div><svg><use href="#i-rectangle.stack.fill"/></svg>Today</div>
+            <div class="on"><svg><use href="#i-heart.fill"/></svg>Favorites</div>
+            <div><svg><use href="#i-crown"/></svg>Premium</div>
+          </div>
+        </div></div></div>
+        <div class="cap">Favorites with AI take</div>
+      </div>
+
       <!-- Streak -->
       <div class="phone-card">
         <div class="phone-wrap"><div class="bezel"><div class="screen sheetbg">
@@ -629,14 +722,18 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
             <div class="glassbtn close"><svg class="sym"><use href="#i-xmark"/></svg></div>
             <div class="navtitle">Your Streak</div>
             <div class="panel hero">
-              <div class="ring"><svg class="sym"><use href="#i-flame.fill"/></svg></div>
-              <b>3</b>
-              <div class="lbl2">Day Streak</div>
-              <div class="msg2">Three days in! A pattern is forming.</div>
-            </div>
-            <div class="stats">
-              <div class="stat"><svg class="sym si brand"><use href="#i-star.fill"/></svg><b>7</b><span>Longest</span></div>
-              <div class="stat"><svg class="sym si green"><use href="#i-calendar"/></svg><b>12</b><span>Total</span></div>
+              <div class="top">
+                <div class="ring"><svg class="sym"><use href="#i-flame.fill"/></svg></div>
+                <div>
+                  <div class="bn"><b>3</b><span class="lbl2">Day Streak</span></div>
+                  <div class="msg3">Three days in! A pattern is forming.</div>
+                </div>
+              </div>
+              <div class="stats2">
+                <div><svg class="sym si brand"><use href="#i-star.fill"/></svg><b>7</b><span>Longest</span></div>
+                <i></i>
+                <div><svg class="sym si green"><use href="#i-calendar"/></svg><b>12</b><span>Total</span></div>
+              </div>
             </div>
             <div class="panel">
               <div class="mile">
@@ -645,6 +742,10 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
                 <div class="fr">3/7</div>
               </div>
               <div class="progress"><i style="width:43%"></i></div>
+              <div class="missed">
+                <svg class="sym u"><use href="#i-umbrella"/></svg>
+                <div><b>Missed a day? That's okay.</b><span>Skipping one day won't break your streak. It only starts over if you miss two days in a row.</span></div>
+              </div>
             </div>
             <div class="panel">
               <div class="sh"><i><svg class="sym"><use href="#i-calendar"/></svg></i>This Week</div>
@@ -668,6 +769,11 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
               <div class="row"><span class="li"><svg class="sym"><use href="#i-clock"/></svg></span>Time<span class="timepill">08:30</span></div>
             </div>
             <div class="listfoot">You'll receive a reminder every day at the time above.</div>
+            <div class="sechead" style="padding-top:18px">Apple Intelligence</div>
+            <div class="list">
+              <div class="row"><span class="li grad"><svg class="sym"><use href="#i-sparkles"/></svg></span>AI Take on Favorites<span class="toggle"></span></div>
+            </div>
+            <div class="listfoot">A short reflection on your favorites, written on your device. Your data never leaves your phone.</div>
           </div>
         </div></div></div>
         <div class="cap">Settings</div>
@@ -1340,7 +1446,7 @@ details.dev pre { background: var(--field); border: 1px solid var(--line); borde
   // Date on the Today screen
   (function () {
     var d = new Date();
-    $("todayDate").textContent = d.toLocaleDateString("en-GB", { weekday: "long" }) + ", " + d.toLocaleDateString("en-GB", { day: "numeric", month: "long" });
+    $("todayDate").textContent = d.toLocaleDateString("en-US", { weekday: "long" }) + ", " + d.toLocaleDateString("en-US", { month: "long", day: "numeric" });
   })();
 
   // This Week on the streak screen: Monday to Sunday of the current week, the last 3 days done
