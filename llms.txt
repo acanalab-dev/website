@@ -24,7 +24,7 @@ For content creators, influencers and coaches looking for an additional, passive
 
 ## Daily Affirmations (iPhone app)
 
-A free iPhone app with fresh positive affirmations every day, streaks, gentle reminders, Home Screen and Lock Screen widgets, favorites and shareable cards. Free with no time limit; Premium adds widgets, every category, every card style and unlimited favorites. It is also the live example of the creator app.
+A free iPhone app with fresh positive affirmations every day, streaks, gentle reminders, Home Screen and Lock Screen widgets, favorites with an on-device AI take (Apple Intelligence) and shareable cards. Free with no time limit; Premium adds widgets, every category, every card style and unlimited favorites. It is also the live example of the creator app.
 
 - App page: https://acanalab.com/dailyaffirmationsapp/
 - App Store: https://apps.apple.com/app/id6809586170
