@@ -34,13 +34,13 @@ APPS = [
         "icon": "/app-icon.png",
         # Safari on iPhone shows Apple's "Get" banner on every guide.
         "app_store_id": "6809586170",
-        "mid_cta": "Want a fresh affirmation every morning without searching for one? Daily Affirmations is a free iPhone app with gentle reminders and Home Screen widgets.",
+        "mid_cta": "Want a fresh affirmation every day without searching for one? Daily Affirmations is a free iPhone app with gentle reminders and Home Screen widgets.",
         "guides_label": "Affirmation guides",
         "box_heading": "Make it a daily habit",
         "hub_title": "Affirmation Guides: Tips, Lists and Routines | Daily Affirmations",
         "hub_description": "Practical guides to affirmations: ready-to-use lists, how to write your own, and simple routines to make positive self-talk a daily habit.",
         "hub_lead": "Practical, no-fluff guides to affirmations: ready-to-use lists for every part of life, how to write your own, and simple routines that make the habit stick.",
-        "hub_get": "Fresh affirmations every morning. Free to download. For iPhone.",
+        "hub_get": "Fresh affirmations every day. Free to download. For iPhone.",
         "static_pages": ["/dailyaffirmationsapp/", "/dailyaffirmationsapp/privacy-policy",
                          "/dailyaffirmationsapp/terms-of-use"],
         # App Store campaign tags (ct=) on each badge; store.js adds pt= and mt=.
