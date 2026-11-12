@@ -13,6 +13,7 @@
   "app_text": "HoneyNest lets you both log shared expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows how much each of you spent and the difference, so settling up takes one look. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "splitting-pet-costs-as-a-couple",
    "splitting-costs-when-one-partner-earns-much-more",
    "splitwise-alternative-for-couples",
    "how-to-settle-up-who-owes-what",
@@ -152,6 +153,7 @@
   "app_text": "HoneyNest lets you set rent and other monthly bills up once as recurring expenses, note who paid each one, and log variable bills and groceries as they come. It shows each partner's total, percentage and the difference, so you know what to settle. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-24",
   "related": [
+   "splitting-pet-costs-as-a-couple",
    "how-to-split-subscriptions-with-your-partner",
    "fair-way-to-split-household-chores-and-costs",
    "couples-budget-template",
@@ -840,6 +842,7 @@
   "app_text": "HoneyNest helps you see the essential shared costs that set your target: log rent, bills and groceries from either of your iPhones, and the summary screen shows Home and Lifestyle together for the period you pick. Add your monthly fund transfer as a recurring cost you approve, edit or skip each month, and note who paid an emergency cost. It splits shared costs 50/50. It's free; Premium adds your complete expense history.",
   "published": "2026-11-11",
   "related": [
+   "splitting-pet-costs-as-a-couple",
    "saving-for-a-goal-as-a-couple",
    "couples-budget-template",
    "proportional-bill-splitting-by-income"
@@ -860,6 +863,47 @@
    [
     "What happens to the emergency fund if we break up?",
     "Agree that while things are calm, for example that you each get back what you put in or split it equally, and write it down."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "splitting-pet-costs-as-a-couple",
+  "ct": "split-pet-costs",
+  "keyword": "splitting pet costs as a couple",
+  "title": "Splitting Pet Costs as a Couple: Food, Vet Bills and More",
+  "h1": "Splitting pet costs as a couple",
+  "description": "How couples can split pet costs fairly: list regular and yearly costs, decide whose pet it is money-wise, choose a split, and plan for vet bills, with an example.",
+  "lead": "Pets bring joy and a steady stream of costs. Here's how to list what your pet really costs, choose a split that feels fair, plan for vet bills and handle the tricky cases, with a worked example.",
+  "card": "Regular and yearly costs, whose pet it is, and planning for vet bills.",
+  "image": "img/04-add.jpg",
+  "image_alt": "HoneyNest adding a shared expense",
+  "app_text": "HoneyNest has expense types for pet food, vet visits, supplies and grooming, so pet costs are easy to see at a glance. Either of you logs a cost from your own iPhone and notes who paid, and recurring monthly costs like food or insurance come back for you to approve, edit or skip. It shows each partner's total, percentage and the difference, and splits shared costs 50/50. It's free; Premium adds your complete expense history.",
+  "published": "2026-11-12",
+  "related": [
+   "how-to-split-expenses-as-a-couple",
+   "couples-emergency-fund",
+   "fair-way-to-split-household-chores-and-costs"
+  ],
+  "faq": [
+   [
+    "Should couples split pet costs 50/50?",
+    "Many do, especially for a pet they got together. If the pet was one partner's first, some couples use a different ratio or share only the everyday costs."
+   ],
+   [
+    "Who pays for a vet bill?",
+    "Agree in advance. Some couples split big bills the same way as regular costs; others use a different ratio or pay from a small shared pet fund."
+   ],
+   [
+    "How do we budget for yearly pet costs?",
+    "Add up costs like vaccinations and grooming for the year and divide by 12, so you can plan a monthly amount."
+   ],
+   [
+    "What happens to pet costs if we separate?",
+    "Agree early, while things are calm, who would keep the pet and who would pay for what, and write it down."
    ]
   ],
   "image_size": [
