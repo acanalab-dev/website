@@ -52,6 +52,7 @@ GUIDES = {
     "do-affirmations-work": ("Self Love Affirmations", "Believable affirmation"),
     "affirmations-for-relationships": ("Self Love Affirmations", "Relationship affirmation"),
     "abundance-affirmations": ("Gratitude Affirmations", "Abundance affirmation"),
+    "affirmations-for-depression": ("Affirmations for Healing", "Gentle affirmation"),
 }
 THEMES = ["night", "brand", "blush"]
 # Quote pins use the app's own card themes (photos and textures), picked by pin id.

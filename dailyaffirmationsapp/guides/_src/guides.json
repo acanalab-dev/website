@@ -84,9 +84,9 @@
     "app_text": "Self Love is one of the free categories in Daily Affirmations. Swipe through a new set each day, save the ones that land as favorites, and share them as cards with someone who needs them too.",
     "published": "2026-10-21",
     "related": [
+      "affirmations-for-depression",
       "affirmations-for-relationships",
-      "affirmations-for-healing",
-      "positive-affirmations-for-kids"
+      "affirmations-for-healing"
     ],
     "faq": [
       [
@@ -352,9 +352,9 @@
     "app_text": "Self Love, Peace and Fresh Start are free categories in Daily Affirmations, and Resilience is part of Premium. A fresh set arrives every morning, so you always have a kind sentence ready. Save the ones that help as favorites to come back to on harder days.",
     "published": "2026-10-28",
     "related": [
+      "affirmations-for-depression",
       "affirmations-for-relationships",
-      "self-love-affirmations",
-      "affirmations-for-anxiety"
+      "self-love-affirmations"
     ],
     "faq": [
       [
@@ -512,9 +512,9 @@
     "app_text": "Daily Affirmations gives you a fresh set every morning, so they don't turn into background noise. Self Love, Confidence, Growth and Peace are free, along with streaks and gentle reminders that help you run your own two-week experiment. Premium adds widgets and categories like Resilience and Purpose.",
     "published": "2026-11-02",
     "related": [
+      "affirmations-for-depression",
       "how-to-write-affirmations",
-      "short-positive-affirmations",
-      "morning-affirmations"
+      "short-positive-affirmations"
     ],
     "faq": [
       [
@@ -617,6 +617,46 @@
       [
         "What's a good abundance affirmation to start with?",
         "\"My life is already rich in many ways\" is a gentle, believable start. If you want one for money, try \"I make thoughtful choices with my money\"."
+      ]
+    ]
+  },
+  {
+    "slug": "affirmations-for-depression",
+    "keyword": "affirmations for depression",
+    "title": "Affirmations for Depression: 50 Gentle Phrases for Hard Days",
+    "h1": "Affirmations for depression: 50 gentle phrases for hard days",
+    "description": "50 gentle affirmations for depression and low mood: for hard days, self-compassion, small steps, hope and reaching out, plus how to use them alongside real support.",
+    "lead": "Affirmations can't treat depression, but a kind, believable sentence can make a hard moment a little easier. Here are 50 gentle phrases for low days, how to use them, and where to find real support.",
+    "card": "50 gentle phrases for hard days, small steps, hope and reaching out.",
+    "image": "img/02-swipe.jpg",
+    "image_alt": "Swiping through affirmations in Daily Affirmations",
+    "app_text": "Daily Affirmations brings one kind sentence to your day without you having to look for it. Self Love, Peace, Rest and Fresh Start are free categories, and Premium adds Resilience and Kindness, plus widgets that keep an affirmation on your Home Screen. It's a gentle daily habit, not a treatment.",
+    "published": "2026-11-12",
+    "related": [
+      "affirmations-for-healing",
+      "self-love-affirmations",
+      "affirmations-for-anxiety"
+    ],
+    "faq": [
+      [
+        "Can affirmations help with depression?",
+        "They can't treat depression, but some people find gentle, believable affirmations helpful as a small extra alongside professional support. They work best when they acknowledge that things are hard rather than pretending everything is fine."
+      ],
+      [
+        "What is a good affirmation for depression?",
+        "Something small and true, like \"I am doing the best I can with what I have today\" or \"This feeling is real, and it is not permanent\". If a phrase feels false, choose a softer one."
+      ],
+      [
+        "Why do positive affirmations sometimes make me feel worse?",
+        "When a statement feels far from how you feel, your mind argues with it, which can make the gap feel bigger. Gentler phrases like \"I'm learning to be kinder to myself\" usually work better on low days."
+      ],
+      [
+        "How often should I use affirmations when I'm depressed?",
+        "There's no rule. One sentence on a sticky note or your Home Screen, read once a day, is enough. Keep it easy rather than adding another task to your list."
+      ],
+      [
+        "Where can I get help for depression?",
+        "Start with your doctor or a therapist. If you're in crisis, call your local emergency number or a crisis line: 988 in the US, Samaritans on 116 123 in the UK and Ireland, or find a free line at findahelpline.com."
       ]
     ]
   }
