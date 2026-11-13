@@ -13,6 +13,7 @@
   "app_text": "HoneyNest lets you both log shared expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows how much each of you spent and the difference, so settling up takes one look. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-split-costs-for-a-shared-car",
    "splitting-pet-costs-as-a-couple",
    "splitting-costs-when-one-partner-earns-much-more",
    "splitwise-alternative-for-couples",
@@ -61,6 +62,7 @@
   "app_text": "HoneyNest tracks every shared expense and who paid it, and shows each partner's total and percentage for any period. Compare those percentages with your agreed split, like 60/40, to see what to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-split-costs-for-a-shared-car",
    "splitting-costs-when-one-partner-earns-much-more",
    "how-to-split-wedding-costs",
    "couples-budget-template",
@@ -153,6 +155,7 @@
   "app_text": "HoneyNest lets you set rent and other monthly bills up once as recurring expenses, note who paid each one, and log variable bills and groceries as they come. It shows each partner's total, percentage and the difference, so you know what to settle. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-24",
   "related": [
+   "how-to-split-costs-for-a-shared-car",
    "splitting-pet-costs-as-a-couple",
    "how-to-split-subscriptions-with-your-partner",
    "fair-way-to-split-household-chores-and-costs",
@@ -904,6 +907,47 @@
    [
     "What happens to pet costs if we separate?",
     "Agree early, while things are calm, who would keep the pet and who would pay for what, and write it down."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "how-to-split-costs-for-a-shared-car",
+  "ct": "split-shared-car",
+  "keyword": "how to split costs for a shared car",
+  "title": "How to Split Costs for a Shared Car as a Couple",
+  "h1": "How to split costs for a shared car",
+  "description": "How couples can split shared car costs: list fixed, running and upkeep costs, split equally, by use or a mix, and handle repairs, fines and selling, with an example.",
+  "lead": "A shared car is one of the bigger costs couples have, and one of the messiest to split. Here's how to list every cost, choose an equal, by-use or mixed split, and handle repairs, fines and selling, with a worked example.",
+  "card": "Fixed, running and upkeep costs, split equally, by use or a mix.",
+  "image": "img/05-track.jpg",
+  "image_alt": "HoneyNest tracking shared expenses between two partners",
+  "app_text": "HoneyNest has expense types for fuel, parking, transport and insurance, so car costs are easy to see. Either of you logs a cost from your own iPhone and notes who paid, and recurring monthly costs like the loan or insurance come back for you to approve, edit or skip. It shows each partner's total, percentage and the difference, and splits shared costs 50/50; for a by-use split, compare its totals with your agreed shares. It's free; Premium adds your complete expense history.",
+  "published": "2026-11-13",
+  "related": [
+   "how-to-split-bills-with-your-partner",
+   "couples-emergency-fund",
+   "how-to-split-expenses-as-a-couple"
+  ],
+  "faq": [
+   [
+    "How should couples split car costs?",
+    "Many split fixed costs like the loan, insurance and servicing 50/50 and fuel by who drives more. Others split everything equally or everything by use."
+   ],
+   [
+    "How do we split fuel if one of us drives more?",
+    "Note roughly how many kilometres each of you drives in a month and split fuel in the same ratio, for example 75/25."
+   ],
+   [
+    "Who pays for parking or speeding fines?",
+    "Usually the driver who got the fine pays it."
+   ],
+   [
+    "What happens to the car money if we sell it?",
+    "Agree in advance, for example in proportion to what each of you paid towards the purchase, or equally if you bought it together 50/50."
    ]
   ],
   "image_size": [

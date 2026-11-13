@@ -378,5 +378,23 @@
       "contextual: split-bills guide (exceptions)",
       "related: split-bills, split-expenses, emergency-fund guides"
     ]
+  },
+  {
+    "date": "2026-11-13",
+    "keyword": "how to split costs for a shared car",
+    "slug": "how-to-split-costs-for-a-shared-car",
+    "source": "backlog (Jurica OK 2026-11-08; no Search Console rows for /honeynest/ yet)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ on 2026-11-13 returned no rows yet"
+    },
+    "links_from": [
+      "/honeynest/ (guides section, first)",
+      "/honeynest/guides/ (hub)",
+      "contextual: split-expenses guide (grey areas)",
+      "related: split-expenses, split-bills, proportional guides"
+    ]
   }
 ]
