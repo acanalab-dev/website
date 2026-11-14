@@ -60,7 +60,7 @@ inject("dailyaffirmationsapp/index.html", [
      "image": f"{SITE}/dailyaffirmationsapp/og-image.jpg",
      "description": ("Daily Affirmations is a free iPhone app with fresh positive affirmations every day, "
                      "streaks, gentle reminders, Home Screen and Lock Screen widgets and shareable cards. "
-                     "Free with no time limit; Premium adds widgets, every category, every card style and unlimited favorites."),
+                     "Free with no time limit; Premium adds widgets, up to 30 affirmations a day, every category, every card style and unlimited favorites."),
      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
      "publisher": {"@id": f"{SITE}/#org"}},
 ])
