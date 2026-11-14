@@ -381,6 +381,7 @@
   "app_text": "HoneyNest gives your money talks real numbers to look at: you both log shared expenses from your own iPhones and note who paid. It shows each partner's total, percentage and the difference, with Home, Lifestyle and Personal kept apart, and on supported iPhones it can give a short on-device read on your spending. It's free; Premium adds your complete expense history.",
   "published": "2026-10-29",
   "related": [
+   "monthly-money-check-in-for-couples",
    "saving-for-a-goal-as-a-couple",
    "budgeting-for-newlyweds",
    "moving-in-together-finances-checklist",
@@ -424,6 +425,7 @@
   "app_text": "HoneyNest does the first part for you: you both log shared expenses and who paid, and it shows each partner's total, percentage and the difference for any period. Compare that with your agreed split, add any personal items or transfers between you, and you have the number to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-30",
   "related": [
+   "monthly-money-check-in-for-couples",
    "splitwise-alternative-for-couples",
    "splitting-costs-on-a-couples-trip",
    "how-to-split-wedding-costs",
@@ -468,6 +470,7 @@
   "app_text": "HoneyNest fills in the “Actual” side for you: you both log shared expenses from your own iPhones, note who paid, and see totals by Home, Lifestyle and Personal, plus each partner's total, percentage and the difference. Monthly bills can repeat automatically. The summary screen shows Home and Lifestyle together for the period you pick, ready to copy into the template. It's free; Premium adds your complete expense history.",
   "published": "2026-10-31",
   "related": [
+   "monthly-money-check-in-for-couples",
    "couples-emergency-fund",
    "saving-for-a-goal-as-a-couple",
    "budgeting-for-newlyweds",
@@ -948,6 +951,47 @@
    [
     "What happens to the car money if we sell it?",
     "Agree in advance, for example in proportion to what each of you paid towards the purchase, or equally if you bought it together 50/50."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "monthly-money-check-in-for-couples",
+  "ct": "money-check-in",
+  "keyword": "monthly money check-in for couples",
+  "title": "Monthly Money Check-In for Couples: A 20-Minute Template",
+  "h1": "A monthly money check-in for couples",
+  "description": "A ready-to-use 20-minute monthly money check-in for couples: review spending, settle up, check goals and plan ahead, with a worked example and tips to keep it pleasant.",
+  "lead": "Small money issues build up when nobody mentions them. Here's a ready-to-use 20-minute monthly check-in template, a worked example with real numbers, and ideas for keeping it short and pleasant.",
+  "card": "A 20-minute agenda: spending, settling up, goals and what's coming.",
+  "image": "img/02-see.jpg",
+  "image_alt": "HoneyNest showing where shared money goes",
+  "app_text": "HoneyNest makes the prep take a minute: you both log shared costs from your own iPhones, and it shows who paid, each partner's total, percentage and the difference for the month. The summary screen shows Home and Lifestyle together, and on supported iPhones on-device AI insights point out where your money went. It splits shared costs 50/50. It's free; Premium adds your complete expense history, handy for yearly reviews.",
+  "published": "2026-11-14",
+  "related": [
+   "how-to-talk-about-money-with-your-partner",
+   "how-to-settle-up-who-owes-what",
+   "saving-for-a-goal-as-a-couple"
+  ],
+  "faq": [
+   [
+    "What should a couples money check-in cover?",
+    "A quick win, shared spending against your plan, settling up, progress on goals, upcoming costs, and one thing to change."
+   ],
+   [
+    "How long should a monthly money check-in take?",
+    "About 20 minutes is usually enough if the numbers are ready before you start."
+   ],
+   [
+    "How often should couples talk about money?",
+    "A short check-in once a month, with a longer review every few months and once a year, works for many couples."
+   ],
+   [
+    "What if my partner doesn't like talking about money?",
+    "Keep the first few check-ins very short, about ten minutes on spending and settling up, and add more once it feels normal."
    ]
   ],
   "image_size": [
