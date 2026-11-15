@@ -414,5 +414,23 @@
       "contextual: talk-about-money guide (check-in section)",
       "related: talk-about-money, settle-up, budget template guides"
     ]
+  },
+  {
+    "date": "2026-11-15",
+    "keyword": "splitting holiday and gift costs as a couple",
+    "slug": "splitting-holiday-and-gift-costs-as-a-couple",
+    "source": "backlog (Jurica OK 2026-11-08; no Search Console rows for /honeynest/ yet)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ on 2026-11-15 returned no rows yet"
+    },
+    "links_from": [
+      "/honeynest/ (guides section, first)",
+      "/honeynest/guides/ (hub)",
+      "contextual: track guide (gifts for family)",
+      "related: track, couples trip, split-expenses guides"
+    ]
   }
 ]

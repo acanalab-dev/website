@@ -13,6 +13,7 @@
   "app_text": "HoneyNest lets you both log shared expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows how much each of you spent and the difference, so settling up takes one look. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "splitting-holiday-and-gift-costs-as-a-couple",
    "how-to-split-costs-for-a-shared-car",
    "splitting-pet-costs-as-a-couple",
    "splitting-costs-when-one-partner-earns-much-more",
@@ -251,6 +252,7 @@
   "app_text": "HoneyNest is built for this: you both log shared expenses from your own iPhones, note who paid, and sort them into Home, Lifestyle and Personal. Rent and bills can repeat each month, and HoneyNest shows each partner's total, percentage and the difference for any period. It's free; Premium adds your complete expense history.",
   "published": "2026-10-26",
   "related": [
+   "splitting-holiday-and-gift-costs-as-a-couple",
    "how-to-split-subscriptions-with-your-partner",
    "splitwise-alternative-for-couples",
    "splitting-costs-on-a-couples-trip",
@@ -643,6 +645,7 @@
   "app_text": "HoneyNest makes trip costs easy to log: add each shared cost in Lifestyle from either of your iPhones and note who paid. It shows each partner's total, percentage and the difference for the period you pick, so settling up at home takes one look. Enter amounts in your home currency, since HoneyNest's currency symbol is for display and doesn't convert. It's free; Premium adds your complete expense history.",
   "published": "2026-11-04",
   "related": [
+   "splitting-holiday-and-gift-costs-as-a-couple",
    "how-to-settle-up-who-owes-what",
    "saving-for-a-goal-as-a-couple",
    "how-to-track-shared-expenses"
@@ -992,6 +995,47 @@
    [
     "What if my partner doesn't like talking about money?",
     "Keep the first few check-ins very short, about ten minutes on spending and settling up, and add more once it feels normal."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "splitting-holiday-and-gift-costs-as-a-couple",
+  "ct": "split-holiday-gifts",
+  "keyword": "splitting holiday and gift costs as a couple",
+  "title": "Splitting Holiday and Gift Costs as a Couple: A Simple Plan",
+  "h1": "Splitting holiday and gift costs as a couple",
+  "description": "How couples can split festive season costs: set one holiday budget, decide how to handle gifts for each family, share hosting and travel, and settle up once, with an example.",
+  "lead": "The festive season is one of the priciest times of year for couples. Here's how to set one holiday budget, decide how to split gifts for each side of the family, handle hosting and travel, and settle up once, with a worked example.",
+  "card": "One budget, gifts for each family, hosting, travel and one settle-up.",
+  "image": "img/01-share.jpg",
+  "image_alt": "HoneyNest showing shared expenses and who paid each one",
+  "app_text": "HoneyNest has expense types for gifts and celebrations, so holiday costs are easy to spot. Either of you logs a cost from your own iPhone and notes who paid, and it shows each partner's total, percentage and the difference for the period you pick, so the January settle-up takes one look. Keep gifts for each other in your Personal tab. It splits shared costs 50/50. It's free; Premium adds your complete expense history.",
+  "published": "2026-11-15",
+  "related": [
+   "splitting-costs-on-a-couples-trip",
+   "how-to-settle-up-who-owes-what",
+   "saving-for-a-goal-as-a-couple"
+  ],
+  "faq": [
+   [
+    "How should couples split Christmas gifts for family?",
+    "Common options are sharing all family gifts, each paying for their own family, or sharing an equal budget per family with anyone who wants to spend more paying the extra."
+   ],
+   [
+    "Should we split the cost of gifts for each other?",
+    "Usually not. Most couples pay for the gifts they give each other, sometimes with an agreed rough limit."
+   ],
+   [
+    "Who pays for hosting a family holiday dinner?",
+    "Food and drinks for a dinner at your home are usually a shared cost, even if mostly one side of the family comes."
+   ],
+   [
+    "When should we settle up holiday costs?",
+    "Once, in early January, after logging each cost and who paid during the season."
    ]
   ],
   "image_size": [
