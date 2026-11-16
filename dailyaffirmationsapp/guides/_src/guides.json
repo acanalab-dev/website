@@ -12,9 +12,9 @@
     "app_text": "Daily Affirmations gives you a fresh set every day, a gentle reminder at the time you pick, and a widget so today's affirmation is the first thing you see when you unlock your phone.",
     "published": "2026-10-21",
     "related": [
+      "how-to-make-affirmations-a-habit",
       "short-positive-affirmations",
-      "affirmations-for-work",
-      "gratitude-affirmations"
+      "affirmations-for-work"
     ],
     "faq": [
       [
@@ -48,9 +48,9 @@
     "app_text": "Not ready to write your own yet? Daily Affirmations has hundreds of affirmations across categories like confidence, gratitude and calm. Save the ones that feel true as favorites, and on iPhones with Apple Intelligence an on-device AI take sums up the themes you keep coming back to, a good starting point for writing your own.",
     "published": "2026-10-21",
     "related": [
+      "how-to-make-affirmations-a-habit",
       "do-affirmations-work",
-      "short-positive-affirmations",
-      "gratitude-affirmations"
+      "short-positive-affirmations"
     ],
     "faq": [
       [
@@ -512,9 +512,9 @@
     "app_text": "Daily Affirmations gives you a fresh set every day, so they don't turn into background noise. Self Love, Confidence, Growth and Peace are free, along with streaks and gentle reminders that help you run your own two-week experiment. Premium adds widgets and categories like Resilience and Purpose.",
     "published": "2026-11-02",
     "related": [
+      "how-to-make-affirmations-a-habit",
       "affirmations-for-depression",
-      "how-to-write-affirmations",
-      "short-positive-affirmations"
+      "how-to-write-affirmations"
     ],
     "faq": [
       [
@@ -657,6 +657,47 @@
       [
         "Where can I get help for depression?",
         "Start with your doctor or a therapist. If you're in crisis, call your local emergency number or a crisis line: 988 in the US, Samaritans on 116 123 in the UK and Ireland, or find a free line at findahelpline.com."
+      ]
+    ]
+  },
+  {
+    "slug": "how-to-make-affirmations-a-habit",
+    "ct": "affirmation-habit",
+    "keyword": "how to make affirmations a habit",
+    "title": "How to Make Affirmations a Habit: 7 Steps That Stick",
+    "h1": "How to make affirmations a habit: 7 steps that stick",
+    "description": "How to make affirmations a daily habit in 7 simple steps: start tiny, stack it on something you already do, use reminders and streaks, plus 20 affirmations to start with.",
+    "lead": "Affirmations only help if you keep using them, and that's where most people stop. Here's how to make affirmations a habit in 7 simple steps, how long it really takes, and 20 affirmations to start with.",
+    "card": "7 simple steps, how long it really takes, and 20 starter affirmations.",
+    "image": "img/v2-07-streak.jpg",
+    "image_alt": "A streak of days in a row in Daily Affirmations",
+    "app_text": "Daily Affirmations gives you a fresh set every morning, one gentle reminder at the time you choose and a streak that shows the habit forming. It's free with no time limit, and Premium adds Home Screen and Lock Screen widgets so an affirmation is there without opening anything.",
+    "published": "2026-11-16",
+    "related": [
+      "morning-affirmations",
+      "how-to-write-affirmations",
+      "do-affirmations-work"
+    ],
+    "faq": [
+      [
+        "How long does it take to make affirmations a habit?",
+        "It varies. A well-known study found new daily habits took between 18 and 254 days to become automatic, with a median of about 66. Simple habits like a one-sentence affirmation tend to form faster."
+      ],
+      [
+        "What is the best time of day to say affirmations?",
+        "The best time is one you can repeat every day. Mornings are the most popular, but any fixed moment works, like brushing your teeth, your first coffee or going to bed."
+      ],
+      [
+        "How many affirmations should I say a day?",
+        "Start with one. Once the habit is steady, you can add a few more, but a single believable affirmation said every day beats a long list you skip."
+      ],
+      [
+        "What if I miss a day?",
+        "Just do it the next day. Missing one day doesn't undo your progress. The helpful rule is \"never miss twice\"."
+      ],
+      [
+        "Do I need an app to build an affirmation habit?",
+        "No. A sticky note and a calendar you tick off work well. An app helps by handling the reminder, the streak and fresh affirmations for you."
       ]
     ]
   }
