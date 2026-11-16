@@ -432,5 +432,23 @@
       "contextual: track guide (gifts for family)",
       "related: track, couples trip, split-expenses guides"
     ]
+  },
+  {
+    "date": "2026-11-16",
+    "keyword": "splitting costs when one partner works from home",
+    "slug": "splitting-costs-when-one-partner-works-from-home",
+    "source": "backlog (Jurica OK 2026-11-08; no Search Console rows for /honeynest/ yet)",
+    "gsc": {
+      "impressions": 0,
+      "clicks": 0,
+      "position": null,
+      "note": "Search Console pull for /honeynest/ on 2026-11-16 returned no rows yet"
+    },
+    "links_from": [
+      "/honeynest/ (guides section, first)",
+      "/honeynest/guides/ (hub)",
+      "contextual: split-bills guide (variable bills)",
+      "related: split-bills, chores, rent guides"
+    ]
   }
 ]

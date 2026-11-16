@@ -156,6 +156,7 @@
   "app_text": "HoneyNest lets you set rent and other monthly bills up once as recurring expenses, note who paid each one, and log variable bills and groceries as they come. It shows each partner's total, percentage and the difference, so you know what to settle. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-24",
   "related": [
+   "splitting-costs-when-one-partner-works-from-home",
    "how-to-split-costs-for-a-shared-car",
    "splitting-pet-costs-as-a-couple",
    "how-to-split-subscriptions-with-your-partner",
@@ -300,6 +301,7 @@
   "app_text": "In HoneyNest, add rent once as a recurring monthly expense and note who pays it. Log the other shared costs as they come, and HoneyNest shows each partner's total, percentage and the difference, so you can compare it with the split you agreed and settle up. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-27",
   "related": [
+   "splitting-costs-when-one-partner-works-from-home",
    "how-to-split-bills-with-your-partner",
    "proportional-bill-splitting-by-income",
    "moving-in-together-finances-checklist"
@@ -728,6 +730,7 @@
   "app_text": "HoneyNest takes care of the money side: log household purchases in the Home tab from either of your iPhones and note who paid. It shows each partner's total, percentage and the difference for the period you pick, and recurring monthly costs like a cleaner come back for you to approve, edit or skip. It splits shared costs 50/50 and doesn't track chores. It's free; Premium adds your complete expense history.",
   "published": "2026-11-06",
   "related": [
+   "splitting-costs-when-one-partner-works-from-home",
    "how-to-split-bills-with-your-partner",
    "splitting-groceries-with-your-partner",
    "how-to-settle-up-who-owes-what"
@@ -1036,6 +1039,47 @@
    [
     "When should we settle up holiday costs?",
     "Once, in early January, after logging each cost and who paid during the season."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "splitting-costs-when-one-partner-works-from-home",
+  "ct": "partner-works-from-home",
+  "keyword": "splitting costs when one partner works from home",
+  "title": "Splitting Costs When One Partner Works From Home",
+  "h1": "Splitting costs when one partner works from home",
+  "description": "When one partner works from home, energy and internet costs rise. How to estimate the extra, choose a fair split, and adjust through the seasons, with a worked example.",
+  "lead": "Working from home makes the household a bit more expensive: heating all day, a faster internet plan, maybe a spare room as an office. Here's how to estimate the extra, choose a fair way to handle it, and check it through the seasons, with a worked example.",
+  "card": "Estimate the extra energy and internet, then pick a fair way to share it.",
+  "image": "img/05-track.jpg",
+  "image_alt": "HoneyNest tracking shared expenses between two partners",
+  "app_text": "HoneyNest has expense types for electricity, gas, water and internet, and recurring monthly bills come back each month for you to approve, edit or skip, so it's easy to compare bills before and after. Either of you logs costs from your own iPhone and notes who paid, and it shows each partner's total, percentage and the difference. It splits shared costs 50/50. It's free; Premium adds your complete expense history, handy for comparing seasons.",
+  "published": "2026-11-16",
+  "related": [
+   "how-to-split-bills-with-your-partner",
+   "fair-way-to-split-household-chores-and-costs",
+   "monthly-money-check-in-for-couples"
+  ],
+  "faq": [
+   [
+    "Should the partner who works from home pay more for bills?",
+    "Some couples have the home worker cover the estimated extra energy and internet; others keep 50/50 because the home worker also handles more daytime tasks. Both are fair if you agree."
+   ],
+   [
+    "How do we estimate the extra energy cost of working from home?",
+    "Compare bills from before and after, compare work-from-home days with days nobody's home, or agree a reasonable fixed amount and adjust later."
+   ],
+   [
+    "What about a work-from-home allowance?",
+    "If the employer pays one, many couples put it towards the extra household costs. Rules differ by country and employer, so ask them or a qualified professional for specifics."
+   ],
+   [
+    "Should a home office change how we split rent?",
+    "Some couples shift the rent split slightly, for example to 52/48, when a room becomes an office. It's optional."
    ]
   ],
   "image_size": [
