@@ -44,7 +44,7 @@ inject("index.html", [
      "provider": {"@id": f"{SITE}/#org"}, "url": f"{SITE}/", "areaServed": "Worldwide",
      "audience": {"@type": "Audience", "audienceType": "Content creators, influencers, coaches"},
      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD",
-                "description": "No upfront cost; revenue share on subscription sales."}},
+                "description": "No setup fee; revenue share on subscription sales. The creator pays Apple's developer account, $99 a year."}},
     {"@type": "WebPage", "@id": f"{SITE}/#webpage", "url": f"{SITE}/", "name": "Your Own Affirmations App",
      "about": {"@id": f"{SITE}/#service"}, "publisher": {"@id": f"{SITE}/#org"}},
     {"@type": "FAQPage", "mainEntity": faq},

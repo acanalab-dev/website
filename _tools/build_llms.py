@@ -21,7 +21,7 @@ def guides_root():
 
 out = f"""# acanalab
 
-> acanalab is a small European studio that makes calm, privacy-friendly iPhone apps. It offers creators and influencers their own fully branded daily affirmations app (no upfront cost, revenue share), and publishes its own apps, Daily Affirmations and HoneyNest.
+> acanalab is a small European studio that makes calm, privacy-friendly iPhone apps. It offers creators and influencers their own fully branded daily affirmations app (no setup fee, revenue share; the creator pays only Apple's $99 a year developer account), and publishes its own apps, Daily Affirmations and HoneyNest.
 
 ## Own-brand affirmations app for creators and influencers
 
