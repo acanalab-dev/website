@@ -89,9 +89,9 @@
     "image_alt": "A branded daily affirmations app on an iPhone",
     "published": "2026-11-03",
     "related": [
+      "should-influencers-have-their-own-app",
       "revenue-streams-for-creators",
-      "passive-income-for-influencers",
-      "make-money-as-a-small-influencer"
+      "passive-income-for-influencers"
     ],
     "faq": [
       [
@@ -167,9 +167,9 @@
     "image_alt": "A branded daily affirmations app on an iPhone",
     "published": "2026-11-11",
     "related": [
+      "should-influencers-have-their-own-app",
       "passive-income-for-influencers",
-      "revenue-streams-for-creators",
-      "white-label-app-for-influencers"
+      "revenue-streams-for-creators"
     ],
     "faq": [
       [
@@ -191,6 +191,45 @@
       [
         "Can an app be a digital product?",
         "Yes. Unlike most downloads, an app is used every day and is usually paid for monthly. With a white-label app, it's built and published for you, so it's realistic even without technical skills."
+      ]
+    ]
+  },
+  {
+    "slug": "should-influencers-have-their-own-app",
+    "keyword": "should influencers have their own app",
+    "title": "Should Influencers Have Their Own App? Pros, Cons and a Self-Check",
+    "h1": "Should influencers have their own app? Pros, cons and a self-check",
+    "description": "Should influencers have their own app? The honest pros and cons, a 6-question self-check, the main ways to get an app, and good alternatives if it isn't right for you.",
+    "lead": "An app with your name on it sounds great, but it isn't right for every creator. Here are the honest pros and cons, a quick self-check, the main ways to get an app, and what to do instead if it doesn't fit.",
+    "card": "Honest pros and cons, a 6-question self-check and the alternatives.",
+    "image": "og-image.jpg",
+    "image_alt": "A branded daily affirmations app on an iPhone",
+    "published": "2026-11-18",
+    "related": [
+      "white-label-app-for-influencers",
+      "digital-products-for-influencers",
+      "revenue-streams-for-creators"
+    ],
+    "faq": [
+      [
+        "Is it worth it for an influencer to have an app?",
+        "It can be, if your followers come to you for something they want every day and you're willing to mention the app regularly. For entertainment-focused accounts, other income streams usually fit better."
+      ],
+      [
+        "How much does it cost for an influencer to get an app?",
+        "It ranges from a large upfront cost for a custom build to little or nothing for some white-label apps that share revenue instead. You'll usually also need a developer account with the app store, which is $99 a year for Apple."
+      ],
+      [
+        "How do influencer apps make money?",
+        "Mostly through monthly subscriptions, where followers use the app for free and pay for premium features. The app store collects payments and takes a commission."
+      ],
+      [
+        "How many followers do I need for my own app?",
+        "There's no fixed number. A smaller, engaged audience that wants daily content can support an app better than a large audience that only watches occasionally."
+      ],
+      [
+        "What kind of app should an influencer make?",
+        "One people use every day and that matches your content, like affirmations, workouts, meditations, recipes or habit tracking. Daily use keeps subscribers paying longer."
       ]
     ]
   }
