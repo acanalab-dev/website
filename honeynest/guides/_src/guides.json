@@ -63,6 +63,7 @@
   "app_text": "HoneyNest tracks every shared expense and who paid it, and shows each partner's total and percentage for any period. Compare those percentages with your agreed split, like 60/40, to see what to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "how-to-split-a-mortgage-with-your-partner",
    "how-to-split-costs-for-a-shared-car",
    "splitting-costs-when-one-partner-earns-much-more",
    "how-to-split-wedding-costs",
@@ -207,6 +208,7 @@
   "app_text": "Whichever setup you choose, HoneyNest keeps one shared record: log expenses from both iPhones, note who paid, and keep Home, Lifestyle and Personal spending apart. It shows each partner's total, percentage and the difference, so separate accounts stay easy to settle and a joint account is easy to check. Your partner joins with a QR code. It's free; Premium adds your complete expense history.",
   "published": "2026-10-25",
   "related": [
+   "how-to-split-a-mortgage-with-your-partner",
    "splitting-costs-when-one-partner-earns-much-more",
    "how-to-split-subscriptions-with-your-partner",
    "budgeting-for-newlyweds",
@@ -301,6 +303,7 @@
   "app_text": "In HoneyNest, add rent once as a recurring monthly expense and note who pays it. Log the other shared costs as they come, and HoneyNest shows each partner's total, percentage and the difference, so you can compare it with the split you agreed and settle up. Your partner joins with a QR code and sees the same numbers. It's free; Premium adds your complete expense history.",
   "published": "2026-10-27",
   "related": [
+   "how-to-split-a-mortgage-with-your-partner",
    "splitting-costs-when-one-partner-works-from-home",
    "how-to-split-bills-with-your-partner",
    "proportional-bill-splitting-by-income",
@@ -1080,6 +1083,47 @@
    [
     "Should a home office change how we split rent?",
     "Some couples shift the rent split slightly, for example to 52/48, when a room becomes an office. It's optional."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "how-to-split-a-mortgage-with-your-partner",
+  "ct": "split-mortgage",
+  "keyword": "how to split a mortgage with your partner",
+  "title": "How to Split a Mortgage with Your Partner: Options and Examples",
+  "h1": "How to split a mortgage with your partner",
+  "description": "How couples can split mortgage payments: 50/50, by income or by deposit, keeping a record of who paid what, and when one partner owned the home first, with examples.",
+  "lead": "The mortgage is the biggest shared cost for most homeowning couples. Here's how to split the payments (50/50, by income or by deposit), keep a fair record, and handle a home one of you owned first, with worked examples.",
+  "card": "50/50, by income or by deposit, and when one of you owned it first.",
+  "image": "img/03-split.jpg",
+  "image_alt": "HoneyNest showing each partner's total, percentage and the difference",
+  "app_text": "HoneyNest has a Mortgage expense type, and recurring monthly costs like the mortgage and home insurance come back each month for you to approve, edit or skip. Either of you logs costs from your own iPhone and notes who paid, and it shows each partner's total, percentage and the difference, which helps you keep a record over time. It splits shared costs 50/50; for a by-income split, compare its totals with your agreed shares. It's free; Premium adds your complete expense history.",
+  "published": "2026-11-19",
+  "related": [
+   "how-to-split-rent-with-your-partner",
+   "proportional-bill-splitting-by-income",
+   "couples-emergency-fund"
+  ],
+  "faq": [
+   [
+    "How should couples split a mortgage?",
+    "Common options are 50/50, by income so you each pay the same share of what you earn, or in line with what each put in for the deposit."
+   ],
+   [
+    "Does paying more of the mortgage mean owning more of the home?",
+    "Not necessarily. How ownership is recorded depends on your paperwork and where you live, so check with a qualified professional."
+   ],
+   [
+    "What should my partner pay if I owned the home before they moved in?",
+    "Many couples agree the partner pays a share of running costs plus a fixed housing contribution, similar to rent, and write down that it isn't a share of ownership."
+   ],
+   [
+    "What records should we keep?",
+    "Deposit contributions, how you split monthly payments and when that changed, big extra payments, and who paid for major repairs."
    ]
   ],
   "image_size": [
