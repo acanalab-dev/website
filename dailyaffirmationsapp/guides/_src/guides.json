@@ -84,9 +84,9 @@
     "app_text": "Self Love is one of the free categories in Daily Affirmations. Swipe through a new set each day, save the ones that land as favorites, and get a short on-device AI reflection on what they say about you.",
     "published": "2026-10-21",
     "related": [
+      "affirmations-for-self-esteem",
       "affirmations-for-depression",
-      "affirmations-for-relationships",
-      "affirmations-for-healing"
+      "affirmations-for-relationships"
     ],
     "faq": [
       [
@@ -156,9 +156,9 @@
     "app_text": "Confidence is one of the free categories in Daily Affirmations. Get a fresh set every day, save the ones that feel true as favorites, and watch your streak grow as the habit builds.",
     "published": "2026-10-23",
     "related": [
+      "affirmations-for-self-esteem",
       "affirmations-for-success",
-      "affirmations-for-work",
-      "self-love-affirmations"
+      "affirmations-for-work"
     ],
     "faq": [
       [
@@ -512,9 +512,9 @@
     "app_text": "Daily Affirmations gives you a fresh set every day, so they don't turn into background noise. Self Love, Confidence, Growth and Peace are free, along with streaks and gentle reminders that help you run your own two-week experiment. Premium adds widgets and categories like Resilience and Purpose.",
     "published": "2026-11-02",
     "related": [
+      "affirmations-for-self-esteem",
       "how-to-make-affirmations-a-habit",
-      "affirmations-for-depression",
-      "how-to-write-affirmations"
+      "affirmations-for-depression"
     ],
     "faq": [
       [
@@ -698,6 +698,46 @@
       [
         "Do I need an app to build an affirmation habit?",
         "No. A sticky note and a calendar you tick off work well. An app helps by handling the reminder, the streak and fresh affirmations for you."
+      ]
+    ]
+  },
+  {
+    "slug": "affirmations-for-self-esteem",
+    "keyword": "affirmations for self-esteem",
+    "title": "Affirmations for Self-Esteem: 50 Phrases That Feel True",
+    "h1": "Affirmations for self-esteem: 50 phrases that feel true",
+    "description": "50 affirmations for self-esteem, including bridge phrases for low self-esteem, answers to your inner critic, comparison and values, plus how to write evidence-based affirmations.",
+    "lead": "When your self-esteem is low, big positive statements can feel fake and even backfire. These 50 affirmations for self-esteem are built to feel true, starting with gentle bridge phrases, plus a simple way to write your own from real evidence.",
+    "card": "50 believable phrases, from bridge affirmations to your values.",
+    "image": "img/v2-01-you-got-this.jpg",
+    "image_alt": "An affirmation card in Daily Affirmations",
+    "app_text": "Self Love and Confidence are free categories in Daily Affirmations, with a fresh set every morning and a streak to keep you going. Premium adds Kindness and Resilience, up to 30 affirmations a day, and widgets that keep one kind sentence on your Home Screen.",
+    "published": "2026-11-19",
+    "related": [
+      "self-love-affirmations",
+      "affirmations-for-confidence",
+      "do-affirmations-work"
+    ],
+    "faq": [
+      [
+        "Do affirmations help with self-esteem?",
+        "They can, if they feel believable. Research suggests that people with low self-esteem can feel worse after repeating statements they don't believe, so gentle bridge phrases like \"I'm learning to see my own value\" tend to work better."
+      ],
+      [
+        "What is a bridge affirmation?",
+        "An affirmation that describes a direction instead of a finished state. \"I'm becoming more confident\" is a bridge version of \"I am confident\". It's easier to believe, so your mind is less likely to argue with it."
+      ],
+      [
+        "What's the difference between self-esteem and confidence?",
+        "Confidence is trust in what you can do. Self-esteem is your sense of your overall worth as a person. You can be confident at work and still have low self-esteem."
+      ],
+      [
+        "What is a good affirmation for low self-esteem?",
+        "Try \"I can be a work in progress and still be worthy\" or \"A thought about me is not a fact about me\". If those feel too big, add \"I'm willing to believe that...\" to the front."
+      ],
+      [
+        "How long does it take for affirmations to improve self-esteem?",
+        "There's no set time. Self-esteem changes slowly through repeated small experiences. Using one affirmation daily for several weeks, alongside noticing real evidence, gives it a fair chance."
       ]
     ]
   }
