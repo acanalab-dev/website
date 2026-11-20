@@ -70,6 +70,14 @@ CARD_THEMES = json.loads((ROOT / "_tools" / "pins" / "themes" / "themes.json").r
 def card_theme(pin_id):
     import hashlib
     return CARD_THEMES[int(hashlib.md5(pin_id.encode()).hexdigest(), 16) % len(CARD_THEMES)]
+# Pins can't get comments via RSS or the API, so new pins carry the app link in the description.
+APP_LINE = " Download our iOS app: https://apps.apple.com/app/apple-store/id6809586170?pt=128486213&ct=pinterest&mt=8"
+
+
+def with_app(desc):
+    return desc if APP_LINE.strip() in desc else desc[:500 - len(APP_LINE)].rstrip() + APP_LINE
+
+
 TIMES = ["08:30", "19:30", "13:00"]  # local publish times, spread across the day
 
 
@@ -344,6 +352,7 @@ def main():
         now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0, second=0, minute=0, tzinfo=None)
         for n, p in enumerate(order):
             p["publish"] = (now - dt.timedelta(hours=len(order) - n)).isoformat()
+            p["description"] = with_app(p["description"])
             state.append({k: p[k] for k in ("id", "slug", "board", "kind", "publish", "pin_title", "description", "link")}
                          | {k: p[k] for k in ("text", "items") if args.refresh and k in p} | {"via": "rss"})
         write_feeds(state)
