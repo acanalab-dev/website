@@ -616,5 +616,47 @@
     "description": "\"There is room for me too.\" Save this self-esteem affirmation for when you need it. Find 50 more affirmations for self-esteem in our free guide.",
     "link": "https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-self-esteem/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
     "via": "rss"
+  },
+  {
+    "id": "do-affirmations-work-quote-3",
+    "slug": "do-affirmations-work",
+    "board": "Self Love Affirmations",
+    "kind": "quote",
+    "publish": "2026-11-20T17:00:00",
+    "pin_title": "I am curious and keep learning. | Believable affirmation",
+    "description": "\"I am curious and keep learning.\" Save this believable affirmation for when you need it. Find 20 more do affirmations work? what the research says in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/do-affirmations-work/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "text": "I am curious and keep learning.",
+    "via": "rss"
+  },
+  {
+    "id": "abundance-affirmations-list-2",
+    "slug": "abundance-affirmations",
+    "board": "Gratitude Affirmations",
+    "kind": "list",
+    "publish": "2026-11-20T18:00:00",
+    "pin_title": "Abundance Affirmations: I spend on what truly matters to me.",
+    "description": "Abundance Affirmations to save: I spend on what truly matters to me. I am open to unexpected paths. I am thankful for my health and energy today. Read all 50 in the free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/abundance-affirmations/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "items": [
+      "I spend on what truly matters to me.",
+      "I am open to unexpected paths.",
+      "I am thankful for my health and energy today.",
+      "I focus on what I can do today.",
+      "I can create more of what I need."
+    ],
+    "via": "rss"
+  },
+  {
+    "id": "affirmations-for-depression-quote-3",
+    "slug": "affirmations-for-depression",
+    "board": "Affirmations for Healing",
+    "kind": "quote",
+    "publish": "2026-11-20T19:00:00",
+    "pin_title": "I don't need to fix everything at once. | Gentle affirmation",
+    "description": "\"I don't need to fix everything at once.\" Save this gentle affirmation for when you need it. Find 50 more affirmations for depression in our free guide.",
+    "link": "https://acanalab.com/dailyaffirmationsapp/guides/affirmations-for-depression/?utm_source=pinterest&utm_medium=social&utm_campaign=pins",
+    "text": "I don't need to fix everything at once.",
+    "via": "rss"
   }
 ]

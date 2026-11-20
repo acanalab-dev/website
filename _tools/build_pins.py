@@ -2,6 +2,7 @@
 """Build Pinterest pins for Daily Affirmations guides and a bulk-upload CSV.
 
   python3 _tools/build_pins.py [--start YYYY-MM-DD] [--per-day N]
+  python3 _tools/build_pins.py --refresh 3   # daily: fresh pins for guides that already have pins
 
 For every guide in dailyaffirmationsapp/guides/_src/guides.json that has no pins
 yet (see _tools/seo/pins.json), it makes one list pin and two quote pins from the
@@ -11,6 +12,11 @@ pins. By default (--mode rss) the new pins go into one RSS feed per board at
 dailyaffirmationsapp/pins/feeds/<board>.xml, which Pinterest auto-publishes from
 (Settings > Import content > Auto-publish). --mode csv instead writes a scheduled
 upload CSV (Settings > Import content > Upload .csv).
+
+--refresh N makes N new pins (two quote pins and one list pin per 3) for guides that
+already have pins, picking the guides pinned least recently, each on a different board,
+with affirmations no earlier pin used. New ids continue the numbering (<slug>-quote-K,
+<slug>-list-K); existing images, feed items and guids are never changed.
 
 Board names must match the boards on pinterest.com/getdailyaffirmationsapp exactly.
 """
@@ -199,11 +205,93 @@ def extra_quote(g, index, done_ids):
     return p
 
 
+def used_texts(g, index, state):
+    """Every affirmation already shown on a pin of this guide."""
+    slug = g["slug"]
+    base = pins_for(g, index)
+    used = set(base[0]["items"]) | {p["text"] for p in base[1:]} if base else set()
+    for p in state:
+        if p["slug"] != slug:
+            continue
+        used |= set(p.get("items", []))
+        if p.get("text"):
+            used.add(p["text"])
+        elif p["kind"] == "quote" and " | " in p.get("pin_title", ""):
+            used.add(p["pin_title"].rsplit(" | ", 1)[0])
+    return used
+
+
+def next_id(slug, kind, taken):
+    k = 2
+    while f"{slug}-{kind}-{k}" in taken or (OUT / f"{slug}-{kind}-{k}.jpg").exists():
+        k += 1
+    return f"{slug}-{kind}-{k}", k
+
+
+def refresh_pins(guides, state, n):
+    """n fresh pins for already-pinned guides: least recently pinned guides first, one per board."""
+    taken = {p["id"] for p in state}
+    last = {}
+    for p in state:
+        last[p["slug"]] = max(last.get(p["slug"], ""), p["publish"])
+    cands = [(last[g["slug"]], sum(p["slug"] == g["slug"] for p in state), i, g)
+             for i, g in enumerate(guides) if g["slug"] in GUIDES and g["slug"] in last]
+    cands.sort(key=lambda c: (c[0], c[1]))
+    kinds = ["quote", "list", "quote"]
+    out, boards = [], set()
+    for _, count_pins, i, g in cands:
+        if len(out) >= n:
+            break
+        slug = g["slug"]
+        board, label = GUIDES[slug]
+        if board in boards:
+            continue
+        items = affirmations(slug)
+        if len(items) < 10:
+            continue
+        used = used_texts(g, i, state)
+        head, _, sub = g["title"].partition(":")
+        head = head.strip()
+        count = len(items)
+        link = f"{SITE}/dailyaffirmationsapp/guides/{slug}/?utm_source=pinterest&utm_medium=social&utm_campaign=pins"
+        kind = kinds[len(out) % len(kinds)]
+        short = [t for t in items if t not in used and len(t) <= 46]
+        if kind == "list" and len(short) < 5:
+            kind = "quote"
+        if kind == "list":
+            pid, k = next_id(slug, "list", taken)
+            # Rotate the start so repeat list pins of one guide show different lines.
+            off = (count_pins * 3) % len(short)
+            listed = spread(short[off:] + short[:off], 5)
+            p = {"id": pid, "slug": slug, "board": board, "kind": "list", "theme": THEMES[(i + k) % len(THEMES)],
+                 "kicker": "5 to save for today", "title": head, "items": listed, "cta": f"Read all {count}",
+                 "pin_title": f"{head}: {listed[0]}"[:100],
+                 "description": (f"{head} to save: {' '.join(listed[:3])} Read all {count} in the free guide.")[:500],
+                 "link": link}
+        else:
+            rest = [t for t in items if t not in used and 22 <= len(t) <= 62]
+            if not rest:
+                continue
+            pid, k = next_id(slug, "quote", taken)
+            q = rest[(count_pins * 7) % len(rest)]
+            p = {"id": pid, "slug": slug, "board": board, "kind": "quote", "theme": THEMES[(i + k) % len(THEMES)],
+                 "kicker": label, "text": q, "pin_title": f"{q} | {label}"[:100],
+                 "description": f"\"{q}\" Save this {label.lower()} for when you need it. "
+                                f"Find {count} more {head.lower()} in our free guide.",
+                 "link": link}
+        taken.add(p["id"])
+        boards.add(board)
+        out.append(p)
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--mode", choices=["rss", "csv"], default="rss",
                     help="rss (default): add new pins to the board feeds; csv: write a scheduled upload.csv")
     ap.add_argument("--seed", action="store_true", help="also add one extra quote pin for every guide (rss)")
+    ap.add_argument("--refresh", type=int, metavar="N",
+                    help="rss: make N fresh pins for guides that already have pins (daily run)")
     ap.add_argument("--start", help="csv: first publish day; default: the day after the last scheduled pin, or tomorrow")
     ap.add_argument("--per-day", type=int, default=2)
     args = ap.parse_args()
@@ -213,7 +301,10 @@ def main():
     done_ids = {p["id"] for p in state}
     guides = json.loads((SRC / "guides.json").read_text())
     new = []
-    for i, g in enumerate(guides):
+    if args.refresh:
+        args.mode = "rss"
+        new = refresh_pins(guides, state, args.refresh)
+    for i, g in enumerate(guides if not args.refresh else []):
         if g["slug"] not in GUIDES:
             continue
         if g["slug"] not in done:
@@ -254,7 +345,7 @@ def main():
         for n, p in enumerate(order):
             p["publish"] = (now - dt.timedelta(hours=len(order) - n)).isoformat()
             state.append({k: p[k] for k in ("id", "slug", "board", "kind", "publish", "pin_title", "description", "link")}
-                         | {"via": "rss"})
+                         | {k: p[k] for k in ("text", "items") if args.refresh and k in p} | {"via": "rss"})
         write_feeds(state)
         where = f"added to the RSS feeds in {(OUT / 'feeds').relative_to(ROOT)}"
     STATE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")
