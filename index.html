@@ -201,6 +201,16 @@ section.alt .card-b { background: var(--bg); }
 .incl li::before { content: "✓"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
 .incl li em { font-style: normal; color: var(--muted); }
 
+.plans .ph .foot { margin-top: auto; padding-top: 14px; }
+.pl { margin: 14px 0 0; padding: 0; list-style: none; display: grid; gap: 8px; font-size: 15px; }
+.pl li { padding-left: 26px; position: relative; }
+.pl li::before { content: "✓"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+.pl li em { font-style: normal; color: var(--muted); }
+.ph .bar-l sup { font-size: 10px; }
+.hero-note { margin: 12px 0 0; font-size: 14px; color: var(--muted); }
+.hero-note a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.hero-note a:hover { text-decoration: underline; }
+
 /* ---------- Calculator ---------- */
 .calc .val { display: block; font-size: 14px; font-weight: 500; color: var(--muted); margin: -8px 0 12px; }
 .calc .val span { color: var(--accent); font-weight: 700; }
@@ -270,7 +280,7 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
    "@id": "https://acanalab.com/#service",
    "name": "White-label affirmations app for creators",
    "serviceType": "White-label iPhone app for creators and influencers",
-   "description": "acanalab builds and publishes a fully branded daily affirmations iPhone app for creators and influencers, under the creator's own Apple developer account. No setup fee: the creator keeps about 70% of net subscription sales (50/50 on the first $10,000), paid by Apple monthly. A passive income stream that fits wellness, mindset and lifestyle audiences.",
+   "description": "acanalab builds and publishes a fully branded daily affirmations iPhone app for creators and influencers, under the creator's own Apple developer account. Two options: Partner, with no setup fee, where the creator keeps about 70% of net subscription sales (50/50 on the first $10,000), paid by Apple monthly; or Own it, a one-time $4,900 fee, where the creator keeps 100% of sales. A passive income stream that fits wellness, mindset and lifestyle audiences.",
    "provider": {
     "@id": "https://acanalab.com/#org"
    },
@@ -280,12 +290,22 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
     "@type": "Audience",
     "audienceType": "Content creators, influencers, coaches"
    },
-   "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD",
-    "description": "No setup fee; revenue share on subscription sales. The creator pays Apple's developer account, $99 a year."
-   }
+   "offers": [
+    {
+     "@type": "Offer",
+     "name": "Partner",
+     "price": "0",
+     "priceCurrency": "USD",
+     "description": "No setup fee; revenue share on subscription sales. The creator pays Apple's developer account, $99 a year."
+    },
+    {
+     "@type": "Offer",
+     "name": "Own it",
+     "price": "4900",
+     "priceCurrency": "USD",
+     "description": "One-time fee; the creator keeps 100% of sales. Fixes included for 12 months, optional new-feature updates $999 each. The creator pays Apple's developer account, $99 a year."
+    }
+   ]
   },
   {
    "@type": "WebPage",
@@ -323,7 +343,31 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
      "name": "What if my app doesn't earn much?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "That’s okay. Your only cost is Apple’s $99 a year developer account, and your audience still gets something real from you: a daily dose of positivity on their phone, with your name on it. Sometimes an app just isn’t the right fit for a particular audience. Updates stay free while our share averages $250 or more a month, and below that we quote each one, only if you want it. If we both decide the app isn’t worth keeping, we simply remove it, with no penalty for either of us."
+      "text": "That’s okay. Your only cost is Apple’s $99 a year developer account, and your audience still gets something real from you: a daily dose of positivity on their phone, with your name on it. Sometimes an app just isn’t the right fit for a particular audience. On Partner, updates stay free while our share averages $250 or more a month, and below that we quote each one, only if you want it. If we both decide the app isn’t worth keeping, we simply remove it, with no penalty for either of us."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Partner or Own it: which should I pick?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Pick Partner if you’d rather not pay anything upfront: we share what the app earns and keep improving it for you. Pick Own it if you’d rather pay once and keep every dollar. It pays off fastest for creators with a large, engaged audience. For example, with 500 subscribers Own it puts about $1,000 more in your pocket each month, so the $4,900 is covered in around five months."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I switch to Own it later?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. If your app does well on Partner, you can buy it out any time. We take what you’ve already paid us off the $4,900 price, up to half of it. After that, you keep 100% of sales."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do updates work with Own it?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Fixes are included for the first 12 months. After that, or whenever we release a new feature, we let you know and you choose: each optional update is $999, and you only pay for the ones you want. You keep us on your App Store Connect team so we can ship them for you."
      }
     },
     {
@@ -355,7 +399,7 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
      "name": "Why not hire an agency or a developer?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Building a custom app with an agency or freelancer means a big upfront investment, a long wait, and paying again every time something needs updating. Here you get a finished, tested app with no setup fee, it's live much sooner, and updates are free while your app does well. We only earn when you earn, so we want your app to succeed as much as you do."
+      "text": "A custom app like this typically costs $40,000 or more to build with an agency or freelancer, takes months, and costs again every time something needs updating. Here you get a finished, tested app that’s live much sooner, either with no setup fee on Partner or for a one-time $4,900 with Own it. On Partner we only earn when you earn, so we want your app to succeed as much as you do."
      }
     },
     {
@@ -432,6 +476,7 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
           <a class="btn primary" href="design/" target="_blank" rel="noopener">Design your app in 5 minutes</a>
           <a class="btn ghost" href="#how">See how it works</a>
         </div>
+        <p class="hero-note">No setup fee, or <a href="#pricing">own it outright</a>.</p>
         <p class="own">Don’t just promote other people’s products. <b>Own one that keeps earning for you.</b></p>
         <button class="watch watch-d" type="button" data-open-video><span class="play"><svg viewBox="0 0 12 12"><path d="M1 0l11 6-11 6z"/></svg></span>Watch the video <span class="len">0:43</span></button>
      </div>
@@ -473,7 +518,7 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
       <p class="sub">A product that fits your audience, without the work of building one.</p>
       <div class="perks">
         <div class="perk"><div class="big">Yours</div><b>It's your app</b><p>Your Apple account, your listing, your subscribers.</p></div>
-        <div class="perk"><div class="big">~70%<sup>*</sup></div><b>Income that keeps coming</b><p>You keep roughly 70% of net sales, paid by Apple every month.</p></div>
+        <div class="perk"><div class="big">70–100%<sup>*</sup></div><b>Income that keeps coming</b><p>Keep roughly 70% with no setup fee, or all of it when you own the app. Paid by Apple every month.</p></div>
         <div class="perk"><div class="big">0</div><b>Technical work for you</b><p>No coding or tech skills needed. We build, publish and run subscriptions.</p></div>
         <div class="perk"><div class="big">Calm</div><b>Good for your audience</b><p>No third-party ads, just you and kind words.</p></div>
       </div>
@@ -497,36 +542,46 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
   <!-- Pricing -->
   <section id="pricing">
     <div class="wrap">
-      <h2>No setup fee. We earn when you do.</h2>
-      <p class="sub">We build and publish your app at no charge. Your only cost is Apple’s developer account in your name, $99 a year.</p>
-      <ol class="phases">
-        <li class="ph">
-          <span class="tag">To get started</span>
-          <div class="big">$0<small>setup fee</small></div>
-          <div class="bar empty"></div>
-          <div class="bar-l"><span>Plus Apple’s $99 a year account</span></div>
-          <p>We build your app, publish it on the App Store and set up subscriptions.</p>
-        </li>
+      <h2>Two ways to get your app</h2>
+      <p class="sub">Partner with us and pay nothing upfront, or pay once and keep every dollar. Either way, the app is in your name and your only other cost is Apple’s developer account, $99 a year.</p>
+      <ol class="phases plans">
         <li class="ph hl">
-          <span class="tag">Every month</span>
-          <div class="big">~70%<small>yours<sup>*</sup></small></div>
+          <span class="tag">Partner · no setup fee</span>
+          <div class="big">$0<small>upfront</small></div>
           <div class="bar"><i style="width:70%"></i></div>
-          <div class="bar-l"><span>You ~70%</span><span>Us 30%</span></div>
-          <p>Apple pays you directly. We share what your app earns, for as long as it runs.</p>
+          <div class="bar-l"><span>You ~70%<sup>*</sup></span><span>Us 30%</span></div>
+          <p>We build, publish and keep improving your app. We share what it earns, for as long as it runs.</p>
+          <ul class="pl">
+            <li>Updates, fixes and new features <em>free<sup>**</sup></em></li>
+            <li>We earn only when you earn</li>
+          </ul>
+          <p class="foot"><sup>**</sup> Free while our share averages $250 or more a month. Below that, each update is quoted separately, and only done if you want it.</p>
+        </li>
+        <li class="ph">
+          <span class="tag">Own it · one-time</span>
+          <div class="big">$4,900<small>once</small></div>
+          <div class="bar"><i style="width:100%"></i></div>
+          <div class="bar-l"><span>You 100%</span><span>Us 0%</span></div>
+          <p>We build and publish your app, then it’s all yours. Every dollar of sales stays with you.</p>
+          <ul class="pl">
+            <li>Fixes included for 12 months</li>
+            <li>New feature updates <em>optional, $999 each</em></li>
+          </ul>
+          <p class="foot">A custom app like this costs $40,000+ to build. Larger audiences and custom work are quoted. You keep us on your App Store Connect team so we can ship fixes and updates.</p>
         </li>
       </ol>
 
       <div class="split">
         <div class="card-b incl">
-          <h3>Always included</h3>
+          <h3>Included either way</h3>
           <ul>
             <li>Your fully branded app on the App Store</li>
             <li>App Store listing and screenshots</li>
             <li>Subscriptions and paywall set up</li>
-            <li>Updates, fixes and new features <em>free<sup>**</sup></em></li>
+            <li>Privacy policy and terms in your name, hosted for you</li>
             <li>Custom work just for your app <em>quoted per request</em></li>
           </ul>
-          <p class="foot"><sup>**</sup> Free while our share averages $250 or more a month. Below that, each update is quoted separately, and only done if you want it.</p>
+          <p class="foot">On Partner, you can buy the app out later. We take what you’ve already paid us off the price, up to half of it.</p>
         </div>
         <div class="card-b calc" id="calc">
           <h3><label for="subs">What could it earn?</label></h3>
@@ -534,11 +589,12 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
           <input id="subs" type="range" min="10" max="5000" step="10" value="500">
           <em class="more" id="more" hidden>And there's no limit. It grows with your audience.</em>
           <div class="res">
-            <div class="hl"><b id="outYou">$2,337</b><span>yours each month<sup>*</sup></span></div>
+            <div class="hl"><b id="outYou">$2,337</b><span>yours each month with Partner<sup>*</sup></span></div>
+            <div><b id="outOwn">$3,356</b><span>yours each month with Own it</span></div>
           </div>
         </div>
       </div>
-      <p class="foot star"><sup>*</sup> We split your app’s first $10,000 in net sales 50/50. After that, you keep 70% and we keep 30%. Net sales are what Apple pays out after its fee and any taxes it withholds, such as VAT. Apple’s fee is 15% once you join its Small Business Program, for developers earning under $1 million a year. Your share is “roughly” because a few small costs come out of it, paid by you directly: RevenueCat, which runs the subscriptions (free up to $2,500 a month in sales, then 1%), and Apple’s developer account ($99 a year).</p>
+      <p class="foot star"><sup>*</sup> Partner: we split your app’s first $10,000 in net sales 50/50. After that, you keep 70% and we keep 30%. Net sales are what Apple pays out after its fee and any taxes it withholds, such as VAT. Apple’s fee is 15% once you join its Small Business Program, for developers earning under $1 million a year. Your share is “roughly” because a few small costs come out of it, paid by you directly: RevenueCat, which runs the subscriptions (free up to $2,500 a month in sales, then 1%), and Apple’s developer account ($99 a year).</p>
     </div>
   </section>
 
@@ -558,7 +614,19 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
       </details>
       <details>
         <summary>What if my app doesn't earn much?</summary>
-        <p>That’s okay. Your only cost is Apple’s $99 a year developer account, and your audience still gets something real from you: a daily dose of positivity on their phone, with your name on it. Sometimes an app just isn’t the right fit for a particular audience. Updates stay free while our share averages $250 or more a month, and below that we quote each one, only if you want it. If we both decide the app isn’t worth keeping, we simply remove it, with no penalty for either of us.</p>
+        <p>That’s okay. Your only cost is Apple’s $99 a year developer account, and your audience still gets something real from you: a daily dose of positivity on their phone, with your name on it. Sometimes an app just isn’t the right fit for a particular audience. On Partner, updates stay free while our share averages $250 or more a month, and below that we quote each one, only if you want it. If we both decide the app isn’t worth keeping, we simply remove it, with no penalty for either of us.</p>
+      </details>
+      <details>
+        <summary>Partner or Own it: which should I pick?</summary>
+        <p>Pick Partner if you’d rather not pay anything upfront: we share what the app earns and keep improving it for you. Pick Own it if you’d rather pay once and keep every dollar. It pays off fastest for creators with a large, engaged audience. For example, with 500 subscribers Own it puts about $1,000 more in your pocket each month, so the $4,900 is covered in around five months.</p>
+      </details>
+      <details>
+        <summary>Can I switch to Own it later?</summary>
+        <p>Yes. If your app does well on Partner, you can buy it out any time. We take what you’ve already paid us off the $4,900 price, up to half of it. After that, you keep 100% of sales.</p>
+      </details>
+      <details>
+        <summary>How do updates work with Own it?</summary>
+        <p>Fixes are included for the first 12 months. After that, or whenever we release a new feature, we let you know and you choose: each optional update is $999, and you only pay for the ones you want. You keep us on your App Store Connect team so we can ship them for you.</p>
       </details>
       <details>
         <summary>Do I have to write all the affirmations myself?</summary>
@@ -574,7 +642,7 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
       </details>
       <details>
         <summary>Why not hire an agency or a developer?</summary>
-        <p>Building a custom app with an agency or freelancer means a big upfront investment, a long wait, and paying again every time something needs updating. Here you get a finished, tested app with no setup fee, it's live much sooner, and updates are free while your app does well. We only earn when you earn, so we want your app to succeed as much as you do.</p>
+        <p>A custom app like this typically costs $40,000 or more to build with an agency or freelancer, takes months, and costs again every time something needs updating. Here you get a finished, tested app that’s live much sooner, either with no setup fee on Partner or for a one-time $4,900 with Own it. On Partner we only earn when you earn, so we want your app to succeed as much as you do.</p>
       </details>
       <details>
         <summary>Can you guarantee downloads or income?</summary>
@@ -632,7 +700,7 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
 (function () {
   // Earnings example at $7.99 a month: Apple keeps 15% (Small Business Program),
   // RevenueCat takes 1% once sales pass $2,500 a month, creator keeps 70% of Apple's payout
-  // (50% until the first $10,000 of net sales, explained in the footnote).
+  // (50% until the first $10,000 of net sales, explained in the footnote). With Own it, the creator keeps all of it.
   var subs = document.getElementById("subs");
   var PRICE = 7.99;
   function update() {
@@ -643,6 +711,7 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
     var fmt = function (n) { return "$" + Math.round(n).toLocaleString("en-US") + plus; };
     document.getElementById("subsVal").textContent = s.toLocaleString("en-US") + plus;
     document.getElementById("outYou").textContent = fmt(you);
+    document.getElementById("outOwn").textContent = fmt(net - rc);
     document.getElementById("more").hidden = !atMax;
   }
   subs.addEventListener("input", update);
