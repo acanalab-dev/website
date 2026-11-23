@@ -38,13 +38,17 @@ inject("index.html", [
     {"@type": "Service", "@id": f"{SITE}/#service", "name": "White-label affirmations app for creators",
      "serviceType": "White-label iPhone app for creators and influencers",
      "description": ("acanalab builds and publishes a fully branded daily affirmations iPhone app for "
-                     "creators and influencers, under the creator's own Apple developer account. No setup fee: "
-                     "the creator keeps about 70% of net subscription sales, "
-                     "paid by Apple monthly. A passive income stream that fits wellness, mindset and lifestyle audiences."),
+                     "creators and influencers, under the creator's own Apple developer account. Two options: Partner, "
+                     "with no setup fee, where the creator keeps about 70% of net subscription sales, paid by Apple monthly; "
+                     "or Own it, a one-time $4,900 fee, where the creator keeps 100% of sales. "
+                     "A passive income stream that fits wellness, mindset and lifestyle audiences."),
      "provider": {"@id": f"{SITE}/#org"}, "url": f"{SITE}/", "areaServed": "Worldwide",
      "audience": {"@type": "Audience", "audienceType": "Content creators, influencers, coaches"},
-     "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD",
-                "description": "No setup fee; revenue share on subscription sales. The creator pays Apple's developer account, $99 a year."}},
+     "offers": [
+         {"@type": "Offer", "name": "Partner", "price": "0", "priceCurrency": "USD",
+          "description": "No setup fee; revenue share on subscription sales. The creator pays Apple's developer account, $99 a year."},
+         {"@type": "Offer", "name": "Own it", "price": "4900", "priceCurrency": "USD",
+          "description": "One-time fee; the creator keeps 100% of sales. Fixes included for 12 months, optional new-feature updates $999 each. The creator pays Apple's developer account, $99 a year."}]},
     {"@type": "WebPage", "@id": f"{SITE}/#webpage", "url": f"{SITE}/", "name": "Your Own Affirmations App",
      "about": {"@id": f"{SITE}/#service"}, "publisher": {"@id": f"{SITE}/#org"}},
     {"@type": "FAQPage", "mainEntity": faq},
