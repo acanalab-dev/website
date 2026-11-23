@@ -40,14 +40,14 @@ inject("index.html", [
      "description": ("acanalab builds and publishes a fully branded daily affirmations iPhone app for "
                      "creators and influencers, under the creator's own Apple developer account. Two options: Partner, "
                      "with no setup fee, where the creator keeps about 70% of net subscription sales, paid by Apple monthly; "
-                     "or Own it, a one-time $4,900 fee, where the creator keeps 100% of sales. "
+                     "or Pay once, a one-time $4,900 fee, where the creator keeps 100% of sales. "
                      "A passive income stream that fits wellness, mindset and lifestyle audiences."),
      "provider": {"@id": f"{SITE}/#org"}, "url": f"{SITE}/", "areaServed": "Worldwide",
      "audience": {"@type": "Audience", "audienceType": "Content creators, influencers, coaches"},
      "offers": [
          {"@type": "Offer", "name": "Partner", "price": "0", "priceCurrency": "USD",
           "description": "No setup fee; revenue share on subscription sales. The creator pays Apple's developer account, $99 a year."},
-         {"@type": "Offer", "name": "Own it", "price": "4900", "priceCurrency": "USD",
+         {"@type": "Offer", "name": "Pay once", "price": "4900", "priceCurrency": "USD",
           "description": "One-time fee; the creator keeps 100% of sales. Fixes included for 12 months, optional new-feature updates $999 each. The creator pays Apple's developer account, $99 a year."}]},
     {"@type": "WebPage", "@id": f"{SITE}/#webpage", "url": f"{SITE}/", "name": "Branded Affirmations App for Creators and Influencers",
      "about": {"@id": f"{SITE}/#service"}, "publisher": {"@id": f"{SITE}/#org"}},
