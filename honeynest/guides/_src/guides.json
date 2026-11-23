@@ -63,6 +63,7 @@
   "app_text": "HoneyNest tracks every shared expense and who paid it, and shows each partner's total and percentage for any period. Compare those percentages with your agreed split, like 60/40, to see what to settle. It's free; Premium adds your complete expense history.",
   "published": "2026-10-23",
   "related": [
+   "splitting-costs-during-parental-leave",
    "how-to-split-a-mortgage-with-your-partner",
    "how-to-split-costs-for-a-shared-car",
    "splitting-costs-when-one-partner-earns-much-more",
@@ -816,6 +817,7 @@
   "app_text": "HoneyNest shows who paid each shared cost, each partner's total, percentage and the difference for the period you pick, so you can see at a glance how close you are to the split you agreed. Its split setting is 50/50, so if you split by income, compare the percentages it shows with your agreed shares yourself. You both add costs from your own iPhones. It's free; Premium adds your complete expense history.",
   "published": "2026-11-10",
   "related": [
+   "splitting-costs-during-parental-leave",
    "proportional-bill-splitting-by-income",
    "joint-vs-separate-bank-accounts-for-couples",
    "how-to-talk-about-money-with-your-partner"
@@ -857,6 +859,7 @@
   "app_text": "HoneyNest helps you see the essential shared costs that set your target: log rent, bills and groceries from either of your iPhones, and the summary screen shows Home and Lifestyle together for the period you pick. Add your monthly fund transfer as a recurring cost you approve, edit or skip each month, and note who paid an emergency cost. It splits shared costs 50/50. It's free; Premium adds your complete expense history.",
   "published": "2026-11-11",
   "related": [
+   "splitting-costs-during-parental-leave",
    "splitting-pet-costs-as-a-couple",
    "saving-for-a-goal-as-a-couple",
    "couples-budget-template",
@@ -1124,6 +1127,47 @@
    [
     "What records should we keep?",
     "Deposit contributions, how you split monthly payments and when that changed, big extra payments, and who paid for major repairs."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "splitting-costs-during-parental-leave",
+  "ct": "split-parental-leave",
+  "keyword": "splitting costs during parental leave",
+  "title": "Splitting Costs During Parental Leave: A Fair Plan for Couples",
+  "h1": "Splitting costs during parental leave",
+  "description": "How couples can split shared costs during parental leave: plan the numbers early, compare 50/50, by income and equal money left over, and plan the return to work, with an example.",
+  "lead": "Parental leave usually means one income drops just as new costs arrive. Here's how to plan the numbers early, adjust your split fairly, keep personal money for both of you, and plan the return to work, with a worked example.",
+  "card": "Plan early, adjust the split, and keep personal money for both of you.",
+  "image": "img/02-see.jpg",
+  "image_alt": "HoneyNest showing where shared money goes",
+  "app_text": "HoneyNest helps you see what you really spend before and during leave: you both log shared costs from your own iPhones, recurring monthly costs come back for you to approve, edit or skip, and it shows who paid, each partner's total, percentage and the difference. Its split setting is 50/50, so for a by-income or equal-left-over split, compare its totals with your agreed shares. It's free; Premium adds your complete expense history.",
+  "published": "2026-11-23",
+  "related": [
+   "splitting-costs-when-one-partner-earns-much-more",
+   "couples-emergency-fund",
+   "budgeting-for-newlyweds"
+  ],
+  "faq": [
+   [
+    "How should couples split costs during parental leave?",
+    "Many couples move away from 50/50: they split by income, so shares adjust when one income drops, or aim for both to have the same money left over after shared costs."
+   ],
+   [
+    "Should the parent on leave still have personal money?",
+    "Most couples find it helps to agree a personal amount for each of you that needs no explaining, and to keep it during leave."
+   ],
+   [
+    "When should we plan the money for parental leave?",
+    "A few months before it starts, so you can compare your leave income with your shared costs and adjust early."
+   ],
+   [
+    "What changes when we go back to work?",
+    "Income usually rises but childcare often becomes a big new cost, so add it to shared costs and choose your split again."
    ]
   ],
   "image_size": [

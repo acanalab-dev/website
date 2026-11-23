@@ -272,9 +272,9 @@
     "app_text": "Daily Affirmations sends one gentle reminder a day at the time you pick, so you can set it for just before work. Motivation and Confidence are free categories, while Career and Focus are part of Premium. Save the ones that help as favorites and keep one in a widget between meetings.",
     "published": "2026-10-26",
     "related": [
+      "money-affirmations",
       "affirmations-for-stress",
-      "affirmations-for-success",
-      "affirmations-for-confidence"
+      "affirmations-for-success"
     ],
     "faq": [
       [
@@ -392,9 +392,9 @@
     "app_text": "Motivation, Growth and Abundance are free categories in Daily Affirmations, and Career and Purpose are part of Premium. A fresh set arrives every day, your streak shows how consistent you've been, and a widget keeps your favorite in sight while you work.",
     "published": "2026-10-29",
     "related": [
+      "money-affirmations",
       "abundance-affirmations",
-      "affirmations-for-work",
-      "affirmations-for-confidence"
+      "affirmations-for-work"
     ],
     "faq": [
       [
@@ -593,9 +593,9 @@
     "app_text": "Abundance is a free category in Daily Affirmations, along with Gratitude, Growth and Happiness. A fresh set arrives every day, and Premium adds Career and Purpose, plus widgets that keep one affirmation on your Home Screen.",
     "published": "2026-11-09",
     "related": [
+      "money-affirmations",
       "gratitude-affirmations",
-      "affirmations-for-success",
-      "how-to-write-affirmations"
+      "affirmations-for-success"
     ],
     "faq": [
       [
@@ -738,6 +738,46 @@
       [
         "How long does it take for affirmations to improve self-esteem?",
         "There's no set time. Self-esteem changes slowly through repeated small experiences. Using one affirmation daily for several weeks, alongside noticing real evidence, gives it a fair chance."
+      ]
+    ]
+  },
+  {
+    "slug": "money-affirmations",
+    "keyword": "money affirmations",
+    "title": "Money Affirmations: 50 Practical Phrases for Saving, Debt and Earning",
+    "h1": "Money affirmations: 50 practical phrases for saving, debt and earning",
+    "description": "50 practical money affirmations for money anxiety, saving and spending, paying off debt, asking for fair pay and rewriting old money beliefs, plus a weekly money check-in.",
+    "lead": "Money affirmations won't fill your bank account, but they can calm money anxiety and help you stick with the habits that do. Here are 50 practical phrases for saving, debt, earning and old money beliefs, plus a simple weekly check-in.",
+    "card": "50 practical phrases for money anxiety, saving, debt and earning.",
+    "image": "img/v2-03-widgets.jpg",
+    "image_alt": "Daily Affirmations widgets on an iPhone Home Screen",
+    "app_text": "Abundance is a free category in Daily Affirmations, with a fresh set every morning. Premium adds Career and Purpose, up to 30 affirmations a day, and Home Screen widgets, so a money affirmation is waiting each time you unlock your phone.",
+    "published": "2026-11-23",
+    "related": [
+      "abundance-affirmations",
+      "affirmations-for-confidence",
+      "affirmations-for-work"
+    ],
+    "faq": [
+      [
+        "Do money affirmations really work?",
+        "They won't make money appear, but they can reduce money anxiety and help you stick with habits like saving, budgeting and asking for fair pay. Those habits are what change your finances over time."
+      ],
+      [
+        "What is a good money affirmation?",
+        "One you believe and can act on, like \"I make thoughtful choices with my money\" or \"Every payment brings me closer to freedom\". Avoid promises like \"money flows to me effortlessly\" if they feel false."
+      ],
+      [
+        "How do I use money affirmations?",
+        "Say one before money moments: checking your balance, making a purchase or negotiating pay. A weekly 10-minute check-in that pairs an affirmation with one small money decision works well."
+      ],
+      [
+        "What's the difference between money and abundance affirmations?",
+        "Money affirmations focus on practical money habits and feelings, like saving, debt and earning. Abundance affirmations are broader, about noticing what you have and believing there's enough to go around."
+      ],
+      [
+        "Can affirmations help with money anxiety?",
+        "They can help you feel calmer and more willing to face your finances. If money stress feels overwhelming, a nonprofit credit counselor or financial advisor can help you build a practical plan."
       ]
     ]
   }
