@@ -48,7 +48,7 @@ inject("index.html", [
          {"@type": "Offer", "name": "Partner", "price": "0", "priceCurrency": "USD",
           "description": "No setup fee; revenue share on subscription sales. The creator pays Apple's developer account, $99 a year."},
          {"@type": "Offer", "name": "Pay once", "price": "4900", "priceCurrency": "USD",
-          "description": "One-time fee; the creator keeps 100% of sales. Fixes included for 12 months, optional new-feature updates $999 each. The creator pays Apple's developer account, $99 a year."}]},
+          "description": "One-time fee; the creator keeps 100% of sales. Fixes included for 12 months, new features quoted separately. The creator pays Apple's developer account, $99 a year."}]},
     {"@type": "WebPage", "@id": f"{SITE}/#webpage", "url": f"{SITE}/", "name": "Branded Affirmations App for Creators and Influencers",
      "about": {"@id": f"{SITE}/#service"}, "publisher": {"@id": f"{SITE}/#org"}},
     {"@type": "FAQPage", "mainEntity": faq},
