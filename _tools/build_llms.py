@@ -29,7 +29,7 @@ For content creators, influencers and coaches looking for an additional, passive
 
 - acanalab builds and publishes a finished daily affirmations iPhone app with the creator's name, icon and colors, under the creator's own Apple developer account. The listing, reviews and subscribers belong to the creator.
 - No setup fee and no technical work. The creator only needs an Apple Developer account ($99 a year).
-- Income: subscriptions paid by Apple monthly. The creator keeps about 70% of net sales. Example: 500 subscribers at $7.99 a month is about $2,337 a month for the creator.
+- Income: subscriptions paid by Apple monthly. The creator keeps 70% of net sales. Example: 500 subscribers at $7.99 a month is about $2,337 a month for the creator.
 - Includes App Store listing, screenshots, subscriptions and paywall, updates and fixes. No third-party ads, no tracking.
 - A free brand picker shows the creator's app on real screens in a few minutes, with no sign-up: {SITE}/design/
 - Details, pricing and FAQ: {SITE}/
