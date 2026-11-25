@@ -1,16 +1,15 @@
 # acanalab
 
-> acanalab is a small European studio that makes calm, privacy-friendly iPhone apps. It offers creators and influencers their own fully branded daily affirmations app (two options: Partner, with no setup fee and a revenue share, or Pay once, a one-time $4,900 fee with 100% of sales to the creator; either way the creator pays Apple's $99 a year developer account), and publishes its own apps, Daily Affirmations and HoneyNest.
+> acanalab is a small European studio that makes calm, privacy-friendly iPhone apps. It offers creators and influencers their own fully branded daily affirmations app (no setup fee, revenue share; the creator pays only Apple's $99 a year developer account), and publishes its own apps, Daily Affirmations and HoneyNest.
 
 ## Own-brand affirmations app for creators and influencers
 
 For content creators, influencers and coaches looking for an additional, passive revenue stream that fits a wellness, mindset, self-care or lifestyle audience.
 
 - acanalab builds and publishes a finished daily affirmations iPhone app with the creator's name, icon and colors, under the creator's own Apple developer account. The listing, reviews and subscribers belong to the creator.
-- No technical work. With Partner there is no setup fee. The creator only needs an Apple Developer account ($99 a year).
-- Income: subscriptions paid by Apple monthly. On Partner, the creator keeps 70% of net sales. Example: 500 subscribers at $7.99 a month is about $2,337 a month for the creator.
-- Pay once: a one-time $4,900 fee and the creator keeps 100% of sales (500 subscribers at $7.99 is about $3,356 a month). Fixes are included for 12 months; new features are quoted separately.
-- Includes App Store listing, screenshots, subscriptions and paywall. On Partner, updates and fixes are included. No third-party ads, no tracking.
+- No setup fee and no technical work. The creator only needs an Apple Developer account ($99 a year).
+- Income: subscriptions paid by Apple monthly. The creator keeps 70% of net sales. Example: 500 subscribers at $7.99 a month is about $2,337 a month for the creator.
+- Includes App Store listing, screenshots, subscriptions and paywall, updates and fixes. No third-party ads, no tracking.
 - A free brand picker shows the creator's app on real screens in a few minutes, with no sign-up: https://acanalab.com/design/
 - Details, pricing and FAQ: https://acanalab.com/
 - Contact: support@acanalab.com
@@ -23,6 +22,7 @@ For content creators, influencers and coaches looking for an additional, passive
 - [How to Make Money as a Small Influencer: 8 Ways That Work](https://acanalab.com/guides/make-money-as-a-small-influencer/): How to make money as a small influencer with 1,000 to 100,000 followers: 8 ways that don't need big reach, which fit best, and a simple 90-day plan.
 - [Digital Products for Influencers: 10 Ideas and How to Sell Them](https://acanalab.com/guides/digital-products-for-influencers/): 10 digital product ideas for influencers, from presets and templates to courses and your own app, with how to choose your first one, price it and sell it without feeling salesy.
 - [Should Influencers Have Their Own App? Pros, Cons and a Self-Check](https://acanalab.com/guides/should-influencers-have-their-own-app/): Should influencers have their own app? The honest pros and cons, a 6-question self-check, the main ways to get an app, and good alternatives if it isn't right for you.
+- [How to Monetize a Wellness Audience: 9 Ways That Keep Trust](https://acanalab.com/guides/how-to-monetize-a-wellness-audience/): How to monetize a wellness audience in 9 ways, from careful brand deals and digital products to challenges, memberships and your own daily app, and how to sell without losing trust.
 
 ## Daily Affirmations (iPhone app)
 
