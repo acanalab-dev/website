@@ -62,6 +62,7 @@ GUIDES = {
     "how-to-make-affirmations-a-habit": ("Morning Affirmations", "Daily affirmation"),
     "affirmations-for-self-esteem": ("Self Love Affirmations", "Self-esteem affirmation"),
     "money-affirmations": ("Confidence and Success Affirmations", "Money affirmation"),
+    "affirmations-for-women": ("Self Love Affirmations", "Affirmation for women"),
 }
 THEMES = ["night", "brand", "blush"]
 # Quote pins use the app's own card themes (photos and textures), picked by pin id.
