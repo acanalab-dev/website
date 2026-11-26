@@ -523,6 +523,7 @@
   "app_text": "HoneyNest gives newlyweds one shared record: you both log expenses from your own iPhones, note who paid, and keep Home, Lifestyle and Personal apart. It shows each partner's total, percentage and the difference, rent and bills can repeat monthly, and the summary screen shows Home and Lifestyle together for any period. Your partner joins with a QR code. It's free; Premium adds your complete expense history.",
   "published": "2026-11-01",
   "related": [
+   "budgeting-for-a-new-baby-as-a-couple",
    "couples-emergency-fund",
    "saving-for-a-goal-as-a-couple",
    "how-to-split-wedding-costs",
@@ -859,6 +860,7 @@
   "app_text": "HoneyNest helps you see the essential shared costs that set your target: log rent, bills and groceries from either of your iPhones, and the summary screen shows Home and Lifestyle together for the period you pick. Add your monthly fund transfer as a recurring cost you approve, edit or skip each month, and note who paid an emergency cost. It splits shared costs 50/50. It's free; Premium adds your complete expense history.",
   "published": "2026-11-11",
   "related": [
+   "budgeting-for-a-new-baby-as-a-couple",
    "splitting-costs-during-parental-leave",
    "splitting-pet-costs-as-a-couple",
    "saving-for-a-goal-as-a-couple",
@@ -1148,6 +1150,7 @@
   "app_text": "HoneyNest helps you see what you really spend before and during leave: you both log shared costs from your own iPhones, recurring monthly costs come back for you to approve, edit or skip, and it shows who paid, each partner's total, percentage and the difference. Its split setting is 50/50, so for a by-income or equal-left-over split, compare its totals with your agreed shares. It's free; Premium adds your complete expense history.",
   "published": "2026-11-23",
   "related": [
+   "budgeting-for-a-new-baby-as-a-couple",
    "splitting-costs-when-one-partner-earns-much-more",
    "couples-emergency-fund",
    "budgeting-for-newlyweds"
@@ -1168,6 +1171,47 @@
    [
     "What changes when we go back to work?",
     "Income usually rises but childcare often becomes a big new cost, so add it to shared costs and choose your split again."
+   ]
+  ],
+  "image_size": [
+   600,
+   1298
+  ]
+ },
+ {
+  "slug": "budgeting-for-a-new-baby-as-a-couple",
+  "ct": "budget-new-baby",
+  "keyword": "budgeting for a new baby as a couple",
+  "title": "Budgeting for a New Baby as a Couple: Costs, Split and Plan",
+  "h1": "Budgeting for a new baby as a couple",
+  "description": "How couples can budget for a new baby: list one-off and monthly costs, plan for leave and childcare, decide how to split baby costs, and build a buffer, with an example.",
+  "lead": "A baby changes almost every line of your budget. Here's how to list the one-off and monthly costs, plan for leave and childcare, decide how to split baby costs and build a buffer, with a worked example.",
+  "card": "One-off and monthly costs, leave, childcare and how to split it all.",
+  "image": "img/04-add.jpg",
+  "image_alt": "HoneyNest adding a shared expense",
+  "app_text": "HoneyNest has Baby Expenses and Childcare expense types, so you can see what the baby really costs each month. Either of you logs costs from your own iPhone and notes who paid, recurring costs like childcare come back each month for you to approve, edit or skip, and it shows each partner's total, percentage and the difference. Its split setting is 50/50. It's free; Premium adds your complete expense history, handy for looking back over the first year.",
+  "published": "2026-11-26",
+  "related": [
+   "splitting-costs-during-parental-leave",
+   "couples-emergency-fund",
+   "monthly-money-check-in-for-couples"
+  ],
+  "faq": [
+   [
+    "How do we budget for a new baby?",
+    "List the one-off purchases and the new monthly costs, plan for any income change during leave and for childcare later, then add it all to your shared budget."
+   ],
+   [
+    "How should couples split baby costs?",
+    "Most treat them as fully shared, using their usual split, and many adjust it during parental leave so the parent on leave keeps money of their own."
+   ],
+   [
+    "When should we start saving for baby costs?",
+    "A few months before the due date is common, so the one-off purchases are covered by the time the baby arrives."
+   ],
+   [
+    "What's the biggest new cost after a baby?",
+    "For many couples it's childcare once a parent returns to work, so it helps to plan for it early."
    ]
   ],
   "image_size": [
