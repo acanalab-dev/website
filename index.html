@@ -222,6 +222,7 @@ section.alt .card-b { background: var(--bg); }
 .calc input[type="range"] { width: 100%; accent-color: var(--brand-a); margin: 0; }
 .calc .more { display: block; margin-top: 8px; font-style: normal; font-size: 13px; font-weight: 600; color: var(--accent); }
 .calc .more[hidden] { display: none; }
+.calc .payback { grid-column: 1 / -1; margin: 0; font-size: 14px; font-weight: 600; color: var(--accent); }
 .calc .res { display: grid; gap: 12px; margin-top: 18px; }
 .calc .res div { background: var(--soft); border-radius: 14px; padding: 12px 14px; }
 .calc .res span { display: block; font-size: 13px; color: var(--muted); }
@@ -285,7 +286,7 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
    "@id": "https://acanalab.com/#service",
    "name": "White-label affirmations app for creators",
    "serviceType": "White-label iPhone app for creators and influencers",
-   "description": "acanalab builds and publishes a fully branded daily affirmations iPhone app for creators and influencers, under the creator's own Apple developer account. Two options: Partner, with no setup fee, where the creator keeps 70% of net subscription sales, paid by Apple monthly; or Pay once, a one-time $4,900 fee, where the creator keeps 100% of sales. A passive income stream that fits wellness, mindset and lifestyle audiences.",
+   "description": "acanalab builds and publishes a fully branded daily affirmations iPhone app for creators and influencers, under the creator's own Apple developer account. Two options: Partner, with no setup fee, where the creator keeps 70% of net subscription sales, paid by Apple monthly; or Pay once, a one-time $1,990 fee, where the creator keeps 100% of sales. A passive income stream that fits wellness, mindset and lifestyle audiences.",
    "provider": {
     "@id": "https://acanalab.com/#org"
    },
@@ -306,7 +307,7 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
     {
      "@type": "Offer",
      "name": "Pay once",
-     "price": "4900",
+     "price": "1990",
      "priceCurrency": "USD",
      "description": "One-time fee; the creator keeps 100% of sales. Fixes included for 12 months, new features quoted separately. The creator pays Apple's developer account, $99 a year."
     }
@@ -492,7 +493,7 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
       <h2>Two ways to get your app</h2>
       <p class="sub">Either way, it’s your app, on your Apple account. Your only other cost is Apple’s $99 a year.</p>
       <ol class="phases plans">
-        <li class="ph hl">
+        <li class="ph">
           <span class="tag">Partner</span>
           <div class="big">$0<small>upfront</small></div>
           <div class="bar"><i style="width:70%"></i></div>
@@ -502,13 +503,14 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
             <li>Updates and new features <em>free<sup>*</sup></em></li>
           </ul>
         </li>
-        <li class="ph">
-          <span class="tag">Pay once</span>
-          <div class="big">$4,900<small>once</small></div>
+        <li class="ph hl">
+          <span class="tag">Pay once · best value</span>
+          <div class="big">$1,990<small>once</small></div>
           <div class="bar"><i style="width:100%"></i></div>
           <div class="bar-l"><span>You 100%</span><span>Us 0%</span></div>
           <ul class="pl">
             <li>Every dollar of sales stays with you</li>
+            <li>Founding price <em>$1,490</em> for our first 10 creators</li>
             <li>Fixes free for 12 months, new features <em>quoted separately</em></li>
           </ul>
         </li>
@@ -522,9 +524,10 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
           <em class="more" id="more" hidden>And there's no limit. It grows with your audience.</em>
         </div>
         <div class="res">
-          <div class="hl"><b id="outYou">$951</b><span>Partner · yours each month</span></div>
-          <div><b id="outOwn">$1,358</b><span>Pay once · yours each month</span></div>
+          <div><b id="outYou">$951</b><span>Partner · yours each month</span></div>
+          <div class="hl"><b id="outOwn">$1,358</b><span>Pay once · yours each month</span></div>
         </div>
+        <p class="payback" id="payback">At this size, Pay once pays for itself in about 5 months.</p>
       </div>
       <p class="foot star"><sup>*</sup> Net sales are what Apple pays out after its 15% fee (Small Business Program) and any taxes it withholds. Small costs paid by you: RevenueCat, free up to $2,500 a month in sales, then 1%. On Partner, updates are free while our share averages $250 a month or more. Custom work is quoted.</p>
     </div>
@@ -617,6 +620,10 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
     document.getElementById("outYou").textContent = fmt(you);
     document.getElementById("outOwn").textContent = fmt(net - rc);
     document.getElementById("more").hidden = !atMax;
+    var months = Math.ceil(1990 / (net * 0.3));
+    document.getElementById("payback").textContent = months <= 24
+      ? "At this size, Pay once pays for itself in about " + months + (months === 1 ? " month." : " months.")
+      : "Partner costs you $" + Math.round(net * 0.3 * 12).toLocaleString("en-US") + " a year at this size.";
   }
   subs.addEventListener("input", update);
   update();
