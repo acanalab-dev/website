@@ -262,6 +262,10 @@ section.guides-link { padding: 0 0 40px; }
 .gl small { display: block; color: var(--muted); font-size: 14px; margin-top: 2px; }
 .gl .go { font-size: 22px; color: var(--accent); }
 .gl:hover { border-color: var(--accent); }
+.answers { max-width: 720px; margin: 14px auto 0; padding: 0 4px; font-size: 15px; color: var(--muted); }
+.answers ul { list-style: none; padding: 0; margin: 6px 0 0; display: flex; flex-wrap: wrap; gap: 6px 18px; }
+.answers a { color: var(--accent); text-decoration: none; }
+.answers a:hover { text-decoration: underline; }
 footer { padding: 32px 0 48px; text-align: center; font-size: 13px; color: var(--muted); }
 footer b { color: var(--text); margin-right: 8px; }
 footer a { color: var(--muted); text-decoration: none; margin: 0 8px; }
@@ -287,7 +291,7 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
    "@id": "https://acanalab.com/#service",
    "name": "White-label affirmations app for creators",
    "serviceType": "White-label iPhone app for creators and influencers",
-   "description": "acanalab builds and publishes a fully branded daily affirmations iPhone app for creators and influencers, under the creator's own Apple developer account. Two options: Partner, with no setup fee, where the creator keeps 70% of net subscription sales, paid by Apple monthly; or Pay once, a one-time $4,900 fee, reduced to $3,490 until January 31, 2027, where the creator keeps 100% of sales. A passive income stream that fits wellness, mindset and lifestyle audiences.",
+   "description": "acanalab builds and publishes a fully branded daily affirmations iPhone app for creators and influencers, under the creator's own Apple developer account. Two options: Partner, with no setup fee, where the creator keeps 70% of net subscription sales, paid by Apple monthly; or Pay once, a one-time $4,900 fee, where the creator keeps 100% of sales. A passive income stream that fits wellness, mindset and lifestyle audiences.",
    "provider": {
     "@id": "https://acanalab.com/#org"
    },
@@ -308,9 +312,8 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
     {
      "@type": "Offer",
      "name": "Pay once",
-     "price": "3490",
+     "price": "4900",
      "priceCurrency": "USD",
-     "priceValidUntil": "2027-01-31",
      "description": "One-time fee; the creator keeps 100% of sales. Fixes included for 12 months, new features quoted separately. The creator pays Apple's developer account, $99 a year."
     }
    ]
@@ -598,11 +601,21 @@ footer .also { margin: 0 8px; white-space: nowrap; } footer .also a { margin: 0;
         <span><b>Guides for creators</b><small>Practical guides on passive income and new revenue streams for creators and influencers.</small></span>
         <span class="go" aria-hidden="true">→</span>
       </a>
+      <nav class="answers" aria-label="Common questions">
+        <b>Common questions</b>
+        <ul>
+          <li><a href="guides/how-to-launch-your-own-affirmation-app/">How to launch your own affirmation app</a></li>
+          <li><a href="guides/how-much-does-it-cost-to-make-an-affirmation-app/">What an affirmation app costs</a></li>
+          <li><a href="guides/how-much-money-can-an-affirmation-app-make/">How much it can earn</a></li>
+          <li><a href="guides/branded-app-for-creators-compared/">acanalab vs agencies and app builders</a></li>
+          <li><a href="about/">What is acanalab?</a></li>
+        </ul>
+      </nav>
     </div>
   </section>
 </main>
 
-<footer><div><b>© 2026 acanalab</b><a href="guides/">Creator guides</a><a href="dailyaffirmationsapp/guides/">Affirmation guides</a><a href="terms-of-use">Terms of Use</a><a href="privacy-policy">Privacy Policy</a><span class="also">Also by us: <a href="honeynest/">HoneyNest</a></span></div><div class="love">Made with <span aria-label="love">♥</span> in Europe</div></footer>
+<footer><div><b>© 2026 acanalab</b><a href="about/">About</a><a href="guides/">Creator guides</a><a href="dailyaffirmationsapp/guides/">Affirmation guides</a><a href="terms-of-use">Terms of Use</a><a href="privacy-policy">Privacy Policy</a><span class="also">Also by us: <a href="honeynest/">HoneyNest</a></span></div><div class="love">Made with <span aria-label="love">♥</span> in Europe</div></footer>
 
 <script>
 (function () {

@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://acanalab.com"
 
 # Site pages outside any app that belong in the sitemap.
-SITE_PAGES = ["/", "/privacy-policy", "/terms-of-use"]
+SITE_PAGES = ["/", "/about/", "/privacy-policy", "/terms-of-use"]
 
 APPS = [
     {
@@ -205,6 +205,12 @@ class App:
 '''
         return body[:at] + cta + body[at:]
 
+    def short_answer(self, g):
+        """Answer pages ("answer" in guides.json) open with a short, quotable answer to the h1 question."""
+        if not g.get("answer"):
+            return ""
+        return f'\n<div class="answer"><b>Short answer</b><p>{e(g["answer"])}</p></div>'
+
     def build_guide(self, g, by_slug):
         url = f"{self.hub_url}{g['slug']}/"
         body = (self.src / f"{g['slug']}.html").read_text()
@@ -214,7 +220,7 @@ class App:
         image = f"{self.url}{g['image']}"
         ld = [
             {"@context": "https://schema.org", "@type": "Article", "headline": g["h1"],
-             "description": g["description"], "image": image, "datePublished": g["published"],
+             "description": g["description"], **({"abstract": g["answer"]} if g.get("answer") else {}), "image": image, "datePublished": g["published"],
              "dateModified": g.get("modified", g["published"]), "mainEntityOfPage": url,
              "author": {"@type": "Organization", "name": "acanalab", "url": SITE + "/"},
              "publisher": {"@type": "Organization", "name": "acanalab", "url": SITE + "/"}},
@@ -233,7 +239,7 @@ class App:
 <p class="crumbs"><a href="{self.path}">{e(self.name)}</a> › <a href="{self.path}guides/">Guides</a></p>
 <h1>{e(g["h1"])}</h1>
 <p class="lead">{e(g["lead"])}</p>
-<p class="meta">Updated {g.get("modified", g["published"])}</p>
+<p class="meta">Updated {g.get("modified", g["published"])}</p>{self.short_answer(g)}
 <nav class="toc" aria-label="Contents"><b>In this guide</b><ol>{toc_html}<li><a href="#faq">FAQ</a></li></ol></nav>
 
 {body.strip()}
@@ -319,6 +325,8 @@ def main(selected):
         if not selected or app.folder in selected:
             print(f"{app.name}: built {app.build()} guides and hub")
     print(f"sitemap.xml ({build_sitemap(apps)} URLs, all apps) and robots.txt")
+    subprocess.run([sys.executable, str(Path(__file__).with_name("build_about.py"))], check=True)
+    print("about/index.html")
     # Keep the AI summary (llms.txt) in step with the guide lists.
     subprocess.run([sys.executable, str(Path(__file__).with_name("build_llms.py"))], check=True, stdout=subprocess.DEVNULL)
     print("llms.txt")

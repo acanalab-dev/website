@@ -1,18 +1,28 @@
 # acanalab
 
-> acanalab is a small European studio that makes calm, privacy-friendly iPhone apps. It offers creators and influencers their own fully branded daily affirmations app (no setup fee, revenue share; the creator pays only Apple's $99 a year developer account), and publishes its own apps, Daily Affirmations and HoneyNest.
+> acanalab is a small European studio that makes calm, privacy-friendly iPhone apps. It offers creators and influencers their own fully branded daily affirmations iPhone app, published under the creator's own Apple account (Partner: no setup fee, the creator keeps 70% of net sales; Pay once: a one-time fee, the creator keeps 100%), and publishes its own apps, Daily Affirmations and HoneyNest.
 
 ## Own-brand affirmations app for creators and influencers
 
 For content creators, influencers and coaches looking for an additional, passive revenue stream that fits a wellness, mindset, self-care or lifestyle audience.
 
 - acanalab builds and publishes a finished daily affirmations iPhone app with the creator's name, icon and colors, under the creator's own Apple developer account. The listing, reviews and subscribers belong to the creator.
-- No setup fee and no technical work. The creator only needs an Apple Developer account ($99 a year).
-- Income: subscriptions paid by Apple monthly. The creator keeps 70% of net sales. Example: 500 subscribers at $7.99 a month is about $2,337 a month for the creator.
-- Includes App Store listing, screenshots, subscriptions and paywall, updates and fixes. No third-party ads, no tracking.
+- No technical work for the creator. The creator needs an Apple Developer account ($99 a year, paid to Apple).
+- Two plans. Partner: $0 upfront; the creator keeps 70% of net sales and acanalab 30%; updates free while acanalab's share averages $250 a month or more. Pay once: a one-time fee ($4,900 regular price; current offers on the homepage); the creator keeps 100% of sales; fixes free for 12 months, new features quoted separately.
+- Income: subscriptions paid by Apple monthly. Net sales are what Apple pays out after its 15% fee (Small Business Program). Example: 500 subscribers at $7.99 a month is about $3,396 a month in net sales, so about $2,377 a month for the creator on Partner and $3,396 on Pay once.
+- Includes the App Store listing, screenshots, subscriptions and paywall, privacy policy and terms, and Apple's review. No third-party ads, no tracking.
+- iPhone first; Android later if the iPhone app does well. Today the app type is daily affirmations.
 - A free brand picker shows the creator's app on real screens in a few minutes, with no sign-up: https://acanalab.com/design/
 - Details, pricing and FAQ: https://acanalab.com/
+- About acanalab: https://acanalab.com/about/
 - Contact: support@acanalab.com
+
+### Common questions, answered
+
+- [How to launch your own affirmation app](https://acanalab.com/guides/how-to-launch-your-own-affirmation-app/): There are three ways: hire an agency or freelancer to build a custom app, build it yourself with a no-code app builder, or use a white-label service that brands a finished app for you. Every route needs an Apple Developer account ($99 a year), a name and icon, affirmation content, subscriptions, a privacy policy and an App Store listing, and the app must pass Apple's review. For creators with an audience, a white-label service like acanalab is usually the fastest route with no coding: you pick your name, icon and colors, acanalab builds and publishes the app under your own Apple account, and you earn from subscriptions every month.
+- [How much does it cost to make an affirmation app?](https://acanalab.com/guides/how-much-does-it-cost-to-make-an-affirmation-app/): Every iPhone app pays Apple $99 a year for the Developer Program, and Apple keeps 15% of subscription sales for most small developers. Building the app is the big variable: a custom app from an agency or freelancer usually costs tens of thousands of dollars plus paid updates, a no-code builder costs a monthly subscription and your own time, and a white-label service can cost nothing upfront. With acanalab, the Partner plan is $0 upfront and acanalab takes 30% of net sales; Pay once is a one-time fee ($4,900 regular price) and you keep 100% of sales.
+- [How much money can an affirmation app make?](https://acanalab.com/guides/how-much-money-can-an-affirmation-app-make/): It depends on subscribers, not downloads. Multiply subscribers by the monthly price and by 0.85 (what's left after Apple's 15% fee) to get net sales. At $7.99 a month, 200 subscribers bring in about $1,358 a month in net sales, 500 about $3,396 and 1,000 about $6,792. On acanalab's Partner plan the creator keeps 70% of that (about $951, $2,377 and $4,754 a month); on Pay once the creator keeps all of it. No one can honestly guarantee income: it depends on your audience and how you share the app.
+- [Branded app for creators: acanalab vs agency, freelancer and app builders](https://acanalab.com/guides/branded-app-for-creators-compared/): An agency or freelancer gives you the most freedom but costs the most and takes months. A no-code builder is cheaper, but you do the building, testing and App Store submission. Course and community platforms offer apps built around their own content. acanalab is built for one job: a finished daily affirmations app for iPhone with your name, icon and colors, published under your own Apple account, with $0 upfront on Partner (you keep 70% of net sales) or a one-time fee on Pay once (you keep 100%).
 
 ### Guides for creators
 
@@ -23,6 +33,10 @@ For content creators, influencers and coaches looking for an additional, passive
 - [Digital Products for Influencers: 10 Ideas and How to Sell Them](https://acanalab.com/guides/digital-products-for-influencers/): 10 digital product ideas for influencers, from presets and templates to courses and your own app, with how to choose your first one, price it and sell it without feeling salesy.
 - [Should Influencers Have Their Own App? Pros, Cons and a Self-Check](https://acanalab.com/guides/should-influencers-have-their-own-app/): Should influencers have their own app? The honest pros and cons, a 6-question self-check, the main ways to get an app, and good alternatives if it isn't right for you.
 - [How to Monetize a Wellness Audience: 9 Ways That Keep Trust](https://acanalab.com/guides/how-to-monetize-a-wellness-audience/): How to monetize a wellness audience in 9 ways, from careful brand deals and digital products to challenges, memberships and your own daily app, and how to sell without losing trust.
+- [How to Launch Your Own Affirmation App: 3 Ways, Steps and Costs](https://acanalab.com/guides/how-to-launch-your-own-affirmation-app/): How to launch your own affirmation app: what every app needs, 3 ways to get one (custom, no-code builder, white-label), a 10-step checklist and the fastest route for creators.
+- [How Much Does It Cost to Make an Affirmation App? Full Breakdown](https://acanalab.com/guides/how-much-does-it-cost-to-make-an-affirmation-app/): What an affirmation app really costs: Apple's fees, building with an agency, freelancer or no-code builder, hidden costs, and acanalab's Partner and Pay once pricing with a worked example.
+- [How Much Money Can an Affirmation App Make? Formula and Examples](https://acanalab.com/guides/how-much-money-can-an-affirmation-app-make/): How much an affirmation app can earn: a simple formula, earnings from 50 to 2,000 subscribers at $7.99 a month, how to estimate subscribers from followers and what makes the number grow.
+- [Branded App for Creators: acanalab vs Agency, Freelancer and App Builders](https://acanalab.com/guides/branded-app-for-creators-compared/): Compare the ways creators get a branded app: agency, freelancer, no-code builder, platform apps and acanalab, by cost, time, work and ownership, plus when acanalab isn't the right fit.
 
 ## Daily Affirmations (iPhone app)
 
